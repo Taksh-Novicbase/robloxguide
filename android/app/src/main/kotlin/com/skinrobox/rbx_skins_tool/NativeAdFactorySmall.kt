@@ -1,0 +1,59 @@
+package com.skinrobox.rbx_skins_tool
+
+import android.view.LayoutInflater
+import android.view.View
+import android.widget.ImageView
+import android.widget.TextView
+import com.google.android.libraries.ads.mobile.sdk.nativead.NativeAd
+import com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView
+import io.flutter.plugins.googlemobileads.NativeAdFactory
+
+class NativeAdFactorySmall(private val layoutInflater: LayoutInflater) : NativeAdFactory {
+
+    override fun createNativeAd(
+        nativeAd: NativeAd,
+        customOptions: Map<String, Any>?
+    ): NativeAdView {
+        val adView = layoutInflater.inflate(R.layout.ad_unit_admob_small, null) as NativeAdView
+
+        val iconView = adView.findViewById<ImageView>(R.id.ad_app_icon)
+        val headlineView = adView.findViewById<TextView>(R.id.ad_headline)
+        val bodyView = adView.findViewById<TextView>(R.id.ad_body)
+        val ctaView = adView.findViewById<TextView>(R.id.ad_call_to_action)
+
+        // Headline
+        headlineView.text = nativeAd.headline
+        adView.headlineView = headlineView
+
+        // Body
+        if (nativeAd.body != null) {
+            bodyView.text = nativeAd.body
+            bodyView.visibility = View.VISIBLE
+        } else {
+            bodyView.visibility = View.GONE
+        }
+        adView.bodyView = bodyView
+
+        // Call To Action
+        if (nativeAd.callToAction != null) {
+            ctaView.text = nativeAd.callToAction
+            ctaView.visibility = View.VISIBLE
+        } else {
+            ctaView.text = "INSTALL"
+            ctaView.visibility = View.VISIBLE
+        }
+        adView.callToActionView = ctaView
+
+        // Icon
+        if (nativeAd.icon?.drawable != null) {
+            iconView.setImageDrawable(nativeAd.icon?.drawable)
+            iconView.visibility = View.VISIBLE
+        } else {
+            iconView.visibility = View.GONE
+        }
+        adView.iconView = iconView
+
+        adView.registerNativeAd(nativeAd, null)
+        return adView
+    }
+}

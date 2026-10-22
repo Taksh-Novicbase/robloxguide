@@ -1,0 +1,4617 @@
+{
+  "categories": [
+    {
+      "title": "Shirts",
+      "items": [
+        {
+          "asset": "shirt_img_1",
+          "name": "Chill Street Fit",
+          "shortDesc": "Relaxed outfit with effortless style",
+          "desc": "A laid-back streetwear look designed for all-day comfort. Perfect for casual outings, this outfit delivers an easygoing and effortlessly cool vibe."
+        },
+        {
+          "asset": "shirt_img_10",
+          "name": "Pink Sporty Jersey",
+          "shortDesc": "Athletic look with bold pink tones",
+          "desc": "A sporty jersey outfit designed with vibrant pink shades. Blends athletic inspiration with confident streetwear energy."
+        },
+        {
+          "asset": "shirt_img_11",
+          "name": "Cartoon Suit Shirt",
+          "shortDesc": "Formal style with playful twist",
+          "desc": "A unique outfit inspired by cartoon aesthetics, combining a suit-style shirt with fun character charm for a creative look."
+        },
+        {
+          "asset": "shirt_img_12",
+          "name": "White Chic Crop Set",
+          "shortDesc": "Minimal cropped outfit with elegance",
+          "desc": "A clean and modern crop-top outfit paired with subtle accessories, delivering a sleek and fashionable appearance."
+        },
+        {
+          "asset": "shirt_img_13",
+          "name": "Pegasus Tank Top Fit",
+          "shortDesc": "Bold graphic tank style",
+          "desc": "A striking tank-top outfit featuring a Pegasus graphic. Designed for standout streetwear with strong visual appeal."
+        },
+        {
+          "asset": "shirt_img_14",
+          "name": "Bandage Crop Top Fit",
+          "shortDesc": "Fitted and edgy crop style",
+          "desc": "A bold black-and-white bandage crop top designed for a confident and modern look. Perfect for statement outfits."
+        },
+        {
+          "asset": "shirt_img_15",
+          "name": "Halloween Oversized Fit",
+          "shortDesc": "Spooky oversized casual outfit",
+          "desc": "An off-shoulder oversized outfit with subtle Halloween vibes. Comfortable, stylish, and perfect for seasonal fashion."
+        },
+        {
+          "asset": "shirt_img_16",
+          "name": "Layered Cross Chain Fit",
+          "shortDesc": "Edgy layered streetwear style",
+          "desc": "A layered shirt outfit finished with a cross chain detail, delivering a bold and modern streetwear aesthetic."
+        },
+        {
+          "asset": "shirt_img_17",
+          "name": "Urban Hoodie Street Fit",
+          "shortDesc": "Modern branded streetwear outfit",
+          "desc": "A bold streetwear look centered around a statement hoodie. Designed for urban fashion lovers seeking style and comfort."
+        },
+        {
+          "asset": "shirt_img_18",
+          "name": "Cute White Tank Top",
+          "shortDesc": "Soft and trendy Y2K vibe",
+          "desc": "A stylish white tank top with cute elements, combining nostalgic charm with modern streetwear trends."
+        },
+        {
+          "asset": "shirt_img_19",
+          "name": "Numbered Sport Crop",
+          "shortDesc": "Athletic-inspired crop outfit",
+          "desc": "A sporty crop top featuring bold numbers, inspired by jersey designs. Great for active and trendy styling."
+        },
+        {
+          "asset": "shirt_img_2",
+          "name": "Blue Rockstar Hoodie",
+          "shortDesc": "Bold hoodie with edgy attitude",
+          "desc": "A standout blue hoodie outfit inspired by rockstar energy. Perfect for confident styling with a youthful and bold streetwear edge."
+        },
+        {
+          "asset": "shirt_img_20",
+          "name": "Pink Layered Sweater Fit",
+          "shortDesc": "Cozy and stylish layered look",
+          "desc": "A soft pink sweater layered over a crop top, creating a balanced outfit of comfort and modern fashion."
+        },
+        {
+          "asset": "shirt_img_21",
+          "name": "Street Graphic Hoodie",
+          "shortDesc": "",
+          "desc": "A graphic hoodie delivering strong and expressive fashion vibes."
+        },
+        {
+          "asset": "shirt_img_22",
+          "name": "Minimal Street Shirt",
+          "shortDesc": "",
+          "desc": "A clean and simple shirt for effortless everyday styling."
+        },
+        {
+          "asset": "shirt_img_23",
+          "name": "Urban Layered Top",
+          "shortDesc": "",
+          "desc": "A layered design top adding depth and fashion attitude."
+        },
+        {
+          "asset": "shirt_img_24",
+          "name": "Bold Flame Hoodie",
+          "shortDesc": "",
+          "desc": "A flame-themed hoodie built for fierce and standout presence."
+        },
+        {
+          "asset": "shirt_img_25",
+          "name": "Monochrome Fashion Top",
+          "shortDesc": "",
+          "desc": "A modern monochrome shirt blending minimalism with trend."
+        },
+        {
+          "asset": "shirt_img_26",
+          "name": "Vintage Street Sweatshirt",
+          "shortDesc": "",
+          "desc": "A retro-inspired sweatshirt delivering classic street vibes."
+        },
+        {
+          "asset": "shirt_img_27",
+          "name": "Chic Lace Detail Shirt",
+          "shortDesc": "",
+          "desc": "A stylish shirt featuring subtle lace elements for elegance."
+        },
+        {
+          "asset": "shirt_img_28",
+          "name": "Bold Red Street Hoodie",
+          "shortDesc": "",
+          "desc": "A vibrant red hoodie designed to stand out with confidence."
+        },
+        {
+          "asset": "shirt_img_29",
+          "name": "Signature Logo Shirt",
+          "shortDesc": "",
+          "desc": "A premium logo shirt made for strong street identity."
+        },
+        {
+          "asset": "shirt_img_3",
+          "name": "Oversized Cozy Sweater",
+          "shortDesc": "Loose fit for ultimate comfort",
+          "desc": "Stay warm and stylish with this oversized sweater outfit. Designed with a relaxed silhouette, it offers both comfort and a trendy casual look."
+        },
+        {
+          "asset": "shirt_img_30",
+          "name": "Elite Streetwear Classic",
+          "shortDesc": "",
+          "desc": "A timeless streetwear shirt combining comfort and bold style."
+        },
+        {
+          "asset": "shirt_img_4",
+          "name": "Black Puffer Jacket Fit",
+          "shortDesc": "Warm and sleek winter outfit",
+          "desc": "A modern winter essential featuring a black puffer jacket. Combines insulation with a clean urban style for cold-weather fashion."
+        },
+        {
+          "asset": "shirt_img_5",
+          "name": "Funny Graphic Tee Fit",
+          "shortDesc": "Playful design with fun vibes",
+          "desc": "A casual outfit featuring a humorous graphic that adds personality and charm. Perfect for relaxed and fun styling."
+        },
+        {
+          "asset": "shirt_img_6",
+          "name": "Sporty Bow Accent Outfit",
+          "shortDesc": "Athletic style with cute detail",
+          "desc": "A sporty outfit enhanced with a knitted bow accent, blending activewear vibes with a playful and stylish finish."
+        },
+        {
+          "asset": "shirt_img_7",
+          "name": "Cartoon Street Fit",
+          "shortDesc": "Fun character-inspired outfit",
+          "desc": "A playful streetwear look inspired by animated characters. Perfect for expressive styling with a fun and youthful vibe."
+        },
+        {
+          "asset": "shirt_img_8",
+          "name": "Striped Polo Outfit",
+          "shortDesc": "Classic sporty-casual look",
+          "desc": "A timeless long-sleeve striped polo outfit that blends preppy fashion with everyday comfort and versatility."
+        },
+        {
+          "asset": "shirt_img_9",
+          "name": "Fantasy Costume Style",
+          "shortDesc": "Creative themed outfit",
+          "desc": "A unique outfit inspired by fantasy character styling. Ideal for themed events or making a bold fashion statement."
+        },
+        {
+          "asset": "tee_pink_ruffle_sleeves",
+          "name": "Pastel Gothic Pink Top",
+          "shortDesc": "Soft pink meets dark aesthetic styling",
+          "desc": "This pastel pink top blends cute tones with gothic elements, creating a unique soft-dark fashion statement."
+        }
+      ]
+    },
+    {
+      "title": "T-Shirts",
+      "items": [
+        {
+          "asset": "tshirt_img_1",
+          "name": "Monster Bite Black Tee",
+          "shortDesc": "Bold monster graphic for a fierce street vibe",
+          "desc": "Unleash your edgy side with this black tee featuring a striking monster bite graphic. Crafted for comfort and attitude, it’s perfect for everyday streetwear with a rebellious twist."
+        },
+        {
+          "asset": "tshirt_img_10",
+          "name": "Off-Shoulder White Crop",
+          "shortDesc": "Elegant off-shoulder design with modern flair",
+          "desc": "A trendy white crop top designed to highlight your silhouette. Lightweight and stylish, perfect for summer outfits or layering."
+        },
+        {
+          "asset": "tshirt_img_11",
+          "name": "Off-Shoulder White Crop",
+          "shortDesc": "Elegant off-shoulder design with modern flair",
+          "desc": "A trendy white crop top designed to highlight your silhouette. Lightweight and stylish, perfect for summer outfits or layering."
+        },
+        {
+          "asset": "tshirt_img_12",
+          "name": "Cash Stack Street Tee",
+          "shortDesc": "Bold money graphic for confident vibes",
+          "desc": "Show your hustle with this standout tee featuring a cash stack design. Perfect for streetwear lovers who like to express ambition and confidence."
+        },
+        {
+          "asset": "tshirt_img_13",
+          "name": "Neon Hammer Graphic Tee",
+          "shortDesc": "Futuristic neon design with strong presence",
+          "desc": "A glowing neon hammer graphic gives this tee a futuristic and powerful aesthetic. Perfect for bold personalities."
+        },
+        {
+          "asset": "tshirt_img_14",
+          "name": "Cyber Claw Tech Tee",
+          "shortDesc": "Futuristic claw design with techwear vibes",
+          "desc": "Inspired by cyber aesthetics, this tee features sharp claw graphics in vibrant blue tones. Ideal for techwear enthusiasts."
+        },
+        {
+          "asset": "tshirt_img_15",
+          "name": "Angel Heart Chain Tee",
+          "shortDesc": "Dark romantic design with gothic touch",
+          "desc": "A unique blend of romance and darkness, featuring an angel heart wrapped in chains. Perfect for expressive street fashion."
+        },
+        {
+          "asset": "tshirt_img_16",
+          "name": "Demon Shoulder Armor",
+          "shortDesc": "Fiery red armor accessory for bold looks",
+          "desc": "Stand out with this intense red demon shoulder armor. Great for cosplay, fantasy styling, or dramatic outfits."
+        },
+        {
+          "asset": "tshirt_img_17",
+          "name": "Spine Horn Back Accessory",
+          "shortDesc": "Dark fantasy-inspired back detail",
+          "desc": "Create a striking silhouette with this spine and horn-inspired accessory. Perfect for supernatural and gothic styles."
+        },
+        {
+          "asset": "tshirt_img_18",
+          "name": "Retro Y2K Cali Crop",
+          "shortDesc": "",
+          "desc": "A nostalgic Y2K-inspired crop top with bold retro vibes."
+        },
+        {
+          "asset": "tshirt_img_19",
+          "name": "Combat Knife Graphic Tee",
+          "shortDesc": "Sharp tactical design with edgy appeal",
+          "desc": "Featuring a detailed combat knife print, this tee delivers a bold and aggressive streetwear vibe."
+        },
+        {
+          "asset": "tshirt_img_2",
+          "name": "Minimal White Bottle",
+          "shortDesc": "Clean and modern bottle for daily hydration",
+          "desc": "Stay refreshed in style with this sleek white bottle. Designed with a minimalist aesthetic, it’s lightweight, durable, and ideal for gym sessions, travel, or everyday use."
+        },
+        {
+          "asset": "tshirt_img_20",
+          "name": "Shadow Arm Wraps",
+          "shortDesc": "Stealthy wraps for warrior-inspired looks",
+          "desc": "Enhance your outfit with these dark arm wraps, perfect for battle-ready or fantasy-inspired styling."
+        },
+        {
+          "asset": "tshirt_img_21",
+          "name": "Oversized Black Street Tee",
+          "shortDesc": "Relaxed fit for effortless urban style",
+          "desc": "A must-have oversized black tee designed for comfort and versatility. Perfect for layering and modern streetwear."
+        },
+        {
+          "asset": "tshirt_img_22",
+          "name": "Kawaii Kitty Drink Tee",
+          "shortDesc": "Cute kitty design with playful charm",
+          "desc": "Add a fun touch to your outfit with this adorable kitty drink graphic. Perfect for kawaii and cute-style lovers."
+        },
+        {
+          "asset": "tshirt_img_23",
+          "name": "Shark Cat Hoodie Outfit",
+          "shortDesc": "Playful shark-themed outfit for fun styling",
+          "desc": "An adorable fusion of a cat outfit and shark hoodie design. Perfect for cosplay or playful fashion moments."
+        },
+        {
+          "asset": "tshirt_img_24",
+          "name": "Frog Bubble Tea Tee",
+          "shortDesc": "Whimsical frog design with cheerful vibes",
+          "desc": "A cute frog enjoying bubble tea brings a lighthearted and joyful feel to this t-shirt."
+        },
+        {
+          "asset": "tshirt_img_25",
+          "name": "California Vintage Raglan",
+          "shortDesc": "Classic raglan tee with retro style",
+          "desc": "A timeless raglan t-shirt featuring a vintage California print. Perfect blend of heritage and comfort."
+        },
+        {
+          "asset": "tshirt_img_26",
+          "name": "Pink Crop Hoodie Tee",
+          "shortDesc": "Sporty cropped style with cute appeal",
+          "desc": "A trendy cropped hoodie-style tee in pink. Ideal for casual wear with a playful, stylish edge."
+        },
+        {
+          "asset": "tshirt_img_27",
+          "name": "Arrow Power Graphic Tee",
+          "shortDesc": "Strong arrow design symbolizing direction",
+          "desc": "Make a bold statement with this arrow graphic tee representing strength, focus, and confidence."
+        },
+        {
+          "asset": "tshirt_img_28",
+          "name": "Shadow Blade Red Tee",
+          "shortDesc": "Dark blade design with intense visuals",
+          "desc": "A powerful red blade graphic with shadow effects creates a bold and aggressive streetwear look."
+        },
+        {
+          "asset": "tshirt_img_29",
+          "name": "Blue Plush Kitty Tee",
+          "shortDesc": "Soft and cozy kitty design",
+          "desc": "Featuring a plush-style blue kitty, this tee offers a comforting and cute aesthetic."
+        },
+        {
+          "asset": "tshirt_img_3",
+          "name": "Pink Leopard Swim Top",
+          "shortDesc": "Flirty leopard print with bold beach energy",
+          "desc": "Turn heads with this vibrant pink leopard bikini top. Designed for confidence and comfort, it offers a flattering fit with a playful, bold edge."
+        },
+        {
+          "asset": "tshirt_img_30",
+          "name": "Voodoo Doll Dark Tee",
+          "shortDesc": "Eerie gothic design with occult vibes",
+          "desc": "A mysterious voodoo doll graphic gives this t-shirt a dark and edgy personality, perfect for alternative fashion."
+        },
+        {
+          "asset": "tshirt_img_4",
+          "name": "Steel Hammer Prop",
+          "shortDesc": "Industrial-style hammer accessory with a rugged feel",
+          "desc": "Add a powerful touch to your look with this dark steel hammer accessory. Perfect for cosplay, fantasy themes, or bold styling statements."
+        },
+        {
+          "asset": "tshirt_img_5",
+          "name": "Gothic Cross Chain Tee",
+          "shortDesc": "Dark cross graphic with streetwear attitude",
+          "desc": "A bold black tee featuring a chained cross design. Blending gothic symbolism with modern streetwear, it’s ideal for expressive and alternative fashion."
+        },
+        {
+          "asset": "tshirt_img_6",
+          "name": "Cute Bow White Tee",
+          "shortDesc": "Soft and charming bow design for a sweet look",
+          "desc": "Keep it simple and adorable with this white tee featuring a delicate bow graphic. Comfortable and versatile for everyday casual outfits."
+        },
+        {
+          "asset": "tshirt_img_7",
+          "name": "Dark Gothic Art Tee",
+          "shortDesc": "Mysterious artwork for alternative fashion lovers",
+          "desc": "Step into the dark aesthetic with this gothic-inspired black t-shirt. Designed for those who love dramatic and artistic fashion statements."
+        },
+        {
+          "asset": "tshirt_img_8",
+          "name": "Bear Cozy Onesie",
+          "shortDesc": "Cute and comfy onesie with playful vibes",
+          "desc": "Relax in ultimate comfort with this adorable black bear onesie. Soft, warm, and perfect for lounging or fun costume moments."
+        },
+        {
+          "asset": "tshirt_img_9",
+          "name": "Gold Chain Graphic Tee",
+          "shortDesc": "Luxury-inspired chain design for bold style",
+          "desc": "Elevate your streetwear with this eye-catching gold chain graphic tee. A perfect mix of casual comfort and flashy style."
+        }
+      ]
+    },
+    {
+      "title": "Pants",
+      "items": [
+        {
+          "asset": "pant_img_1",
+          "name": "Christmas Festive Pants",
+          "shortDesc": "Holiday-themed cozy pants",
+          "desc": "Celebrate the season in style with these Christmas-inspired pants. Designed with festive colors and patterns, they bring comfort and cheerful vibes."
+        },
+        {
+          "asset": "pant_img_10",
+          "name": "Stealth Ninja Pants",
+          "shortDesc": "Lightweight pants with sleek design",
+          "desc": "Flexible and minimal pants inspired by ninja style. Perfect for agile, modern streetwear looks."
+        },
+        {
+          "asset": "pant_img_11",
+          "name": "Blue Star Baggy Jeans",
+          "shortDesc": "Oversized jeans with star graphics",
+          "desc": "Loose-fitting jeans decorated with blue stars, combining comfort with bold street style."
+        },
+        {
+          "asset": "pant_img_12",
+          "name": "Blue Check Baggy Jeans",
+          "shortDesc": "Baggy jeans with check pattern",
+          "desc": "Relaxed-fit jeans featuring a classic blue checkered design for a stylish oversized look."
+        },
+        {
+          "asset": "pant_img_13",
+          "name": "Green Striped Pants",
+          "shortDesc": "Sporty pants with bold stripes",
+          "desc": "Stylish green pants enhanced with stripe details, adding an energetic and sporty feel."
+        },
+        {
+          "asset": "pant_img_14",
+          "name": "Red Star Baggy Jeans",
+          "shortDesc": "Oversized jeans with red stars",
+          "desc": "Baggy jeans featuring bold red star designs, perfect for statement streetwear outfits."
+        },
+        {
+          "asset": "pant_img_15",
+          "name": "Bright Yellow Pants",
+          "shortDesc": "Bold pants with vibrant color",
+          "desc": "Stand out with these bright yellow pants, designed to bring energy and color to your look."
+        },
+        {
+          "asset": "pant_img_16",
+          "name": "Unicorn Fantasy Pants",
+          "shortDesc": "Playful unicorn-themed design",
+          "desc": "Fun and colorful pants inspired by unicorn themes, perfect for creative and playful outfits."
+        },
+        {
+          "asset": "pant_img_17",
+          "name": "Blue Striped Pants",
+          "shortDesc": "Classic striped everyday pants",
+          "desc": "Simple and stylish blue pants with stripe detailing, ideal for casual everyday wear."
+        },
+        {
+          "asset": "pant_img_18",
+          "name": "Cute Kitty Pants",
+          "shortDesc": "Adorable pants with cat theme",
+          "desc": "Charming pants inspired by cute kitty designs, perfect for fun and playful fashion."
+        },
+        {
+          "asset": "pant_img_19",
+          "name": "Red Checkered Pants",
+          "shortDesc": "Bold pants with check pattern",
+          "desc": "Classic red checkered pants that blend traditional patterns with modern styling."
+        },
+        {
+          "asset": "pant_img_2",
+          "name": "Dark Painter Jeans",
+          "shortDesc": "Rugged jeans with workwear style",
+          "desc": "Durable dark wash jeans inspired by painter workwear. Perfect for a casual, utility-driven streetwear look."
+        },
+        {
+          "asset": "pant_img_20",
+          "name": "Glitch Sport Pants",
+          "shortDesc": "Sporty pants with digital effect",
+          "desc": "Athletic-inspired pants featuring a glitch-style design, combining performance with futuristic fashion."
+        },
+        {
+          "asset": "pant_img_21",
+          "name": "Classic Blue Bootcut Jeans",
+          "shortDesc": "",
+          "desc": "Bootcut jeans offering timeless denim styling."
+        },
+        {
+          "asset": "pant_img_22",
+          "name": "Luxury Leather Pants",
+          "shortDesc": "",
+          "desc": "High-end leather pants delivering bold and premium fashion."
+        },
+        {
+          "asset": "pant_img_23",
+          "name": "Street Style Sweatpants",
+          "shortDesc": "",
+          "desc": "Relaxed sweatpants designed for casual yet confident outfits."
+        },
+        {
+          "asset": "pant_img_24",
+          "name": "Camo Print Cargo Pants",
+          "shortDesc": "",
+          "desc": "Camouflage cargo pants inspired by tactical street trends."
+        },
+        {
+          "asset": "pant_img_25",
+          "name": "Light Wash Skinny Jeans",
+          "shortDesc": "",
+          "desc": "Light denim skinny jeans delivering fresh and trendy appeal."
+        },
+        {
+          "asset": "pant_img_26",
+          "name": "Bold Neon Street Pants",
+          "shortDesc": "",
+          "desc": "Neon-colored pants built for standout and energetic styling."
+        },
+        {
+          "asset": "pant_img_27",
+          "name": "Classic Office Trousers",
+          "shortDesc": "",
+          "desc": "Smart office trousers blending professionalism with style."
+        },
+        {
+          "asset": "pant_img_28",
+          "name": "Oversized Relaxed Fit Jeans",
+          "shortDesc": "",
+          "desc": "Loose relaxed jeans made for ultimate street comfort."
+        },
+        {
+          "asset": "pant_img_29",
+          "name": "Premium Designer Denim",
+          "shortDesc": "",
+          "desc": "High-quality designer jeans crafted for elite fashion presence."
+        },
+        {
+          "asset": "pant_img_3",
+          "name": "Classic Plumber Red Pants",
+          "shortDesc": "Iconic red pants with playful vibe",
+          "desc": "Bold red pants inspired by a classic video game plumber. A nostalgic and fun addition to any outfit."
+        },
+        {
+          "asset": "pant_img_30",
+          "name": "Ultimate Streetwear Pants",
+          "shortDesc": "",
+          "desc": "A final-tier streetwear pant designed for bold and dominant personalities."
+        },
+        {
+          "asset": "pant_img_4",
+          "name": "Halloween Theme Pants",
+          "shortDesc": "Spooky pants with festive style",
+          "desc": "Celebrate Halloween with these themed pants featuring fun and spooky design elements."
+        },
+        {
+          "asset": "pant_img_5",
+          "name": "Layered Denim Skirt Pants",
+          "shortDesc": "Denim pants with layered skirt design",
+          "desc": "A unique fusion of denim pants and skirt layering. Perfect for bold and experimental street fashion."
+        },
+        {
+          "asset": "pant_img_6",
+          "name": "White Fuzzy Footwear",
+          "shortDesc": "Soft and cozy fluffy shoes",
+          "desc": "Comfortable white fuzzy shoes designed for warmth and playful styling with a soft texture."
+        },
+        {
+          "asset": "pant_img_7",
+          "name": "Neon Future Pants",
+          "shortDesc": "Bright pants with futuristic style",
+          "desc": "High-energy pants featuring neon tones and a futuristic aesthetic. Perfect for standout streetwear."
+        },
+        {
+          "asset": "pant_img_8",
+          "name": "Vintage Black Jeans Set",
+          "shortDesc": "Classic tank and jeans combo",
+          "desc": "A timeless outfit combining a simple tank top with black vintage jeans for effortless style."
+        },
+        {
+          "asset": "pant_img_9",
+          "name": "Icy Armor Pants",
+          "shortDesc": "Goalie-inspired winter pants",
+          "desc": "Unique pants inspired by icy goalie gear, delivering a bold, armored winter-sport aesthetic."
+        }
+      ]
+    },
+    {
+      "title": "Shorts",
+      "items": [
+        {
+          "asset": "short_img_1",
+          "name": "3-Stripe Swim Boxers",
+          "shortDesc": "Sporty swim shorts with classic stripes",
+          "desc": "Sleek swim boxers featuring a signature three-stripe design. Perfect for beach or pool days with comfort and athletic style."
+        },
+        {
+          "asset": "short_img_2",
+          "name": "White Gym Shorts",
+          "shortDesc": "Lightweight shorts for active comfort",
+          "desc": "Breathable white gym shorts designed for workouts or casual wear. Offers a relaxed fit for ease of movement."
+        },
+        {
+          "asset": "short_img_3",
+          "name": "Lace Bow Socks",
+          "shortDesc": "Cute socks with elegant bow detail",
+          "desc": "Soft white socks featuring a delicate black lace bow, adding a charming and feminine touch to any outfit."
+        },
+        {
+          "asset": "short_img_4",
+          "name": "Y2K Ripped Denim Shorts",
+          "shortDesc": "Retro ripped shorts with bold style",
+          "desc": "Light denim shorts with distressed details and Y2K-inspired styling. Perfect for playful and trendy summer looks."
+        },
+        {
+          "asset": "short_img_5",
+          "name": "Pink Cargo Shorts",
+          "shortDesc": "Casual cargo shorts with urban vibe",
+          "desc": "Bright pink cargo shorts with functional pockets and a relaxed fit. Ideal for everyday streetwear styling."
+        },
+        {
+          "asset": "shorts_img_1",
+          "name": "Urban Street Shorts",
+          "shortDesc": "",
+          "desc": "Comfortable street-style shorts designed for bold and casual looks."
+        },
+        {
+          "asset": "shorts_img_10",
+          "name": "Pink Heart Overalls",
+          "shortDesc": "Sweet overall shorts with heart theme",
+          "desc": "Adorable pink overall shorts featuring heart designs. Perfect for playful and youthful styling."
+        },
+        {
+          "asset": "shorts_img_11",
+          "name": "Street Edge Shorts",
+          "shortDesc": "Bold shorts with urban attitude",
+          "desc": "Edgy streetwear shorts designed with a relaxed fit and strong visual appeal for confident styling."
+        },
+        {
+          "asset": "shorts_img_12",
+          "name": "Light Blue Skate Shorts",
+          "shortDesc": "Casual shorts for laid-back style",
+          "desc": "Comfortable light blue shorts designed for skating or everyday wear with a relaxed, easygoing vibe."
+        },
+        {
+          "asset": "shorts_img_13",
+          "name": "Hibiscus Beach Shorts",
+          "shortDesc": "Tropical shorts with summer vibe",
+          "desc": "Shorts featuring a vibrant hibiscus print, perfect for beachwear and sunny outdoor days."
+        },
+        {
+          "asset": "shorts_img_14",
+          "name": "Ruffled Denim Shorts",
+          "shortDesc": "Wide-leg shorts with playful detail",
+          "desc": "Denim shorts with a wide-leg fit and ruffled accents, adding a fun and stylish twist to casual looks."
+        },
+        {
+          "asset": "shorts_img_15",
+          "name": "Goth Chain Shorts",
+          "shortDesc": "Edgy shorts with chain accents",
+          "desc": "Black shorts featuring chain details for a bold gothic aesthetic. Perfect for alternative fashion lovers."
+        },
+        {
+          "asset": "shorts_img_16",
+          "name": "Pink Pajama Shorts",
+          "shortDesc": "Soft shorts for cozy comfort",
+          "desc": "Lightweight pink pajama shorts with a cute bow detail. Ideal for lounging or relaxing in comfort."
+        },
+        {
+          "asset": "shorts_img_17",
+          "name": "Pink Ripped Denim Shorts",
+          "shortDesc": "Edgy shorts with Y2K style",
+          "desc": "Pink denim shorts with ripped detailing and a bold Y2K aesthetic. Perfect for expressive summer outfits."
+        },
+        {
+          "asset": "shorts_img_18",
+          "name": "Y2K Retro Wide Shorts",
+          "shortDesc": "",
+          "desc": "Wide-fit shorts inspired by bold Y2K fashion trends."
+        },
+        {
+          "asset": "shorts_img_19",
+          "name": "Striped Sport Shorts",
+          "shortDesc": "",
+          "desc": "Striped athletic shorts blending comfort with energetic styling."
+        },
+        {
+          "asset": "shorts_img_2",
+          "name": "Classic Black Denim Shorts",
+          "shortDesc": "",
+          "desc": "Sleek black denim shorts delivering sharp and modern vibes."
+        },
+        {
+          "asset": "shorts_img_20",
+          "name": "Dark Grey Combat Shorts",
+          "shortDesc": "",
+          "desc": "Combat-style shorts crafted for strong and adventurous vibes."
+        },
+        {
+          "asset": "shorts_img_21",
+          "name": "Classic Blue Casual Shorts",
+          "shortDesc": "",
+          "desc": "Timeless blue shorts designed for everyday fashion."
+        },
+        {
+          "asset": "shorts_img_22",
+          "name": "Luxury Leather Shorts",
+          "shortDesc": "",
+          "desc": "High-end leather shorts delivering bold and premium energy."
+        },
+        {
+          "asset": "shorts_img_23",
+          "name": "Street Style Sweat Shorts",
+          "shortDesc": "",
+          "desc": "Relaxed sweat shorts made for casual yet confident outfits."
+        },
+        {
+          "asset": "shorts_img_24",
+          "name": "Camo Print Cargo Shorts",
+          "shortDesc": "",
+          "desc": "Camouflage cargo shorts inspired by tactical street trends."
+        },
+        {
+          "asset": "shorts_img_25",
+          "name": "Light Wash Denim Shorts",
+          "shortDesc": "",
+          "desc": "Fresh light-wash shorts delivering trendy summer appeal."
+        },
+        {
+          "asset": "shorts_img_26",
+          "name": "Bold Neon Street Shorts",
+          "shortDesc": "",
+          "desc": "Neon-colored shorts built for standout and energetic fashion."
+        },
+        {
+          "asset": "shorts_img_27",
+          "name": "Classic Office Style Shorts",
+          "shortDesc": "",
+          "desc": "Smart casual shorts blending professionalism with comfort."
+        },
+        {
+          "asset": "shorts_img_28",
+          "name": "Oversized Relaxed Shorts",
+          "shortDesc": "",
+          "desc": "Loose relaxed-fit shorts made for ultimate comfort."
+        },
+        {
+          "asset": "shorts_img_29",
+          "name": "Premium Designer Shorts",
+          "shortDesc": "",
+          "desc": "High-quality designer shorts crafted for elite fashion presence."
+        },
+        {
+          "asset": "shorts_img_3",
+          "name": "Ripped Blue Jean Shorts",
+          "shortDesc": "",
+          "desc": "Distressed denim shorts crafted for fearless urban fashion."
+        },
+        {
+          "asset": "shorts_img_30",
+          "name": "Ultimate Streetwear Shorts",
+          "shortDesc": "",
+          "desc": "A final-tier streetwear short designed for bold personalities."
+        },
+        {
+          "asset": "shorts_img_4",
+          "name": "Grey Casual Cotton Shorts",
+          "shortDesc": "",
+          "desc": "Soft cotton shorts blending comfort with relaxed street energy."
+        },
+        {
+          "asset": "shorts_img_5",
+          "name": "Oversized Cargo Shorts",
+          "shortDesc": "",
+          "desc": "Utility cargo shorts built for bold and adventurous styling."
+        },
+        {
+          "asset": "shorts_img_6",
+          "name": "Light Wash Denim Shorts",
+          "shortDesc": "Classic denim shorts for summer wear",
+          "desc": "Timeless light-wash denim shorts that pair effortlessly with any casual outfit."
+        },
+        {
+          "asset": "shorts_img_7",
+          "name": "White Bow Denim Shorts",
+          "shortDesc": "Cute shorts with lace bow detail",
+          "desc": "White denim shorts featuring a soft lace bow accent, perfect for a sweet and feminine summer look."
+        },
+        {
+          "asset": "shorts_img_8",
+          "name": "Y2K Denim Jorts",
+          "shortDesc": "Retro jorts with bold styling",
+          "desc": "Classic denim jorts styled with Y2K influence and edgy accessories for a standout streetwear vibe."
+        },
+        {
+          "asset": "shorts_img_9",
+          "name": "Heart Print Shorts",
+          "shortDesc": "Playful shorts with cute pattern",
+          "desc": "Comfortable shorts decorated with heart prints, bringing a fun and cheerful feel to casual outfits."
+        }
+      ]
+    },
+    {
+      "title": "Sweaters",
+      "items": [
+        {
+          "asset": "sweater_img_1",
+          "name": "Classic Black Trenchcoat",
+          "shortDesc": "Timeless long coat with sleek style",
+          "desc": "A sophisticated black trenchcoat with a clean, structured silhouette. Perfect for elegant, edgy, or mysterious outfits."
+        },
+        {
+          "asset": "sweater_img_10",
+          "name": "Oversized Black Crop Sweater",
+          "shortDesc": "Relaxed fit with modern silhouette",
+          "desc": "A comfortable oversized black sweater cropped for a stylish and effortless streetwear aesthetic."
+        },
+        {
+          "asset": "sweater_img_11",
+          "name": "Cyber Stitch Hoodie",
+          "shortDesc": "Edgy hoodie with neon stitch accents",
+          "desc": "A black hoodie featuring cyan stitch details, creating a futuristic and cyber-inspired style."
+        },
+        {
+          "asset": "sweater_img_12",
+          "name": "Starry Off-Shoulder Sweater",
+          "shortDesc": "Dreamy star-pattern oversized fit",
+          "desc": "An oversized off-shoulder sweater decorated with star prints, blending comfort with a dreamy aesthetic."
+        },
+        {
+          "asset": "sweater_img_13",
+          "name": "Banana Cat Graphic Sweater",
+          "shortDesc": "Cute sweater with playful cat design",
+          "desc": "A fun black sweater featuring a banana cat graphic, perfect for adding charm and personality."
+        },
+        {
+          "asset": "sweater_img_14",
+          "name": "Oversized Black Off-Shoulder Sweater",
+          "shortDesc": "Cozy oversized relaxed style",
+          "desc": "A soft oversized black sweater with an off-shoulder fit, perfect for casual and stylish outfits."
+        },
+        {
+          "asset": "sweater_img_15",
+          "name": "Chunky Knit Sweater Dress",
+          "shortDesc": "Warm and cozy knit outfit",
+          "desc": "A thick knit sweater dress in black and pink, designed for warmth, comfort, and a cute cozy aesthetic."
+        },
+        {
+          "asset": "sweater_img_16",
+          "name": "Hugging Cat Sweater",
+          "shortDesc": "Cute sweater with cozy cat design",
+          "desc": "A soft sweater featuring an adorable hugging cat graphic, perfect for playful and warm styling."
+        },
+        {
+          "asset": "sweater_img_17",
+          "name": "High Crop Black Top",
+          "shortDesc": "Sleek and fitted cropped style",
+          "desc": "A fitted black top with a high cropped cut, delivering a confident and modern fashion look."
+        },
+        {
+          "asset": "sweater_img_18",
+          "name": "Pink It-Girl Cardigan",
+          "shortDesc": "Chic cropped cardigan style",
+          "desc": "A trendy pink cropped cardigan designed for a stylish ‘it-girl’ aesthetic with modern appeal."
+        },
+        {
+          "asset": "sweater_img_19",
+          "name": "Pink Y2K Stripe Sweatshirt",
+          "shortDesc": "Retro striped off-shoulder fit",
+          "desc": "A Y2K-inspired pink sweatshirt with stripe patterns and an off-shoulder design for nostalgic fashion lovers."
+        },
+        {
+          "asset": "sweater_img_2",
+          "name": "Blue Luxury Street Hoodie",
+          "shortDesc": "Premium hoodie with bold street vibe",
+          "desc": "A high-end blue hoodie inspired by luxury streetwear. Designed for standout looks with comfort and confidence."
+        },
+        {
+          "asset": "sweater_img_20",
+          "name": "Layered Y2K Shirt",
+          "shortDesc": "Retro-futuristic layered style",
+          "desc": "A layered shirt design inspired by Y2K fashion, blending retro elements with futuristic streetwear."
+        },
+        {
+          "asset": "sweater_img_21",
+          "name": "Pink Oversized Crop Jacket",
+          "shortDesc": "Bold oversized off-shoulder jacket",
+          "desc": "A cropped oversized pink jacket with an off-shoulder cut, delivering comfort with standout style."
+        },
+        {
+          "asset": "sweater_img_22",
+          "name": "Soft White Arm Warmers",
+          "shortDesc": "Cozy and minimal arm accessories",
+          "desc": "Comfortable white arm warmers with a soft texture, perfect for enhancing cozy and cute outfits."
+        },
+        {
+          "asset": "sweater_img_23",
+          "name": "Red Smoke Hoodie",
+          "shortDesc": "Bold hoodie with dramatic effect",
+          "desc": "A striking red hoodie featuring a smoke-inspired design for a powerful and eye-catching look."
+        },
+        {
+          "asset": "sweater_img_24",
+          "name": "Strawberry Cute Cardigan",
+          "shortDesc": "Sweet oversized cropped style",
+          "desc": "A cute oversized cropped cardigan with strawberry details, adding a soft and playful touch."
+        },
+        {
+          "asset": "sweater_img_25",
+          "name": "Black Off-Shoulder Crop Set",
+          "shortDesc": "Chic crop top with accessory detail",
+          "desc": "A black off-shoulder cropped shirt paired with a heart necklace for a stylish and romantic vibe."
+        },
+        {
+          "asset": "sweater_img_26",
+          "name": "Grey Denim Style Hoodie",
+          "shortDesc": "Casual hoodie with denim feel",
+          "desc": "A comfortable grey hoodie designed with a denim-inspired texture, perfect for casual streetwear looks."
+        },
+        {
+          "asset": "sweater_img_27",
+          "name": "Black Bow Arm Warmers",
+          "shortDesc": "Cute arm warmers with bow detail",
+          "desc": "Soft black arm warmers featuring bow accents, adding elegance and charm to your outfit."
+        },
+        {
+          "asset": "sweater_img_28",
+          "name": "Hugging Dog Sweater",
+          "shortDesc": "Warm sweater with cute dog design",
+          "desc": "A cozy sweater featuring a hugging dog graphic, perfect for a wholesome and comforting look."
+        },
+        {
+          "asset": "sweater_img_29",
+          "name": "Blue Axolotl Hoodie",
+          "shortDesc": "Cute hoodie with playful design",
+          "desc": "A soft blue hoodie inspired by axolotl designs, combining coziness with adorable style."
+        },
+        {
+          "asset": "sweater_img_3",
+          "name": "Minimal Cropped Black Sweater",
+          "shortDesc": "Clean cropped sweater for modern looks",
+          "desc": "A simple yet stylish cropped black sweater that pairs effortlessly with any outfit for a sleek, modern vibe."
+        },
+        {
+          "asset": "sweater_img_30",
+          "name": "Blue Alien Cozy Sweater",
+          "shortDesc": "Fun alien-themed cozy outfit",
+          "desc": "A soft blue sweater featuring a cute alien graphic, perfect for a playful and cozy aesthetic."
+        },
+        {
+          "asset": "sweater_img_4",
+          "name": "Dark Aura Outline Effect",
+          "shortDesc": "Glowing outline for dramatic presence",
+          "desc": "A full-body black aura outline that enhances visual impact with a glowing, powerful aesthetic."
+        },
+        {
+          "asset": "sweater_img_5",
+          "name": "Fitted Cropped Black Sweater",
+          "shortDesc": "Trendy cropped fit for everyday wear",
+          "desc": "A stylish cropped sweater designed for a fitted and flattering silhouette with versatile styling."
+        },
+        {
+          "asset": "sweater_img_6",
+          "name": "Red Circle Graphic Sweater",
+          "shortDesc": "Bold artistic sweater design",
+          "desc": "A modern sweater featuring a striking red circle graphic that adds an artistic and standout touch."
+        },
+        {
+          "asset": "sweater_img_7",
+          "name": "Pink Street Hoodie",
+          "shortDesc": "Soft pink hoodie with trendy appeal",
+          "desc": "A cozy pink hoodie blending comfort with modern streetwear aesthetics for a stylish everyday look."
+        },
+        {
+          "asset": "sweater_img_8",
+          "name": "Ruffled Pink Off-Shoulder Sweater",
+          "shortDesc": "Feminine sweater with soft ruffle detail",
+          "desc": "A cute off-shoulder sweater in pink featuring delicate ruffles for a soft and stylish appearance."
+        },
+        {
+          "asset": "sweater_img_9",
+          "name": "Oversized Pink Crop Sweater",
+          "shortDesc": "Relaxed oversized cropped fit",
+          "desc": "A cozy oversized sweater in pink with a cropped and off-shoulder design for a trendy casual look."
+        }
+      ]
+    },
+    {
+      "title": "Jackets",
+      "items": [
+        {
+          "asset": "jacket_img_1",
+          "name": "Black Half Jacket",
+          "shortDesc": "Minimal short jacket with sleek style",
+          "desc": "A clean and modern half-length black jacket designed for versatile layering. Perfect for casual or semi-formal outfits with a sharp finish."
+        },
+        {
+          "asset": "jacket_img_10",
+          "name": "Vampire Cat Costume",
+          "shortDesc": "Spooky yet cute cat outfit",
+          "desc": "A unique costume blending cat features with vampire details. Cozy, playful, and perfect for themed looks."
+        },
+        {
+          "asset": "jacket_img_11",
+          "name": "White Oversized Puffer Jacket",
+          "shortDesc": "Warm winter jacket with volume",
+          "desc": "A thick oversized puffer jacket in white, designed for maximum warmth while maintaining a trendy, bold silhouette."
+        },
+        {
+          "asset": "jacket_img_12",
+          "name": "Striped Crop Knit Sweater",
+          "shortDesc": "Black and white cropped knit",
+          "desc": "A stylish knitted sweater with bold stripes and a cropped cut. Perfect for layering or casual modern outfits."
+        },
+        {
+          "asset": "jacket_img_13",
+          "name": "Alien Cat Plush Hoodie",
+          "shortDesc": "Cute hybrid hoodie with soft feel",
+          "desc": "A playful hoodie combining alien and cat elements. Soft fabric and unique design make it stand out effortlessly."
+        },
+        {
+          "asset": "jacket_img_14",
+          "name": "Egg Cat Costume",
+          "shortDesc": "Cute cat outfit with quirky twist",
+          "desc": "A fun costume blending cat features with an egg-inspired design. Comfortable and perfect for playful looks."
+        },
+        {
+          "asset": "jacket_img_15",
+          "name": "White Fur Crop Jacket",
+          "shortDesc": "Chic cropped jacket with fur trim",
+          "desc": "A stylish white cropped jacket enhanced with soft fur detailing. Ideal for adding elegance to casual outfits."
+        },
+        {
+          "asset": "jacket_img_16",
+          "name": "Black Urban Bunny Jacket",
+          "shortDesc": "Modern bunny-inspired street jacket",
+          "desc": "A sleek black jacket with subtle bunny details. Designed for a clean urban look with a cozy touch."
+        },
+        {
+          "asset": "jacket_img_17",
+          "name": "Pink Critter Kigurumi Hoodie",
+          "shortDesc": "Oversized hoodie with playful design",
+          "desc": "A cozy oversized hoodie featuring a fun pink critter design. Perfect for lounging or expressive outfits."
+        },
+        {
+          "asset": "jacket_img_18",
+          "name": "Striped Silk Robe",
+          "shortDesc": "Elegant robe with smooth texture",
+          "desc": "A luxurious silk robe featuring bold stripes. Lightweight and comfortable for stylish lounging."
+        },
+        {
+          "asset": "jacket_img_19",
+          "name": "Mini Turtle Costume",
+          "shortDesc": "Cute turtle outfit with playful edge",
+          "desc": "A small turtle-themed costume with a quirky twist. Soft, fun, and ideal for themed styling."
+        },
+        {
+          "asset": "jacket_img_2",
+          "name": "Black Batwing Hoodie",
+          "shortDesc": "Relaxed hoodie with wide sleeves",
+          "desc": "A stylish batwing hoodie in black featuring oversized sleeves for a relaxed and trendy silhouette. Ideal for casual streetwear."
+        },
+        {
+          "asset": "jacket_img_20",
+          "name": "Black Y2K Flannel Shirt",
+          "shortDesc": "Casual flannel with retro vibe",
+          "desc": "A soft black flannel shirt styled for a relaxed Y2K aesthetic. Perfect for layering or casual wear."
+        },
+        {
+          "asset": "jacket_img_21",
+          "name": "Oversized Fur Coat",
+          "shortDesc": "Luxurious coat with bold presence",
+          "desc": "A large plush fur coat designed for warmth and statement fashion. Soft, cozy, and eye-catching."
+        },
+        {
+          "asset": "jacket_img_22",
+          "name": "Brown Puffer Vest",
+          "shortDesc": "Lightweight vest for layering",
+          "desc": "A versatile brown puffer vest designed for warmth without bulk. Perfect for layering in casual outfits."
+        },
+        {
+          "asset": "jacket_img_23",
+          "name": "Plaid Oversized Hoodie",
+          "shortDesc": "Trendy plaid hoodie with charm details",
+          "desc": "A cozy oversized hoodie featuring plaid patterns and decorative accents. Stylish and comfortable."
+        },
+        {
+          "asset": "jacket_img_24",
+          "name": "Pumpkin Halloween Shrug",
+          "shortDesc": "Festive shrug with playful design",
+          "desc": "A fun jack-o-lantern inspired shrug perfect for seasonal outfits. Soft, light, and full of character."
+        },
+        {
+          "asset": "jacket_img_25",
+          "name": "Mini Chicken Costume",
+          "shortDesc": "Adorable chicken outfit",
+          "desc": "A cute and cozy chicken-themed costume made with soft fabric. Perfect for playful or themed looks."
+        },
+        {
+          "asset": "jacket_img_26",
+          "name": "Pink Cat Oversized Jacket",
+          "shortDesc": "Cute striped jacket with soft feel",
+          "desc": "A fluffy oversized pink jacket with cat-themed details and stripes. Cozy, stylish, and eye-catching."
+        },
+        {
+          "asset": "jacket_img_27",
+          "name": "Brown Faux Fur Crop Jacket",
+          "shortDesc": "Warm cropped jacket with luxe feel",
+          "desc": "A chic brown faux fur cropped jacket designed for warmth and modern fashion. Soft texture with a premium look."
+        },
+        {
+          "asset": "jacket_img_28",
+          "name": "Minimal Street Blazer",
+          "shortDesc": "",
+          "desc": "A modern street blazer blending smart fashion with urban energy."
+        },
+        {
+          "asset": "jacket_img_29",
+          "name": "Luxury Quilted Jacket",
+          "shortDesc": "",
+          "desc": "A quilted design jacket delivering warmth with elegant detail."
+        },
+        {
+          "asset": "jacket_img_3",
+          "name": "Blue Bunny Angel Hoodie",
+          "shortDesc": "Fluffy hoodie with cute details",
+          "desc": "A soft blue hoodie with bunny ears and angel wing accents. Designed for cozy comfort with an adorable, playful aesthetic."
+        },
+        {
+          "asset": "jacket_img_30",
+          "name": "Ultimate Streetwear Jacket",
+          "shortDesc": "",
+          "desc": "A high-end streetwear jacket crafted for bold and confident personalities."
+        },
+        {
+          "asset": "jacket_img_4",
+          "name": "Mini Bee Costume",
+          "shortDesc": "Cute bee outfit with playful design",
+          "desc": "A fun and adorable bee-themed outfit with soft fabric and bright stripes. Perfect for playful styling or themed looks."
+        },
+        {
+          "asset": "jacket_img_5",
+          "name": "Pink Bunny Angel Hoodie",
+          "shortDesc": "Cozy hoodie with cute bunny style",
+          "desc": "A pastel pink hoodie featuring bunny ears and angel wings. Soft, warm, and perfect for a sweet and cozy outfit."
+        },
+        {
+          "asset": "jacket_img_6",
+          "name": "Yellow Chick Costume",
+          "shortDesc": "Soft chick outfit with playful vibe",
+          "desc": "A fluffy full-body chick costume in bright yellow. Comfortable, warm, and perfect for fun or cozy moments."
+        },
+        {
+          "asset": "jacket_img_7",
+          "name": "Plush Cat Costume",
+          "shortDesc": "Soft cat-themed cozy outfit",
+          "desc": "A cozy plush outfit designed with cat features like ears and tail. Perfect for cute styling or lounging comfortably."
+        },
+        {
+          "asset": "jacket_img_8",
+          "name": "White Bunny Jacket",
+          "shortDesc": "Fluffy jacket with bunny details",
+          "desc": "A soft white jacket with subtle bunny-inspired elements. Warm, cozy, and perfect for cute everyday outfits."
+        },
+        {
+          "asset": "jacket_img_9",
+          "name": "Alien Kigurumi Hoodie",
+          "shortDesc": "Quirky oversized alien hoodie",
+          "desc": "A fun kigurumi-style hoodie featuring a playful alien design. Oversized fit for maximum comfort and expressive style."
+        }
+      ]
+    },
+    {
+      "title": "Dress and Skin",
+      "items": [
+        {
+          "asset": "dresses_img_1",
+          "name": "Elegant Red Evening Dress",
+          "shortDesc": "",
+          "desc": "A stunning red evening dress designed for bold and glamorous appearances."
+        },
+        {
+          "asset": "dresses_img_10",
+          "name": "Red Carpet Diva Dress",
+          "shortDesc": "",
+          "desc": "A dramatic red carpet outfit built for glamorous personalities."
+        },
+        {
+          "asset": "dresses_img_11",
+          "name": "Pastel Dream Dress",
+          "shortDesc": "",
+          "desc": "A soft pastel dress delivering dreamy and aesthetic vibes."
+        },
+        {
+          "asset": "dresses_img_12",
+          "name": "Silver Shimmer Gown",
+          "shortDesc": "",
+          "desc": "A shining silver gown designed for standout elegance."
+        },
+        {
+          "asset": "dresses_img_13",
+          "name": "Vintage Lace Dress",
+          "shortDesc": "",
+          "desc": "A lace-detailed vintage dress blending classic beauty with charm."
+        },
+        {
+          "asset": "dresses_img_14",
+          "name": "Bold Neon Party Dress",
+          "shortDesc": "",
+          "desc": "A vibrant neon dress perfect for energetic and fearless style."
+        },
+        {
+          "asset": "dresses_img_15",
+          "name": "Black Velvet Royal Dress",
+          "shortDesc": "",
+          "desc": "A luxurious velvet dress delivering rich and elegant fashion."
+        },
+        {
+          "asset": "dresses_img_16",
+          "name": "Boho Chic Maxi Dress",
+          "shortDesc": "",
+          "desc": "A relaxed boho-inspired maxi dress for free-spirited fashion."
+        },
+        {
+          "asset": "dresses_img_17",
+          "name": "Glitter Night Party Dress",
+          "shortDesc": "",
+          "desc": "A glittery party dress designed to shine under the lights."
+        },
+        {
+          "asset": "dresses_img_18",
+          "name": "Classic Princess Ball Gown",
+          "shortDesc": "",
+          "desc": "A grand ball gown crafted for fairy-tale elegance."
+        },
+        {
+          "asset": "dresses_img_19",
+          "name": "Modern Satin Slip Dress",
+          "shortDesc": "",
+          "desc": "A sleek satin slip dress blending minimalism with charm."
+        },
+        {
+          "asset": "dresses_img_2",
+          "name": "Classic Black Party Dress",
+          "shortDesc": "",
+          "desc": "A timeless black dress perfect for stylish and confident fashion statements."
+        },
+        {
+          "asset": "dresses_img_20",
+          "name": "Luxury Designer Outfit",
+          "shortDesc": "",
+          "desc": "A premium designer dress built for elite fashion presence."
+        },
+        {
+          "asset": "dresses_img_21",
+          "name": "Soft Lavender Evening Dress",
+          "shortDesc": "",
+          "desc": "A lavender-toned evening dress offering calm and graceful vibes."
+        },
+        {
+          "asset": "dresses_img_22",
+          "name": "Emerald Royal Gown",
+          "shortDesc": "",
+          "desc": "A deep emerald gown delivering bold royal elegance."
+        },
+        {
+          "asset": "dresses_img_23",
+          "name": "Peach Summer Flow Dress",
+          "shortDesc": "",
+          "desc": "A flowing peach dress perfect for light and fresh styling."
+        },
+        {
+          "asset": "dresses_img_24",
+          "name": "Golden Festival Dress",
+          "shortDesc": "",
+          "desc": "A festive golden outfit crafted for celebrations and spotlight moments."
+        },
+        {
+          "asset": "dresses_img_25",
+          "name": "Y2K Retro Mini Dress",
+          "shortDesc": "",
+          "desc": "A nostalgic Y2K mini dress with bold and trendy vibes."
+        },
+        {
+          "asset": "dresses_img_26",
+          "name": "Red Rose Lace Dress",
+          "shortDesc": "",
+          "desc": "A romantic lace dress featuring elegant red rose patterns."
+        },
+        {
+          "asset": "dresses_img_27",
+          "name": "Midnight Blue Royal Outfit",
+          "shortDesc": "",
+          "desc": "A deep blue royal dress designed for confident personalities."
+        },
+        {
+          "asset": "dresses_img_28",
+          "name": "Classic White Bridal Style",
+          "shortDesc": "",
+          "desc": "A bridal-inspired white dress delivering pure elegance."
+        },
+        {
+          "asset": "dresses_img_29",
+          "name": "Luxury Diamond Spark Dress",
+          "shortDesc": "",
+          "desc": "A sparkling dress inspired by diamond shine and elite fashion."
+        },
+        {
+          "asset": "dresses_img_3",
+          "name": "Royal Blue Gown",
+          "shortDesc": "",
+          "desc": "A royal blue gown crafted for graceful and elegant presence."
+        },
+        {
+          "asset": "dresses_img_30",
+          "name": "Ultimate Fashion Queen Dress",
+          "shortDesc": "",
+          "desc": "A grand final-tier dress crafted for bold and dominant style presence."
+        },
+        {
+          "asset": "dresses_img_4",
+          "name": "Soft Pink Princess Dress",
+          "shortDesc": "",
+          "desc": "A charming pink princess-style dress filled with sweet elegance."
+        },
+        {
+          "asset": "dresses_img_5",
+          "name": "Golden Glamour Dress",
+          "shortDesc": "",
+          "desc": "A luxurious golden dress made for shining moments and bold entrances."
+        },
+        {
+          "asset": "dresses_img_6",
+          "name": "Midnight Sparkle Dress",
+          "shortDesc": "",
+          "desc": "A sparkling dark dress that radiates confidence and charm."
+        },
+        {
+          "asset": "dresses_img_7",
+          "name": "Floral Summer Dress",
+          "shortDesc": "",
+          "desc": "A light floral dress bringing fresh and playful summer vibes."
+        },
+        {
+          "asset": "dresses_img_8",
+          "name": "White Elegant Maxi Dress",
+          "shortDesc": "",
+          "desc": "A graceful white maxi dress designed for classy occasions."
+        },
+        {
+          "asset": "dresses_img_9",
+          "name": "Chic Cocktail Dress",
+          "shortDesc": "",
+          "desc": "A trendy cocktail dress blending modern style with elegance."
+        }
+      ]
+    },
+    {
+      "title": "Skirts",
+      "items": [
+        {
+          "asset": "skirt_img_1",
+          "name": "Pink Holiday Dress",
+          "shortDesc": "Festive dress with cheerful vibe",
+          "desc": "A charming pink dress inspired by holiday themes. Soft, comfortable, and perfect for festive occasions."
+        },
+        {
+          "asset": "skirt_img_10",
+          "name": "White Baby Doll Dress",
+          "shortDesc": "Soft romantic flowy dress",
+          "desc": "A light and airy baby doll dress in white, perfect for romantic occasions or soft feminine looks."
+        },
+        {
+          "asset": "skirt_img_11",
+          "name": "Beige Preppy Knit Skirt",
+          "shortDesc": "Cozy knitted skirt with preppy style",
+          "desc": "A warm beige knit skirt designed for layering and creating soft, preppy outfits."
+        },
+        {
+          "asset": "skirt_img_12",
+          "name": "Red Baddie Outfit Set",
+          "shortDesc": "Bold coordinated streetwear look",
+          "desc": "A trendy red outfit set combining a stylish top with matching bottoms for a confident look."
+        },
+        {
+          "asset": "skirt_img_13",
+          "name": "Polka Dot Bow Dress",
+          "shortDesc": "Cute dress with playful pattern",
+          "desc": "A charming white dress featuring black polka dots and a bow accent for a fun, stylish appearance."
+        },
+        {
+          "asset": "skirt_img_14",
+          "name": "Pink Lace Bikini Set",
+          "shortDesc": "Delicate bikini with soft details",
+          "desc": "A soft pink bikini with lace accents, perfect for beachwear with a feminine and elegant touch."
+        },
+        {
+          "asset": "skirt_img_15",
+          "name": "Pink Y2K Star Outfit",
+          "shortDesc": "Retro outfit with star theme",
+          "desc": "A coordinated pink outfit set with star designs, inspired by Y2K fashion trends."
+        },
+        {
+          "asset": "skirt_img_16",
+          "name": "Classic Red Dress",
+          "shortDesc": "Timeless bold statement piece",
+          "desc": "A versatile red dress suitable for multiple occasions, offering elegance and confidence."
+        },
+        {
+          "asset": "skirt_img_17",
+          "name": "Yellow Bunny Blossom Dress",
+          "shortDesc": "Cheerful dress with floral theme",
+          "desc": "A bright yellow dress featuring bunny and floral details, perfect for spring and playful looks."
+        },
+        {
+          "asset": "skirt_img_18",
+          "name": "Anime Black Dress",
+          "shortDesc": "Cosplay-inspired stylish outfit",
+          "desc": "A detailed black dress inspired by anime aesthetics, perfect for cosplay or themed styling."
+        },
+        {
+          "asset": "skirt_img_19",
+          "name": "Pink & Black Casual Set",
+          "shortDesc": "Trendy outfit with bold contrast",
+          "desc": "A stylish combination of a pink top with black shorts for a modern casual look."
+        },
+        {
+          "asset": "skirt_img_2",
+          "name": "Elegant Pink Court Dress",
+          "shortDesc": "Flowing dress with regal elegance",
+          "desc": "A luxurious pink court-style dress with a graceful silhouette. Perfect for formal events or royal-inspired looks."
+        },
+        {
+          "asset": "skirt_img_20",
+          "name": "Goth Tartan Pleated Skirt",
+          "shortDesc": "Edgy skirt with academia style",
+          "desc": "A black tartan pleated skirt inspired by goth and academia aesthetics. Perfect for bold styling."
+        },
+        {
+          "asset": "skirt_img_21",
+          "name": "White Ruffle Skirt",
+          "shortDesc": "Soft skirt with delicate layers",
+          "desc": "A lightweight white skirt featuring ruffle details, perfect for cute and feminine outfits."
+        },
+        {
+          "asset": "skirt_img_22",
+          "name": "Blue Lace Ruffle Skirt",
+          "shortDesc": "Elegant skirt with lace accents",
+          "desc": "A charming blue skirt enhanced with lace and ruffles for a stylish and playful look."
+        },
+        {
+          "asset": "skirt_img_23",
+          "name": "Pink Sequin Mini Skirt",
+          "shortDesc": "Sparkling skirt for standout looks",
+          "desc": "A shimmering pink miniskirt with sequin details, perfect for parties and bold fashion moments."
+        },
+        {
+          "asset": "skirt_img_24",
+          "name": "Pink Latex Mini Dress",
+          "shortDesc": "Bold fitted dress with edgy vibe",
+          "desc": "A body-hugging pink latex mini dress designed for confident, standout fashion statements."
+        },
+        {
+          "asset": "skirt_img_3",
+          "name": "Anime Cat Maid Dress",
+          "shortDesc": "Cute maid outfit with cat details",
+          "desc": "A black and white maid-style dress featuring adorable cat accents. Ideal for cosplay or playful styling."
+        },
+        {
+          "asset": "skirt_img_4",
+          "name": "Cute Pink Jumpsuit",
+          "shortDesc": "Playful jumpsuit with soft style",
+          "desc": "A comfortable pink jumpsuit designed for casual wear. Combines ease with a trendy, youthful look."
+        },
+        {
+          "asset": "skirt_img_5",
+          "name": "Lavender Victorian Dress",
+          "shortDesc": "Elegant floral vintage style",
+          "desc": "A delicate lavender dress inspired by Victorian fashion with floral elements and a graceful silhouette."
+        },
+        {
+          "asset": "skirt_img_6",
+          "name": "Classic School Uniform Set",
+          "shortDesc": "Clean black and white outfit",
+          "desc": "A timeless school uniform featuring a white top and black skirt. Perfect for cosplay or preppy styling."
+        },
+        {
+          "asset": "skirt_img_7",
+          "name": "White Royal Court Dress",
+          "shortDesc": "Elegant flowing formal dress",
+          "desc": "A refined white dress with a royal-inspired design. Perfect for formal occasions and graceful styling."
+        },
+        {
+          "asset": "skirt_img_8",
+          "name": "Blue Off-Shoulder Outfit",
+          "shortDesc": "Chic outfit with playful vibe",
+          "desc": "A stylish blue off-shoulder outfit designed for casual or semi-formal looks with a cute touch."
+        },
+        {
+          "asset": "skirt_img_9",
+          "name": "Red Checkered Skirt",
+          "shortDesc": "Playful skirt with classic pattern",
+          "desc": "A vibrant red checkered skirt perfect for casual outfits and cute coordinated styles."
+        }
+      ]
+    },
+    {
+      "title": "Waist",
+      "items": [
+        {
+          "asset": "waist_img_1",
+          "name": "Elegant White Flow Skirt 3.0",
+          "shortDesc": "Soft long white skirt.",
+          "desc": "A flowing white skirt in 3.0 style, bringing elegance, softness, and timeless charm to your outfit."
+        },
+        {
+          "asset": "waist_img_10",
+          "name": "Capybara Cart Chaos",
+          "shortDesc": "Funny meme accessory.",
+          "desc": "A playful waist item featuring a capybara in a shopping cart, full of humor and meme energy."
+        },
+        {
+          "asset": "waist_img_11",
+          "name": "Hell Guardian Hound",
+          "shortDesc": "Dark fantasy companion.",
+          "desc": "A fierce guardian dog accessory that adds supernatural and edgy fantasy vibes."
+        },
+        {
+          "asset": "waist_img_12",
+          "name": "Street Food Cart Vibes",
+          "shortDesc": "Cultural cart accessory.",
+          "desc": "A fun waist item inspired by street food carts, adding lively and cultural street-style charm."
+        },
+        {
+          "asset": "waist_img_13",
+          "name": "Black Belted Waistcoat",
+          "shortDesc": "Edgy formal waistwear.",
+          "desc": "A fitted black waistcoat with belt details, blending formal fashion with a bold edge."
+        },
+        {
+          "asset": "waist_img_14",
+          "name": "Hello Kitty Charm",
+          "shortDesc": "Classic kawaii keychain.",
+          "desc": "A cute Hello Kitty keychain that brings timeless Sanrio sweetness to your look."
+        },
+        {
+          "asset": "waist_img_15",
+          "name": "Alien Bunny Charm",
+          "shortDesc": "Sci-fi cute accessory.",
+          "desc": "A quirky blue alien bunny keychain that mixes cute aesthetics with futuristic vibes."
+        },
+        {
+          "asset": "waist_img_16",
+          "name": "Pink Ramen Waist Charm",
+          "shortDesc": "Foodie-inspired accessory.",
+          "desc": "A playful pink ramen-themed item inspired by Korean food culture and cute styling."
+        },
+        {
+          "asset": "waist_img_17",
+          "name": "Classic Black Tailcoat",
+          "shortDesc": "Elegant formal piece.",
+          "desc": "A sleek black tailcoat worn at the waist, adding sophistication and refined style."
+        },
+        {
+          "asset": "waist_img_18",
+          "name": "Silver Suspender Straps V3",
+          "shortDesc": "Modern waist straps.",
+          "desc": "Stylish silver suspenders that bring sharp, structured, and polished detail."
+        },
+        {
+          "asset": "waist_img_19",
+          "name": "Black Shark Tail",
+          "shortDesc": "Edgy aquatic tail.",
+          "desc": "A sleek black shark tail that adds bold aquatic and fantasy-inspired energy."
+        },
+        {
+          "asset": "waist_img_2",
+          "name": "Capybara Charm Keychain",
+          "shortDesc": "Cute animal waist charm.",
+          "desc": "A small capybara keychain that adds cozy, playful, and wholesome animal vibes."
+        },
+        {
+          "asset": "waist_img_20",
+          "name": "Floral Vintage Wheelchair",
+          "shortDesc": "Soft floral mobility item.",
+          "desc": "A wheelchair with floral patterns, blending vintage warmth with gentle aesthetics."
+        },
+        {
+          "asset": "waist_img_21",
+          "name": "Pink Tartan Frill Skirt",
+          "shortDesc": "Preppy cute skirt.",
+          "desc": "A soft pink tartan skirt with frills, combining preppy style with cute fashion energy."
+        },
+        {
+          "asset": "waist_img_22",
+          "name": "Mischief Cat",
+          "shortDesc": "Dark humor cat charm.",
+          "desc": "A playful cat holding a knife, mixing cute visuals with edgy meme humor."
+        },
+        {
+          "asset": "waist_img_23",
+          "name": "Burger Cartoon Ride",
+          "shortDesc": "Funny cartoon car.",
+          "desc": "A chaotic burger-themed cartoon car accessory that adds humor and quirky energy."
+        },
+        {
+          "asset": "waist_img_24",
+          "name": "Red Cottagecore Skirt",
+          "shortDesc": "Soft romantic skirt.",
+          "desc": "A cozy red skirt inspired by cottagecore fashion, perfect for warm and nature-inspired looks."
+        },
+        {
+          "asset": "waist_img_25",
+          "name": "Kawaii Bear Mini Car",
+          "shortDesc": "Cute toy car accessory.",
+          "desc": "A tiny pink bear-shaped car that brings playful, kidcore, and adorable vibes."
+        },
+        {
+          "asset": "waist_img_26",
+          "name": "Aero Plug Tail",
+          "shortDesc": "Retro tech tail.",
+          "desc": "A Frutiger Aero-inspired tail shaped like a power plug, blending nostalgic tech with surreal style."
+        },
+        {
+          "asset": "waist_img_27",
+          "name": "Retro Plaid Waist Wrap",
+          "shortDesc": "",
+          "desc": "A plaid waist accessory inspired by nostalgic trends."
+        },
+        {
+          "asset": "waist_img_28",
+          "name": "Bold Neon Waist Belt",
+          "shortDesc": "",
+          "desc": "A neon-colored waist belt designed for energetic personalities."
+        },
+        {
+          "asset": "waist_img_29",
+          "name": "Signature Logo Waist Belt",
+          "shortDesc": "",
+          "desc": "A premium logo belt crafted for strong identity and style."
+        },
+        {
+          "asset": "waist_img_3",
+          "name": "Mystic Fox Tail (Purple)",
+          "shortDesc": "Fantasy fox tail accessory.",
+          "desc": "A fluffy fox tail in purple and black tones, perfect for mystical, alt, and fantasy aesthetics."
+        },
+        {
+          "asset": "waist_img_30",
+          "name": "Ultimate Streetwear Waist Gear",
+          "shortDesc": "",
+          "desc": "A final-tier waist accessory combining boldness and fashion dominance."
+        },
+        {
+          "asset": "waist_img_4",
+          "name": "Wheelchair Accessory",
+          "shortDesc": "Mobility support item.",
+          "desc": "A wheelchair accessory designed for representation, realism, and inclusive styling."
+        },
+        {
+          "asset": "waist_img_5",
+          "name": "Midnight Fox Tail",
+          "shortDesc": "Dark fluffy tail.",
+          "desc": "A soft black fox tail that adds gothic, edgy, and dark-cute aesthetics."
+        },
+        {
+          "asset": "waist_img_6",
+          "name": "Pirate Fox Plush Charm",
+          "shortDesc": "Playful plush keychain.",
+          "desc": "A fox pirate plushie keychain that brings fun, cartoon-style energy to your outfit."
+        },
+        {
+          "asset": "waist_img_7",
+          "name": "Mini Cat Charm",
+          "shortDesc": "Simple cute cat.",
+          "desc": "A small cat-themed waist accessory that adds lighthearted and minimal kawaii charm."
+        },
+        {
+          "asset": "waist_img_8",
+          "name": "Labubu Energy Charm",
+          "shortDesc": "Collectible character piece.",
+          "desc": "A bold Labubu-inspired waist accessory with vibrant energy and collectible toy aesthetics."
+        },
+        {
+          "asset": "waist_img_9",
+          "name": "Pink Phone & Gloss Set",
+          "shortDesc": "Y2K girly accessory.",
+          "desc": "A cute pink phone paired with lip gloss, capturing iconic Y2K and soft girl vibes."
+        }
+      ]
+    },
+    {
+      "title": "Neck",
+      "items": [
+        {
+          "asset": "neck_img_1",
+          "name": "Midnight Cat Cozy Scarf",
+          "shortDesc": "Soft black cat-themed scarf.",
+          "desc": "A plush black scarf featuring an adorable cat motif, perfect for cozy Igari, Mori Kei, and soft aesthetic outfits."
+        },
+        {
+          "asset": "neck_img_10",
+          "name": "Vintage Bow Tie Accent",
+          "shortDesc": "Elegant neck bow accessory.",
+          "desc": "A charming bow tie that adds a vintage, preppy, or soft girl aesthetic to any outfit."
+        },
+        {
+          "asset": "neck_img_11",
+          "name": "Pompom Winter Cape",
+          "shortDesc": "Cozy cape with pompoms.",
+          "desc": "A warm winter cape adorned with playful pompom details, perfect for layering in cute and cozy looks."
+        },
+        {
+          "asset": "neck_img_12",
+          "name": "Snow White Knit Scarf 3.0",
+          "shortDesc": "Striped cozy knit scarf.",
+          "desc": "A soft white striped knit scarf designed for warmth and styled with modern Y2K fashion influence."
+        },
+        {
+          "asset": "neck_img_13",
+          "name": "Hello Kitty Kawaii Neckwear",
+          "shortDesc": "Cute Sanrio neck accessory.",
+          "desc": "A playful Hello Kitty-inspired neck accessory that adds iconic kawaii charm to your outfit."
+        },
+        {
+          "asset": "neck_img_14",
+          "name": "Grunge Camo Distressed Scarf",
+          "shortDesc": "Edgy camo neck scarf.",
+          "desc": "A distressed forest camo scarf, perfect for grunge, alt, and streetwear aesthetics."
+        },
+        {
+          "asset": "neck_img_15",
+          "name": "Minimal White Cozy Scarf",
+          "shortDesc": "Simple everyday scarf.",
+          "desc": "A soft and versatile white scarf, perfect for layering with both casual and aesthetic outfits."
+        },
+        {
+          "asset": "neck_img_16",
+          "name": "Y2K Zebra Layered Necklace",
+          "shortDesc": "Bold zebra pattern necklace.",
+          "desc": "A layered silver necklace featuring zebra patterns, bringing back iconic 2000s McBling and Y2K energy."
+        },
+        {
+          "asset": "neck_img_17",
+          "name": "Ice Blue Crystal Chain",
+          "shortDesc": "",
+          "desc": "An icy blue crystal necklace radiating cool vibes."
+        },
+        {
+          "asset": "neck_img_18",
+          "name": "Alien Stitch Necklace 3.0",
+          "shortDesc": "Futuristic alien accessory.",
+          "desc": "A quirky necklace with alien-inspired details, perfect for cybercore and experimental Y2K styles."
+        },
+        {
+          "asset": "neck_img_19",
+          "name": "Piano Melody Scarf",
+          "shortDesc": "Music-inspired cozy scarf.",
+          "desc": "A unique scarf featuring piano key patterns, blending artistic charm with soft aesthetic fashion."
+        },
+        {
+          "asset": "neck_img_2",
+          "name": "Y2K Neck Headphones 3.0",
+          "shortDesc": "Stylish neck-worn headphones.",
+          "desc": "A trendy 3.0 headphone accessory worn around the neck, blending futuristic techwear with nostalgic Y2K vibes."
+        },
+        {
+          "asset": "neck_img_20",
+          "name": "Pastel Pink Cat Collar",
+          "shortDesc": "Cute cat choker.",
+          "desc": "A soft pink cat collar with heart accents, perfect for kawaii, pastel, and playful looks."
+        },
+        {
+          "asset": "neck_img_21",
+          "name": "Retro Red Bandana Scarf 3.0",
+          "shortDesc": "70s-inspired neck bandana.",
+          "desc": "A vibrant red bandana-style scarf with retro 70s and Y2K flair, ideal for bold street styling."
+        },
+        {
+          "asset": "neck_img_22",
+          "name": "Pastel Rainbow Kidcore Scarf",
+          "shortDesc": "Colorful playful scarf.",
+          "desc": "A bright pastel rainbow scarf designed for fun kidcore and expressive Y2K fashion."
+        },
+        {
+          "asset": "neck_img_222",
+          "name": "Neapolitan Pastel Scarf",
+          "shortDesc": "Soft pastel blend scarf.",
+          "desc": "A cozy scarf featuring Neapolitan-inspired pastel tones, perfect for cute and aesthetic outfits."
+        },
+        {
+          "asset": "neck_img_23",
+          "name": "White Star Y2K Necklace",
+          "shortDesc": "Minimal star pendant.",
+          "desc": "A simple white star necklace inspired by Y2K aesthetics, adding subtle celestial charm."
+        },
+        {
+          "asset": "neck_img_24",
+          "name": "Beige Luxe Faux Fur Scarf",
+          "shortDesc": "Soft fur neck wrap.",
+          "desc": "A plush beige faux fur scarf offering warmth and a touch of luxury with modern styling."
+        },
+        {
+          "asset": "neck_img_25",
+          "name": "Melon Soda Pastel Scarf",
+          "shortDesc": "Sweet green aesthetic scarf.",
+          "desc": "A pastel green scarf inspired by melon cream soda, bringing a cute and refreshing kawaii vibe."
+        },
+        {
+          "asset": "neck_img_26",
+          "name": "Warm Brown Knit Plaid Scarf",
+          "shortDesc": "Cozy brown winter scarf.",
+          "desc": "A warm brown plaid scarf with knit textures, perfect for layering during chilly seasons."
+        },
+        {
+          "asset": "neck_img_27",
+          "name": "Neapolitan Plaid Cozy Scarf",
+          "shortDesc": "Pink & brown soft scarf.",
+          "desc": "A soft plaid scarf blending pink and brown tones, ideal for pastel and cozy aesthetics."
+        },
+        {
+          "asset": "neck_img_28",
+          "name": "Cat Choker 3.0",
+          "shortDesc": "Trendy cat-themed choker.",
+          "desc": "A stylish cat-inspired choker designed with modern 3.0 aesthetics for edgy and kawaii looks."
+        },
+        {
+          "asset": "neck_img_29",
+          "name": "Neon Glow Chain",
+          "shortDesc": "",
+          "desc": "A glowing neon necklace for futuristic avatars."
+        },
+        {
+          "asset": "neck_img_3",
+          "name": "67 Street Chain Necklace",
+          "shortDesc": "Bold numeric chain necklace.",
+          "desc": "A chunky metal chain featuring the number 67, adding a bold streetwear and edgy aesthetic touch."
+        },
+        {
+          "asset": "neck_img_30",
+          "name": "Legendary Aura Pendant",
+          "shortDesc": "",
+          "desc": "An elite pendant radiating powerful legendary presence."
+        },
+        {
+          "asset": "neck_img_4",
+          "name": "Classic Noir Plaid Scarf",
+          "shortDesc": "Timeless black plaid scarf.",
+          "desc": "A cozy black plaid scarf with a classic design, perfect for layering in casual, preppy, or winter outfits."
+        },
+        {
+          "asset": "neck_img_5",
+          "name": "Blush Layered Charm Necklace",
+          "shortDesc": "Soft pink layered necklace.",
+          "desc": "A delicate layered necklace in blush pink tones, ideal for preppy, feminine, and Y2K-inspired styles."
+        },
+        {
+          "asset": "neck_img_6",
+          "name": "Grey Striped Cat Scarf",
+          "shortDesc": "Cute striped cat scarf.",
+          "desc": "A soft grey scarf with subtle cat-inspired stripes, perfect for cozy Mori Kei and twee fashion aesthetics."
+        },
+        {
+          "asset": "neck_img_7",
+          "name": "Kitty Paw Winter Scarf",
+          "shortDesc": "Cute paw-print scarf.",
+          "desc": "A fluffy white scarf decorated with adorable kitty paw prints, adding playful kawaii charm to winter outfits."
+        },
+        {
+          "asset": "neck_img_8",
+          "name": "Winter Cozy Set (Scarf + Earmuffs)",
+          "shortDesc": "Matching winter accessory set.",
+          "desc": "A warm and stylish winter set including soft earmuffs and a matching scarf, perfect for cold-weather layering."
+        },
+        {
+          "asset": "neck_img_9",
+          "name": "Pink 67 Street Chain",
+          "shortDesc": "Pastel street-style necklace.",
+          "desc": "A bold pink chain necklace with the number 67, combining streetwear attitude with soft pastel aesthetics."
+        }
+      ]
+    },
+    {
+      "title": "Shoulder",
+      "items": [
+        {
+          "asset": "shoulder_img_1",
+          "name": "Stitch Plush Shoulder Buddy",
+          "shortDesc": "Cute Stitch shoulder plush.",
+          "desc": "An adorable plush version of Stitch designed to sit on your shoulder, bringing playful, cozy, and nostalgic cartoon vibes."
+        },
+        {
+          "asset": "shoulder_img_10",
+          "name": "Pixel Axolotl Backpack",
+          "shortDesc": "Retro cube-style backpack.",
+          "desc": "A pink axolotl backpack in a 3D pixel cube design, blending cute creatures with retro gaming aesthetics."
+        },
+        {
+          "asset": "shoulder_img_11",
+          "name": "Sleeping Tabby Kitten 3.0",
+          "shortDesc": "Cozy red tabby plush.",
+          "desc": "A warm and sleepy red tabby kitten curled up peacefully, perfect for a comforting and cute shoulder accessory."
+        },
+        {
+          "asset": "shoulder_img_12",
+          "name": "Glitch Dragon Aura",
+          "shortDesc": "Animated cyber dragon effect.",
+          "desc": "Black-and-white animated dragon heads with glitch effects, creating a bold cyber-fantasy aura."
+        },
+        {
+          "asset": "shoulder_img_13",
+          "name": "Agnes Cartoon Backpack",
+          "shortDesc": "Cute animated backpack.",
+          "desc": "A fun backpack inspired by Agnes, adding a playful and cartoon-themed aesthetic to your look."
+        },
+        {
+          "asset": "shoulder_img_14",
+          "name": "Rainbow Glow Wings",
+          "shortDesc": "Magical glowing wings.",
+          "desc": "Bright wings glowing in rainbow hues, perfect for fairycore, magical, and fantasy outfits."
+        },
+        {
+          "asset": "shoulder_img_15",
+          "name": "Heart Eyes Panda Backpack 3.0",
+          "shortDesc": "Cute panda bag.",
+          "desc": "A soft panda backpack with heart-shaped eyes, designed in 3.0 style for extra cuteness and charm."
+        },
+        {
+          "asset": "shoulder_img_16",
+          "name": "Pink Jellyfish Aura",
+          "shortDesc": "Dreamy floating aura.",
+          "desc": "A soft light-pink jellyfish aura that creates a dreamy underwater and fantasy-inspired effect."
+        },
+        {
+          "asset": "shoulder_img_17",
+          "name": "Glitch Star Aura",
+          "shortDesc": "Monochrome star effect.",
+          "desc": "A black-and-white glitchy star aura with twinkling effects for a modern cyber aesthetic."
+        },
+        {
+          "asset": "shoulder_img_18",
+          "name": "Money Duffel Bag 3.0",
+          "shortDesc": "Street flex accessory.",
+          "desc": "A duffel bag filled with cash, designed in 3.0 style to give bold streetwear and hustle-core vibes."
+        },
+        {
+          "asset": "shoulder_img_19",
+          "name": "Gothic Angel Wings",
+          "shortDesc": "Dark fantasy wings.",
+          "desc": "Large gothic-style angel wings that add dramatic, edgy, and dark fantasy energy to any outfit."
+        },
+        {
+          "asset": "shoulder_img_2",
+          "name": "Cinnamoroll Kawaii Companion",
+          "shortDesc": "Soft pastel shoulder friend.",
+          "desc": "A sweet Cinnamoroll shoulder companion that adds a soft pastel Sanrio aesthetic with a cute and dreamy vibe."
+        },
+        {
+          "asset": "shoulder_img_20",
+          "name": "Stitch Blue Backpack",
+          "shortDesc": "Playful cartoon backpack.",
+          "desc": "A bright blue backpack inspired by Stitch, adding fun, energetic, and nostalgic cartoon vibes."
+        },
+        {
+          "asset": "shoulder_img_21",
+          "name": "Hello Kitty Kawaii Buddy",
+          "shortDesc": "Classic cute companion.",
+          "desc": "A sweet Hello Kitty shoulder accessory that brings iconic Sanrio cuteness to your outfit."
+        },
+        {
+          "asset": "shoulder_img_22",
+          "name": "Sammy Mini Companion",
+          "shortDesc": "Small cute character.",
+          "desc": "A tiny character named Sammy designed to sit on your shoulder, adding charm and personality."
+        },
+        {
+          "asset": "shoulder_img_23",
+          "name": "Ice Dragon Hatchling",
+          "shortDesc": "",
+          "desc": "A baby ice dragon glowing with frosty aura."
+        },
+        {
+          "asset": "shoulder_img_24",
+          "name": "Urban Spray Drone",
+          "shortDesc": "",
+          "desc": "A street-style drone delivering creative energy."
+        },
+        {
+          "asset": "shoulder_img_25",
+          "name": "Golden Phoenix Spark",
+          "shortDesc": "",
+          "desc": "A tiny phoenix spark symbolizing rebirth and strength."
+        },
+        {
+          "asset": "shoulder_img_26",
+          "name": "Cyber Panther Pet",
+          "shortDesc": "",
+          "desc": "A sleek panther companion with futuristic design."
+        },
+        {
+          "asset": "shoulder_img_27",
+          "name": "Mini Ghost Buddy",
+          "shortDesc": "",
+          "desc": "A cute floating ghost for spooky vibes."
+        },
+        {
+          "asset": "shoulder_img_28",
+          "name": "Diamond Spark Sprite",
+          "shortDesc": "",
+          "desc": "A sparkling diamond sprite with premium shine."
+        },
+        {
+          "asset": "shoulder_img_29",
+          "name": "Storm Thunder Orb",
+          "shortDesc": "",
+          "desc": "A lightning-charged orb delivering electric energy."
+        },
+        {
+          "asset": "shoulder_img_3",
+          "name": "Feathered Angel Wings",
+          "shortDesc": "Light fantasy wing accessory.",
+          "desc": "Soft feathered wings worn on the shoulder, giving a gentle angelic and fantasy-inspired touch."
+        },
+        {
+          "asset": "shoulder_img_30",
+          "name": "Legendary Guardian Spirit",
+          "shortDesc": "",
+          "desc": "An elite guardian spirit built for legendary avatars."
+        },
+        {
+          "asset": "shoulder_img_4",
+          "name": "Sleeping Kitten White 3.0",
+          "shortDesc": "Peaceful white kitten plush.",
+          "desc": "A cozy white kitten curled up asleep, designed in 3.0 style for a soft, calming, and adorable aesthetic."
+        },
+        {
+          "asset": "shoulder_img_5",
+          "name": "Single Angel Wing",
+          "shortDesc": "Minimal wing accent.",
+          "desc": "A simple single-wing shoulder accessory perfect for angelcore, fantasy, or minimalist aesthetic outfits."
+        },
+        {
+          "asset": "shoulder_img_6",
+          "name": "Cupid Angel Wings",
+          "shortDesc": "Romantic soft wings.",
+          "desc": "Delicate wings inspired by Cupid, ideal for dreamy, romantic, and Valentine-themed outfits."
+        },
+        {
+          "asset": "shoulder_img_7",
+          "name": "Mini Cely Companion",
+          "shortDesc": "Tiny cute shoulder buddy.",
+          "desc": "A small charming character designed to sit on the shoulder, adding personality and playful energy."
+        },
+        {
+          "asset": "shoulder_img_8",
+          "name": "Crimson Fantasy Wings",
+          "shortDesc": "Bold red wing accessory.",
+          "desc": "Vibrant red wings that bring dramatic fantasy, devilcore, and bold statement styling."
+        },
+        {
+          "asset": "shoulder_img_9",
+          "name": "Domo Shoulder Buddy",
+          "shortDesc": "Classic cartoon companion.",
+          "desc": "A nostalgic Domo character designed as a shoulder companion, adding fun and retro cartoon vibes."
+        }
+      ]
+    },
+    {
+      "title": "Back",
+      "items": [
+        {
+          "asset": "back_img_1",
+          "name": "Moon Shadow Katana Set",
+          "shortDesc": "Dark moon-themed swords.",
+          "desc": "A sleek set of black katanas inspired by lunar aesthetics, adding powerful anime and warrior energy."
+        },
+        {
+          "asset": "back_img_10",
+          "name": "Pusheen Cozy Companion",
+          "shortDesc": "Soft pastel plush.",
+          "desc": "A Pusheen-themed back accessory that adds warm, cozy, and wholesome pastel vibes."
+        },
+        {
+          "asset": "back_img_11",
+          "name": "Bejeweled Angel Wings",
+          "shortDesc": "Elegant divine wings.",
+          "desc": "Black and white angel wings adorned with jewel details, giving a heavenly and dramatic presence."
+        },
+        {
+          "asset": "back_img_12",
+          "name": "Kawaii Onigiri Costume",
+          "shortDesc": "Cute rice ball outfit.",
+          "desc": "A playful onigiri costume worn on the back, bringing fun Japanese-inspired kawaii energy."
+        },
+        {
+          "asset": "back_img_13",
+          "name": "Spider Lily Wind Umbrella",
+          "shortDesc": "Flowing floral umbrella.",
+          "desc": "A dramatic red spider lily umbrella with a windy effect, adding poetic and elegant motion."
+        },
+        {
+          "asset": "back_img_14",
+          "name": "Fluffy Bunny Plush (Mono)",
+          "shortDesc": "Large soft bunny plush.",
+          "desc": "A big black-and-white bunny plush that adds cozy softness and adorable charm."
+        },
+        {
+          "asset": "back_img_15",
+          "name": "Hourglass Angel Wings",
+          "shortDesc": "Time-themed wings.",
+          "desc": "White and blue angel wings with hourglass symbolism, representing time and celestial elegance."
+        },
+        {
+          "asset": "back_img_16",
+          "name": "Celestial Moon Staff",
+          "shortDesc": "Magical moon staff.",
+          "desc": "A mystical staff with lunar elements, perfect for fantasy, mage, and celestial aesthetics."
+        },
+        {
+          "asset": "back_img_17",
+          "name": "Pastel Pink Bunny Plush",
+          "shortDesc": "Dreamy plush companion.",
+          "desc": "A giant pastel pink bunny plush that brings soft, dreamy, and ultra-cute vibes."
+        },
+        {
+          "asset": "back_img_18",
+          "name": "Y2K Heart Glow Aura",
+          "shortDesc": "Pink glowing hearts.",
+          "desc": "A glowing back aura with airbrushed hearts and confetti, inspired by Y2K aesthetics."
+        },
+        {
+          "asset": "back_img_19",
+          "name": "Money Flex Aura",
+          "shortDesc": "Luxury glow effect.",
+          "desc": "A flashy aura filled with money visuals, symbolizing wealth, flex culture, and bold style."
+        },
+        {
+          "asset": "back_img_2",
+          "name": "Cat Army Chaos",
+          "shortDesc": "Playful cat swarm.",
+          "desc": "A fun back accessory featuring a swarm of cats, bringing chaotic, cute, and meme-worthy energy."
+        },
+        {
+          "asset": "back_img_20",
+          "name": "Spider Kitty Backpack",
+          "shortDesc": "Cute hybrid plush bag.",
+          "desc": "A quirky backpack combining spider and cat elements, blending creepy-cute aesthetics."
+        },
+        {
+          "asset": "back_img_21",
+          "name": "Blahaj Shark Plush",
+          "shortDesc": "Iconic soft shark.",
+          "desc": "A cuddly shark plush worn on the back, known for its cozy, comforting, and iconic vibe."
+        },
+        {
+          "asset": "back_img_22",
+          "name": "Monster Backpack 3.0",
+          "shortDesc": "Creepy-cute green bag.",
+          "desc": "A 3.0 off-shoulder backpack featuring a playful green monster design with spooky charm."
+        },
+        {
+          "asset": "back_img_23",
+          "name": "Fairy Wings Classic",
+          "shortDesc": "Light magical wings.",
+          "desc": "Delicate fairy wings that add a soft, magical, and whimsical touch to your outfit."
+        },
+        {
+          "asset": "back_img_24",
+          "name": "Stickered Guitar Case",
+          "shortDesc": "Indie music accessory.",
+          "desc": "A black guitar case covered in stickers, perfect for indie, musician, and street-style aesthetics."
+        },
+        {
+          "asset": "back_img_25",
+          "name": "Urban Sling Pack",
+          "shortDesc": "",
+          "desc": "A modern cross-sling bag with stylish street appeal."
+        },
+        {
+          "asset": "back_img_26",
+          "name": "Floral Fairy Wings",
+          "shortDesc": "",
+          "desc": "Light fairy-style wings with soft floral design."
+        },
+        {
+          "asset": "back_img_27",
+          "name": "Dark Phantom Back",
+          "shortDesc": "",
+          "desc": "A shadowy phantom accessory for intense avatars."
+        },
+        {
+          "asset": "back_img_28",
+          "name": "Elite Commander Cape",
+          "shortDesc": "",
+          "desc": "A bold commander cape delivering leadership vibes."
+        },
+        {
+          "asset": "back_img_29",
+          "name": "Tech Jet Booster",
+          "shortDesc": "",
+          "desc": "A futuristic jet booster pack with dynamic style."
+        },
+        {
+          "asset": "back_img_3",
+          "name": "Red Lily Wind Umbrella",
+          "shortDesc": "Elegant Japanese umbrella.",
+          "desc": "A flowing umbrella inspired by red spider lilies, creating a graceful and traditional aesthetic."
+        },
+        {
+          "asset": "back_img_30",
+          "name": "Legendary Aura Wings",
+          "shortDesc": "",
+          "desc": "Ultimate legendary wings radiating powerful energy."
+        },
+        {
+          "asset": "back_img_4",
+          "name": "Royal Crimson Butterfly Wings",
+          "shortDesc": "Dark regal wings.",
+          "desc": "Large black and red butterfly wings with a royal fantasy feel, perfect for dramatic styling."
+        },
+        {
+          "asset": "back_img_5",
+          "name": "Spider Hero Skateboard",
+          "shortDesc": "Hero-style skateboard.",
+          "desc": "A bold skateboard inspired by superhero aesthetics, blending streetwear with comic energy."
+        },
+        {
+          "asset": "back_img_6",
+          "name": "Dual Layer Back Effect",
+          "shortDesc": "Layered visual accessory.",
+          "desc": "A unique back item designed with a double-layer illusion, adding depth and standout visuals."
+        },
+        {
+          "asset": "back_img_7",
+          "name": "Axolotl Hammer Buddy",
+          "shortDesc": "Cute creature hammer.",
+          "desc": "A playful hammer featuring an adorable axolotl design, mixing soft aesthetics with fun energy."
+        },
+        {
+          "asset": "back_img_8",
+          "name": "Catboy Maid Trio",
+          "shortDesc": "Anime cutout accessory.",
+          "desc": "A quirky back piece featuring three catboy maid characters, blending anime culture with humor."
+        },
+        {
+          "asset": "back_img_9",
+          "name": "Preppy School Backpack 3.0",
+          "shortDesc": "Clean modern backpack.",
+          "desc": "A stylish 3.0 school backpack with a neat preppy design, ideal for everyday casual looks."
+        }
+      ]
+    },
+    {
+      "title": "Front",
+      "items": [
+        {
+          "asset": "front_img_1",
+          "name": "Street Skateboard Front Gear",
+          "shortDesc": "Sporty skateboard accessory.",
+          "desc": "A sleek skateboard worn on the front, adding bold streetwear energy and skater-inspired attitude."
+        },
+        {
+          "asset": "front_img_10",
+          "name": "Foxy Plush Companion",
+          "shortDesc": "Cute fox plush.",
+          "desc": "A soft fox plush worn on the front, adding cozy warmth and playful charm."
+        },
+        {
+          "asset": "front_img_11",
+          "name": "Emo Chain Tie Set",
+          "shortDesc": "Striped emo tie accessory.",
+          "desc": "A bold black-and-red striped tie with chain details and collar, inspired by emo and alt fashion."
+        },
+        {
+          "asset": "front_img_12",
+          "name": "Black Ruffle Pearl Set 3.0",
+          "shortDesc": "Elegant gothic coquette set.",
+          "desc": "A black ruffled outfit with pearl accents, blending gothic elegance with coquette charm."
+        },
+        {
+          "asset": "front_img_13",
+          "name": "Soft Plush Accent",
+          "shortDesc": "Simple cute plush.",
+          "desc": "A minimal plush accessory that adds subtle comfort and softness to your look."
+        },
+        {
+          "asset": "front_img_14",
+          "name": "Gothic Scarf 3.0",
+          "shortDesc": "Enhanced gothic scarf.",
+          "desc": "An upgraded gothic scarf with richer textures and deeper tones for a more refined dark aesthetic."
+        },
+        {
+          "asset": "front_img_15",
+          "name": "Torso Survival Knife",
+          "shortDesc": "Dark edgy accessory.",
+          "desc": "A dramatic front accessory featuring a survival knife, perfect for horrorcore and intense styling."
+        },
+        {
+          "asset": "front_img_16",
+          "name": "Pink Feather Boa 3.0",
+          "shortDesc": "Fluffy glam accessory.",
+          "desc": "A soft pink feather boa that adds glamour, elegance, and bold fashion flair."
+        },
+        {
+          "asset": "front_img_17",
+          "name": "Capybara Plaid Purse",
+          "shortDesc": "Cute animal-themed bag.",
+          "desc": "A cozy plaid purse featuring a capybara design, blending cottagecore warmth with adorable charm."
+        },
+        {
+          "asset": "front_img_18",
+          "name": "Y2K Loose Grunge Tie",
+          "shortDesc": "Messy street-style tie.",
+          "desc": "A loosely worn black-and-red tie inspired by Y2K grunge and emo aesthetics."
+        },
+        {
+          "asset": "front_img_19",
+          "name": "Retro Walkman 3.0",
+          "shortDesc": "Nostalgic music accessory.",
+          "desc": "A Y2K-inspired Walkman that brings retro music vibes and vintage aesthetic energy."
+        },
+        {
+          "asset": "front_img_2",
+          "name": "Kawaii Heart Guitar",
+          "shortDesc": "Cute bow guitar accessory.",
+          "desc": "A heart-shaped guitar with a bow detail, perfect for idol-core, kawaii, and playful music aesthetics."
+        },
+        {
+          "asset": "front_img_20",
+          "name": "Fry Box Costume",
+          "shortDesc": "Fun novelty outfit.",
+          "desc": "A playful front costume shaped like a fry box, perfect for humor and quirky styling."
+        },
+        {
+          "asset": "front_img_21",
+          "name": "Demon Hunter Sword",
+          "shortDesc": "Fantasy weapon accessory.",
+          "desc": "A powerful sword inspired by K-pop demon hunter aesthetics, adding bold fantasy energy."
+        },
+        {
+          "asset": "front_img_22",
+          "name": "Front Baby Carrier",
+          "shortDesc": "Realistic roleplay item.",
+          "desc": "A front-worn baby carrier that adds a touch of realism and cozy roleplay vibes."
+        },
+        {
+          "asset": "front_img_23",
+          "name": "Glitch TV Static Aura",
+          "shortDesc": "Animated cyber overlay.",
+          "desc": "A white glitch overlay with TV static effects, perfect for experimental and cyber aesthetics."
+        },
+        {
+          "asset": "front_img_24",
+          "name": "Gothic Layered Dress 3.0",
+          "shortDesc": "Dark layered outfit.",
+          "desc": "A 3.0 outfit combining a black top with a striped dress, delivering gothic elegance with edge."
+        },
+        {
+          "asset": "front_img_25",
+          "name": "Cinnamoroll Hug Crossbag",
+          "shortDesc": "Cute Sanrio bag.",
+          "desc": "A cozy crossbody bag featuring Cinnamoroll hugging the front, full of kawaii charm."
+        },
+        {
+          "asset": "front_img_26",
+          "name": "Ribbon Phone Necklace",
+          "shortDesc": "Cute phone strap accessory.",
+          "desc": "A stylish phone necklace decorated with black and pink ribbons, perfect for Y2K and coquette looks."
+        },
+        {
+          "asset": "front_img_27",
+          "name": "White Tech Side Bag 3.0",
+          "shortDesc": "Modern streetwear bag.",
+          "desc": "A sleek white side bag paired with headphones, blending techwear and casual street style."
+        },
+        {
+          "asset": "front_img_28",
+          "name": "Harajuku Denim Bag 3.0",
+          "shortDesc": "Vintage street-style bag.",
+          "desc": "A thrifted-inspired denim bag influenced by Harajuku fashion and vintage streetwear."
+        },
+        {
+          "asset": "front_img_29",
+          "name": "Y2K Luxe Designer Bag",
+          "shortDesc": "Luxury-inspired accessory.",
+          "desc": "A glamorous 2000s-style designer bag, bringing high-fashion Y2K energy to your outfit."
+        },
+        {
+          "asset": "front_img_3",
+          "name": "Pink Ruffle Bow Dress 3.0",
+          "shortDesc": "Soft doll-style dress.",
+          "desc": "A kawaii pink dress with layered ruffles and bows, designed in 3.0 style for a dreamy, doll-like look."
+        },
+        {
+          "asset": "front_img_30",
+          "name": "Yellow Floral Cottage Dress 3.0",
+          "shortDesc": "Soft cottagecore dress.",
+          "desc": "A floral yellow dress with ruffles, designed in 3.0 style for a romantic cottagecore aesthetic."
+        },
+        {
+          "asset": "front_img_4",
+          "name": "Cinnamoroll Sweet Charm",
+          "shortDesc": "Soft Sanrio front accessory.",
+          "desc": "A cute Cinnamoroll-themed front piece that adds pastel tones and iconic Sanrio sweetness."
+        },
+        {
+          "asset": "front_img_5",
+          "name": "Cursed Flame Aura",
+          "shortDesc": "Dark mystical flame effect.",
+          "desc": "A haunting flame effect across the front, creating a cursed, supernatural, and edgy fantasy vibe."
+        },
+        {
+          "asset": "front_img_6",
+          "name": "Magic Star Wand",
+          "shortDesc": "Cute magical accessory.",
+          "desc": "A star-tipped wand that brings magical girl, fairycore, and fantasy aesthetics to life."
+        },
+        {
+          "asset": "front_img_7",
+          "name": "Minimal Earbuds Accessory",
+          "shortDesc": "Casual tech front item.",
+          "desc": "A simple pair of earbuds that adds a relaxed, modern, and music-inspired style."
+        },
+        {
+          "asset": "front_img_8",
+          "name": "Classic Gothic Scarf",
+          "shortDesc": "Dark aesthetic scarf.",
+          "desc": "A gothic-style scarf with deep tones, perfect for dramatic and edgy outfit layering."
+        },
+        {
+          "asset": "front_img_9",
+          "name": "Cherry Elegance Dress",
+          "shortDesc": "Soft red romantic dress.",
+          "desc": "A delicate cherry-red dress with a graceful silhouette, giving romantic and elegant vibes."
+        }
+      ]
+    },
+    {
+      "title": "Shoes",
+      "items": [
+        {
+          "asset": "shoes_img_1",
+          "name": "Brat Style Heels",
+          "shortDesc": "Bold heels with edgy fashion vibe",
+          "desc": "Statement high heels inspired by bold pop aesthetics. Designed for confident looks with a striking and edgy appeal."
+        },
+        {
+          "asset": "shoes_img_10",
+          "name": "Zebra Print Flats",
+          "shortDesc": "Bold flats with animal pattern",
+          "desc": "Stylish flat shoes featuring a zebra print design. Perfect for adding a playful statement."
+        },
+        {
+          "asset": "shoes_img_11",
+          "name": "Silver Slip-On Mules",
+          "shortDesc": "Modern mules with metallic finish",
+          "desc": "Sleek slip-on mules in a silver tone. Combines comfort with a stylish, futuristic look."
+        },
+        {
+          "asset": "shoes_img_12",
+          "name": "Classic Preppy Sneakers",
+          "shortDesc": "Clean sneakers with timeless style",
+          "desc": "Casual sneakers inspired by preppy fashion. Designed for comfort with a clean, versatile look."
+        },
+        {
+          "asset": "shoes_img_13",
+          "name": "Black Casual Flip Flops",
+          "shortDesc": "Lightweight footwear for daily use",
+          "desc": "Simple black flip flops designed for relaxed wear. Perfect for beach, home, or casual outings."
+        },
+        {
+          "asset": "shoes_img_14",
+          "name": "Vintage Aesthetic Shoes",
+          "shortDesc": "Soft retro-inspired footwear",
+          "desc": "Shoes with a dreamy vintage aesthetic. Ideal for expressive outfits with a soft, artistic touch."
+        },
+        {
+          "asset": "shoes_img_15",
+          "name": "Royal Blue High Tops",
+          "shortDesc": "",
+          "desc": "Bold blue high-top sneakers with confident presence."
+        },
+        {
+          "asset": "shoes_img_16",
+          "name": "Firestorm Boots",
+          "shortDesc": "",
+          "desc": "Heavy boots designed for powerful and fierce styling."
+        },
+        {
+          "asset": "shoes_img_17",
+          "name": "Minimal Black Sneakers",
+          "shortDesc": "",
+          "desc": "Clean black sneakers offering modern minimal fashion."
+        },
+        {
+          "asset": "shoes_img_18",
+          "name": "Cyber Tech Shoes",
+          "shortDesc": "",
+          "desc": "A futuristic shoe design with digital tech vibes."
+        },
+        {
+          "asset": "shoes_img_19",
+          "name": "Classic Slip-Ons",
+          "shortDesc": "",
+          "desc": "Easy slip-on sneakers for casual and comfortable looks."
+        },
+        {
+          "asset": "shoes_img_2",
+          "name": "Classic Brown Dress Shoes",
+          "shortDesc": "Elegant shoes for formal wear",
+          "desc": "Timeless brown dress shoes crafted for formal occasions. Clean design with a polished and refined finish."
+        },
+        {
+          "asset": "shoes_img_20",
+          "name": "Galaxy Print Runners",
+          "shortDesc": "",
+          "desc": "Cosmic-inspired shoes glowing with star energy."
+        },
+        {
+          "asset": "shoes_img_21",
+          "name": "Bold Red High Tops",
+          "shortDesc": "",
+          "desc": "Vibrant red high-top sneakers built to stand out."
+        },
+        {
+          "asset": "shoes_img_22",
+          "name": "Premium Leather Boots",
+          "shortDesc": "",
+          "desc": "Stylish leather boots delivering strong and classy vibes."
+        },
+        {
+          "asset": "shoes_img_23",
+          "name": "Urban Flex Sneakers",
+          "shortDesc": "",
+          "desc": "Flexible and trendy sneakers made for street style."
+        },
+        {
+          "asset": "shoes_img_24",
+          "name": "Storm Grey Runners",
+          "shortDesc": "",
+          "desc": "Grey running shoes offering balanced and cool fashion."
+        },
+        {
+          "asset": "shoes_img_25",
+          "name": "Diamond Shine Sneakers",
+          "shortDesc": "",
+          "desc": "Sparkling sneakers with premium shine and bold identity."
+        },
+        {
+          "asset": "shoes_img_26",
+          "name": "Battle Ready Boots",
+          "shortDesc": "",
+          "desc": "Heavy-duty boots designed for fearless avatars."
+        },
+        {
+          "asset": "shoes_img_27",
+          "name": "Soft Pastel Shoes",
+          "shortDesc": "",
+          "desc": "Light pastel-toned sneakers for cute aesthetic looks."
+        },
+        {
+          "asset": "shoes_img_28",
+          "name": "Savage Street Boots",
+          "shortDesc": "",
+          "desc": "Aggressive street boots built for dominant presence."
+        },
+        {
+          "asset": "shoes_img_29",
+          "name": "Golden Edge Trainers",
+          "shortDesc": "",
+          "desc": "Premium trainers featuring stylish golden accents."
+        },
+        {
+          "asset": "shoes_img_3",
+          "name": "Black Everyday Flats",
+          "shortDesc": "Simple flats for all-day comfort",
+          "desc": "Versatile black flat shoes designed for daily wear. Comfortable and easy to pair with any outfit."
+        },
+        {
+          "asset": "shoes_img_30",
+          "name": "Legendary Aura Shoes",
+          "shortDesc": "",
+          "desc": "Elite footwear radiating legendary avatar energy."
+        },
+        {
+          "asset": "shoes_img_4",
+          "name": "Modern Luxe Sneakers",
+          "shortDesc": "Sleek shoes with premium feel",
+          "desc": "Stylish sneakers with a clean and modern silhouette. Perfect for casual wear with a luxury-inspired edge."
+        },
+        {
+          "asset": "shoes_img_5",
+          "name": "Blue Casual Flats",
+          "shortDesc": "Comfortable flats with soft color",
+          "desc": "Relaxed blue flats designed for everyday comfort. Adds a subtle pop of color to casual outfits."
+        },
+        {
+          "asset": "shoes_img_6",
+          "name": "Performance Sports Shoes",
+          "shortDesc": "Athletic shoes with bold design",
+          "desc": "High-performance sports shoes built for speed and comfort. Ideal for active wear or sporty street style."
+        },
+        {
+          "asset": "shoes_img_7",
+          "name": "Military Combat Boots",
+          "shortDesc": "Rugged boots with strong build",
+          "desc": "Durable military-style boots designed for a tough and edgy look. Perfect for rugged fashion."
+        },
+        {
+          "asset": "shoes_img_8",
+          "name": "Black Fur Winter Boots",
+          "shortDesc": "Warm boots with cozy lining",
+          "desc": "Soft black boots lined with plush fur for warmth and comfort. Ideal for cold weather styling."
+        },
+        {
+          "asset": "shoes_img_9",
+          "name": "Classic High-Top Sneakers",
+          "shortDesc": "Casual sneakers with street style",
+          "desc": "Timeless high-top sneakers offering comfort and a strong streetwear vibe for everyday outfits."
+        }
+      ]
+    },
+    {
+      "title": "Gear",
+      "items": [
+        {
+          "asset": "gear_img_1",
+          "name": "Bloxy Cola Blaster",
+          "shortDesc": "Classic soda-inspired gear",
+          "desc": "A fun and iconic gear item inspired by Bloxy Cola, delivering a playful and nostalgic in-game style."
+        },
+        {
+          "asset": "gear_img_10",
+          "name": "Heavy Claymore",
+          "shortDesc": "Two-handed greatsword",
+          "desc": "A massive two-handed claymore designed for powerful strikes and a commanding battlefield presence."
+        },
+        {
+          "asset": "gear_img_11",
+          "name": "Feline Rock Guitar",
+          "shortDesc": "Cat-themed musical gear",
+          "desc": "A fun guitar shaped like a rocking feline, blending music, attitude, and playful creativity."
+        },
+        {
+          "asset": "gear_img_12",
+          "name": "Titan Blade",
+          "shortDesc": "Oversized power sword",
+          "desc": "An enormous blade that delivers dramatic visuals and devastating power in combat."
+        },
+        {
+          "asset": "gear_img_13",
+          "name": "Rolling Pin Smacker",
+          "shortDesc": "Comedic melee weapon",
+          "desc": "A humorous gear item using a rolling pin as a weapon, combining comedy with surprising impact."
+        },
+        {
+          "asset": "gear_img_14",
+          "name": "Authority Breaker",
+          "shortDesc": "Dark power-themed weapon",
+          "desc": "A bold and dramatic gear item symbolizing rebellion and strength, designed for intense gameplay moments."
+        },
+        {
+          "asset": "gear_img_15",
+          "name": "Bluster Blaster",
+          "shortDesc": "Wind force cannon",
+          "desc": "A blaster-style gear that uses powerful gusts of wind to push back enemies with explosive force."
+        },
+        {
+          "asset": "gear_img_16",
+          "name": "Explosive Bow",
+          "shortDesc": "Fire-powered archery gear",
+          "desc": "A bow and arrow set infused with explosive energy, combining precision shooting with fiery impact."
+        },
+        {
+          "asset": "gear_img_17",
+          "name": "Training Wooden Sword",
+          "shortDesc": "Basic practice weapon",
+          "desc": "A simple wooden sword ideal for training, roleplay, or lightweight combat scenarios."
+        },
+        {
+          "asset": "gear_img_18",
+          "name": "Dragon Flame Sword",
+          "shortDesc": "Fire-infused legendary blade",
+          "desc": "A legendary sword engulfed in dragon flames, delivering powerful fiery attacks and epic visuals."
+        },
+        {
+          "asset": "gear_img_19",
+          "name": "Caltrops Trap",
+          "shortDesc": "Ground spike trap gear",
+          "desc": "A tactical gear item that scatters sharp caltrops on the ground to slow or damage approaching enemies."
+        },
+        {
+          "asset": "gear_img_2",
+          "name": "Orc Battle Gear",
+          "shortDesc": "Savage orc combat equipment",
+          "desc": "Rugged gear designed with an orcish theme, featuring a raw and powerful look built for intense battles."
+        },
+        {
+          "asset": "gear_img_20",
+          "name": "Batwing Scythe",
+          "shortDesc": "Dark gothic weapon",
+          "desc": "A sinister scythe decorated with bat-like elements, perfect for spooky and gothic-themed combat."
+        },
+        {
+          "asset": "gear_img_21",
+          "name": "Phantom Blade",
+          "shortDesc": "",
+          "desc": "A mysterious blade that moves like a shadow."
+        },
+        {
+          "asset": "gear_img_22",
+          "name": "Rocket Launcher",
+          "shortDesc": "",
+          "desc": "A heavy launcher built for massive battlefield impact."
+        },
+        {
+          "asset": "gear_img_23",
+          "name": "Storm Breaker",
+          "shortDesc": "",
+          "desc": "A legendary weapon capable of summoning storms."
+        },
+        {
+          "asset": "gear_img_24",
+          "name": "Guardian Hammer",
+          "shortDesc": "",
+          "desc": "A protective hammer symbolizing defense and strength."
+        },
+        {
+          "asset": "gear_img_25",
+          "name": "Toxic Blaster",
+          "shortDesc": "",
+          "desc": "A weapon releasing toxic energy to weaken enemies."
+        },
+        {
+          "asset": "gear_img_26",
+          "name": "Solar Blade",
+          "shortDesc": "",
+          "desc": "A bright blade powered by solar energy bursts."
+        },
+        {
+          "asset": "gear_img_27",
+          "name": "Stealth Smoke Bomb",
+          "shortDesc": "",
+          "desc": "A tactical smoke bomb for quick escapes."
+        },
+        {
+          "asset": "gear_img_28",
+          "name": "Cyber Shield",
+          "shortDesc": "",
+          "desc": "A high-tech shield with glowing digital effects."
+        },
+        {
+          "asset": "gear_img_29",
+          "name": "Titan Crusher",
+          "shortDesc": "",
+          "desc": "A massive crushing weapon built for heavy combat."
+        },
+        {
+          "asset": "gear_img_3",
+          "name": "Bloxy Cola Launcher",
+          "shortDesc": "Upgraded soda-themed gear",
+          "desc": "An enhanced Bloxy-inspired gear variant with a more dynamic and energetic feel for playful combat moments."
+        },
+        {
+          "asset": "gear_img_30",
+          "name": "Legendary War Blade",
+          "shortDesc": "",
+          "desc": "An ultimate war blade crafted for true champions."
+        },
+        {
+          "asset": "gear_img_4",
+          "name": "Speed Coil",
+          "shortDesc": "Movement boost gear",
+          "desc": "A coil-style gear that enhances movement speed, perfect for fast-paced gameplay and quick escapes."
+        },
+        {
+          "asset": "gear_img_5",
+          "name": "Elven Glory Blade",
+          "shortDesc": "Elegant enchanted sword",
+          "desc": "A finely crafted blade inspired by elven design, combining elegance, magic, and legendary combat power."
+        },
+        {
+          "asset": "gear_img_6",
+          "name": "Chimp Companion",
+          "shortDesc": "Friendly pet companion",
+          "desc": "A cute chimp companion that follows along, adding charm, fun, and personality to your adventures."
+        },
+        {
+          "asset": "gear_img_7",
+          "name": "Tactical Flashlight",
+          "shortDesc": "Utility light gear",
+          "desc": "A practical flashlight used to illuminate dark areas, combining functionality with immersive exploration."
+        },
+        {
+          "asset": "gear_img_8",
+          "name": "Balloon Bundle",
+          "shortDesc": "Colorful floating gear",
+          "desc": "A bunch of bright balloons that lift the mood and add a playful, floaty visual effect to your character."
+        },
+        {
+          "asset": "gear_img_9",
+          "name": "Spartan War Sword",
+          "shortDesc": "Heroic battle sword",
+          "desc": "A strong and heroic sword inspired by Spartan warriors, built for honor and close-range combat."
+        }
+      ]
+    },
+    {
+      "title": "Heads",
+      "items": [
+        {
+          "asset": "head1_img_1",
+          "name": "Animated Red Demon Eyes",
+          "shortDesc": "Cute demon face with glowing eyes",
+          "desc": "A stylized demon head with soft, cute proportions and animated red glowing eyes that follow the viewer, blending playful mischief with supernatural charm."
+        },
+        {
+          "asset": "head1_img_10",
+          "name": "Side Eye Girl",
+          "shortDesc": "Skeptical side glance",
+          "desc": "A sharp side-eye expression that conveys judgment, disbelief, or subtle attitude."
+        },
+        {
+          "asset": "head1_img_11",
+          "name": "Y2K Star Chibi Face",
+          "shortDesc": "Retro kawaii happy face",
+          "desc": "A Y2K-inspired chibi face with star elements and a bright joyful expression, full of nostalgic charm."
+        },
+        {
+          "asset": "head1_img_12",
+          "name": "Excited Happy Face",
+          "shortDesc": "Energetic joyful expression",
+          "desc": "A lively face with raised features and bright emotion, perfect for excitement and celebration."
+        },
+        {
+          "asset": "head1_img_13",
+          "name": "Skeleton Thinker Head",
+          "shortDesc": "Skull with hand gesture",
+          "desc": "A stylized skeleton head with a thoughtful pose, blending eerie aesthetics with artistic expression."
+        },
+        {
+          "asset": "head1_img_14",
+          "name": "Tired Chibi Face",
+          "shortDesc": "Sleepy cute expression",
+          "desc": "A soft chibi face with droopy eyes, expressing calmness, fatigue, or cozy relaxation."
+        },
+        {
+          "asset": "head1_img_15",
+          "name": "Smug Heart Chibi",
+          "shortDesc": "Cute confident expression",
+          "desc": "A chibi face with a playful smug look and heart accents, showing teasing confidence and charm."
+        },
+        {
+          "asset": "head1_img_16",
+          "name": "Crying Chibi Face",
+          "shortDesc": "Sad emotional expression",
+          "desc": "An expressive chibi face with exaggerated tears, capturing sadness and emotional vulnerability."
+        },
+        {
+          "asset": "head1_img_17",
+          "name": "Animated Shy Face",
+          "shortDesc": "Cute shy face with tracking eyes",
+          "desc": "A gentle face with blushing cheeks and animated eyes that follow movement, highlighting sweetness and shyness."
+        },
+        {
+          "asset": "head1_img_18",
+          "name": "Shadow Face",
+          "shortDesc": "Minimal dark expression",
+          "desc": "A mysterious face hidden in shadow, ideal for dramatic or anonymous character styles."
+        },
+        {
+          "asset": "head1_img_19",
+          "name": "Cheeky Smile Face",
+          "shortDesc": "Warm cheek-focused smile",
+          "desc": "A cute face defined by lifted cheeks and a soft smile, creating a friendly and approachable look."
+        },
+        {
+          "asset": "head1_img_2",
+          "name": "Shadow Angel Blue Eyes",
+          "shortDesc": "Mystical angel face in shadow",
+          "desc": "A serene angelic head partially hidden in darkness, featuring calm features and glowing blue eyes that radiate quiet power."
+        },
+        {
+          "asset": "head1_img_20",
+          "name": "Preppy Makeup Face",
+          "shortDesc": "Trendy stylish expression",
+          "desc": "A polished face with neat makeup and modern aesthetics, blending fashion with cuteness."
+        },
+        {
+          "asset": "head1_img_21",
+          "name": "Kawaii Cat Eyes",
+          "shortDesc": "Cute anime eye focus",
+          "desc": "A face centered on oversized cat-like anime eyes, expressing curiosity and playful innocence."
+        },
+        {
+          "asset": "head1_img_22",
+          "name": "Mischief Cat Face",
+          "shortDesc": "Playful edgy cat expression",
+          "desc": "A cute cat-inspired face with a mischievous twist, blending innocence with cheeky humor."
+        },
+        {
+          "asset": "head1_img_23",
+          "name": "Super Happy Face",
+          "shortDesc": "Extreme joyful expression",
+          "desc": "An exaggerated happy face designed to show maximum excitement, energy, and positivity."
+        },
+        {
+          "asset": "head1_img_3",
+          "name": "Shadow Demon Red Eyes",
+          "shortDesc": "Dark demon face with intense glow",
+          "desc": "A shadowed demon head with piercing red glowing eyes, delivering a mysterious and intimidating presence."
+        },
+        {
+          "asset": "head1_img_4",
+          "name": "Silly Smile Plus",
+          "shortDesc": "Exaggerated goofy grin",
+          "desc": "A playful head featuring an over-the-top smile, perfect for humorous and carefree expressions."
+        },
+        {
+          "asset": "head1_img_5",
+          "name": "Festive Kawaii Star Face",
+          "shortDesc": "Cute holiday chibi face",
+          "desc": "A cheerful chibi-style face with star accents and festive vibes, designed to express joy and sweetness."
+        },
+        {
+          "asset": "head1_img_6",
+          "name": "Animated Blue Angel Eyes",
+          "shortDesc": "Cute angel face with tracking eyes",
+          "desc": "A soft angelic head with glowing blue eyes that follow movement, creating a magical and friendly presence."
+        },
+        {
+          "asset": "head1_img_7",
+          "name": "Silly Smile Classic",
+          "shortDesc": "Simple playful grin",
+          "desc": "A relaxed and friendly smile expression, great for casual and lighthearted moods."
+        },
+        {
+          "asset": "head1_img_8",
+          "name": "Blushing Side Eye",
+          "shortDesc": "Annoyed yet shy expression",
+          "desc": "A side-eye expression combined with a soft blush, suggesting embarrassment mixed with playful irritation."
+        },
+        {
+          "asset": "head1_img_9",
+          "name": "Shocked Crying Face",
+          "shortDesc": "Emotional surprise expression",
+          "desc": "A dramatic face with wide eyes and tears, capturing shock and overwhelming emotion."
+        },
+        {
+          "asset": "head_cheeks",
+          "name": "Cheeks Head",
+          "shortDesc": "",
+          "desc": "A soft rounded head shape with fuller cheeks, giving a friendly and youthful appearance."
+        },
+        {
+          "asset": "head_chiseled",
+          "name": "Chiseled Head",
+          "shortDesc": "",
+          "desc": "A sharp and defined facial structure designed for strong and confident avatars."
+        },
+        {
+          "asset": "head_img_1",
+          "name": "Shark Beanie",
+          "shortDesc": "Cute beanie with playful design",
+          "desc": "A soft light-blue beanie featuring fun shark details, perfect for cozy and playful streetwear looks."
+        },
+        {
+          "asset": "head_img_10",
+          "name": "Kitty Gaming Headset",
+          "shortDesc": "Cute headset with tech vibe",
+          "desc": "A stylish headset featuring cat ears, blending gaming aesthetics with playful design."
+        },
+        {
+          "asset": "head_img_11",
+          "name": "Punk Goggles",
+          "shortDesc": "Edgy goggles with alt style",
+          "desc": "Black tilted goggles inspired by punk and cyber fashion, perfect for bold outfits."
+        },
+        {
+          "asset": "head_img_12",
+          "name": "Soft Glam Makeup",
+          "shortDesc": "Dreamy makeup-style head detail",
+          "desc": "A soft aesthetic featuring fluffy lashes and glossy lips for a sleepy, delicate look."
+        },
+        {
+          "asset": "head_img_13",
+          "name": "Grunge Y2K Cap",
+          "shortDesc": "Distressed cap with street vibe",
+          "desc": "A washed and pierced cap inspired by early-2000s grunge and Y2K streetwear."
+        },
+        {
+          "asset": "head_img_14",
+          "name": "Pink Ribbon Bow",
+          "shortDesc": "Large bow with cute style",
+          "desc": "A pastel pink ribbon bow designed for a soft, coquette-inspired aesthetic."
+        },
+        {
+          "asset": "head_img_15",
+          "name": "Strawberry Leaf Crown",
+          "shortDesc": "Playful nature-inspired headpiece",
+          "desc": "A whimsical accessory inspired by strawberry leaves, adding a fun and fairy-like touch."
+        },
+        {
+          "asset": "head_img_16",
+          "name": "Cartoon Headpiece",
+          "shortDesc": "Fun character-inspired accessory",
+          "desc": "A playful head item inspired by nostalgic cartoon themes for a cheerful look."
+        },
+        {
+          "asset": "head_img_17",
+          "name": "Street Fitted Cap",
+          "shortDesc": "Classic cap with urban style",
+          "desc": "A black fitted cap worn tilted, designed for confident and modern streetwear outfits."
+        },
+        {
+          "asset": "head_img_18",
+          "name": "Graffiti Makeup",
+          "shortDesc": "Urban-style makeup detail",
+          "desc": "A bold makeup-inspired accessory with graffiti elements, perfect for artistic looks."
+        },
+        {
+          "asset": "head_img_19",
+          "name": "White Ribbon Bow",
+          "shortDesc": "Clean bow with soft aesthetic",
+          "desc": "A large white ribbon bow for a simple, elegant, and cute head accessory."
+        },
+        {
+          "asset": "head_img_2",
+          "name": "Dark Horns",
+          "shortDesc": "Minimal horns with edgy vibe",
+          "desc": "Simple black horn accessories designed for gothic, demon-core, or alternative styling."
+        },
+        {
+          "asset": "head_img_20",
+          "name": "Festive Crown",
+          "shortDesc": "Decorative crown for events",
+          "desc": "A stylish crown designed for celebrations, adding a festive and standout touch."
+        },
+        {
+          "asset": "head_img_21",
+          "name": "Panda Plush Ears",
+          "shortDesc": "Soft ears with cute design",
+          "desc": "Adorable panda ear clips made with plush material for a cozy and playful vibe."
+        },
+        {
+          "asset": "head_img_22",
+          "name": "Pink Heart Tiara",
+          "shortDesc": "Cute tiara with soft details",
+          "desc": "A pastel pink tiara featuring heart accents, perfect for princess and babycore aesthetics."
+        },
+        {
+          "asset": "head_img_23",
+          "name": "Beige Y2K Headphones",
+          "shortDesc": "Retro headphones with clean look",
+          "desc": "Neutral-toned headphones inspired by Y2K tech fashion for a nostalgic yet modern feel."
+        },
+        {
+          "asset": "head_img_24",
+          "name": "Pearl Blossom Dangles",
+          "shortDesc": "Elegant floral head detail",
+          "desc": "Soft pink pearl dangles with floral design, adding a delicate and feminine touch."
+        },
+        {
+          "asset": "head_img_25",
+          "name": "Propeller Kidcore Cap",
+          "shortDesc": "Colorful cap with playful vibe",
+          "desc": "A fun propeller hat inspired by kidcore fashion, full of nostalgia and bright energy."
+        },
+        {
+          "asset": "head_img_26",
+          "name": "Ski Goggles",
+          "shortDesc": "Sporty goggles with tech style",
+          "desc": "White ski goggles styled on the head, perfect for cyber, Y2K, or winter-inspired outfits."
+        },
+        {
+          "asset": "head_img_27",
+          "name": "Titan Power Head",
+          "shortDesc": "",
+          "desc": "A strong titan-inspired head radiating dominance."
+        },
+        {
+          "asset": "head_img_28",
+          "name": "Smooth Glow Head",
+          "shortDesc": "",
+          "desc": "A softly glowing head crafted for elegant avatars."
+        },
+        {
+          "asset": "head_img_29",
+          "name": "Elite Commander Head",
+          "shortDesc": "",
+          "desc": "A commanding head structure built for leaders."
+        },
+        {
+          "asset": "head_img_3",
+          "name": "Jeweled Fantasy Horns",
+          "shortDesc": "Decorative horns with luxe detail",
+          "desc": "Elegant black and white horns adorned with jewels, creating a mystical and powerful aesthetic."
+        },
+        {
+          "asset": "head_img_30",
+          "name": "Ultimate Legend Head",
+          "shortDesc": "",
+          "desc": "A final-tier legendary head combining power and prestige."
+        },
+        {
+          "asset": "head_img_4",
+          "name": "Classic Cowboy Hat",
+          "shortDesc": "Western hat with timeless style",
+          "desc": "A structured brown cowboy hat inspired by classic western fashion and rustic aesthetics."
+        },
+        {
+          "asset": "head_img_5",
+          "name": "Cozy Ushanka Hat",
+          "shortDesc": "Warm winter hat with soft lining",
+          "desc": "A fur-lined ushanka in light brown, perfect for cold weather and vintage winter styling."
+        },
+        {
+          "asset": "head_img_6",
+          "name": "Monster Cap",
+          "shortDesc": "Fun cap with quirky design",
+          "desc": "A green cap with monster-inspired details, ideal for playful and alternative outfits."
+        },
+        {
+          "asset": "head_img_7",
+          "name": "Classic Kitty Ears",
+          "shortDesc": "Simple cat ears with cute style",
+          "desc": "Minimal cat ear accessory adding a soft and kawaii touch to any outfit."
+        },
+        {
+          "asset": "head_img_8",
+          "name": "Bow Kitty Ears",
+          "shortDesc": "Cute ears with feminine detail",
+          "desc": "White cat ears decorated with bows, perfect for coquette and sweet aesthetics."
+        },
+        {
+          "asset": "head_img_9",
+          "name": "Summer Headwear",
+          "shortDesc": "Light accessory for warm days",
+          "desc": "A breezy head item designed for casual summer styling and comfort."
+        },
+        {
+          "asset": "head_narrow",
+          "name": "Narrow Head",
+          "shortDesc": "",
+          "desc": "A slim and refined head shape delivering sleek and elegant styling."
+        },
+        {
+          "asset": "head_paragon",
+          "name": "Paragon Head",
+          "shortDesc": "",
+          "desc": "A balanced and heroic head shape representing perfection and leadership."
+        },
+        {
+          "asset": "head_strong_jaw",
+          "name": "Strong Jaw Head",
+          "shortDesc": "",
+          "desc": "A bold head design with a powerful jawline for dominant personalities."
+        },
+        {
+          "asset": "head_trim",
+          "name": "Trim Head",
+          "shortDesc": "",
+          "desc": "A clean and proportioned head shape offering modern and minimal vibes."
+        }
+      ]
+    },
+    {
+      "title": "Hair",
+      "items": [
+        {
+          "asset": "hair_img_1",
+          "name": "Blonde Emo Side Sweep",
+          "shortDesc": "Stylish blonde emo hair",
+          "desc": "Blonde emo-inspired hair with a dramatic side sweep, blending edgy attitude with a clean and stylish finish."
+        },
+        {
+          "asset": "hair_img_10",
+          "name": "Preppy Messy Bun",
+          "shortDesc": "Casual low bun style",
+          "desc": "A low messy bun with a relaxed finish, perfect for a clean yet effortless preppy look."
+        },
+        {
+          "asset": "hair_img_11",
+          "name": "Bunny Mini Pigtails",
+          "shortDesc": "Small cute pigtails",
+          "desc": "Mini pigtails with bunny-inspired styling, creating a playful and sweet aesthetic."
+        },
+        {
+          "asset": "hair_img_12",
+          "name": "Textured Long Ponytail",
+          "shortDesc": "Unique long ponytail style",
+          "desc": "A long ponytail with unusual textured styling, giving a quirky and distinctive appearance."
+        },
+        {
+          "asset": "hair_img_13",
+          "name": "Y2K Spiky Bun Cap",
+          "shortDesc": "Retro spiky bun with cap",
+          "desc": "A bold Y2K-inspired spiky bun paired with a denim cap, delivering a trendy streetwear vibe."
+        },
+        {
+          "asset": "hair_img_14",
+          "name": "Red Streak Messy Bun",
+          "shortDesc": "Edgy bun with highlights",
+          "desc": "A pulled-back messy bun with red streaks, adding a rebellious and stylish edge."
+        },
+        {
+          "asset": "hair_img_15",
+          "name": "Blonde Curlers Hair",
+          "shortDesc": "Retro curlers hairstyle",
+          "desc": "A playful blonde hairstyle with oversized curlers, giving a fun retro styling look."
+        },
+        {
+          "asset": "hair_img_16",
+          "name": "Halloween Spooky Hair",
+          "shortDesc": "Festive themed hairstyle",
+          "desc": "A spooky hairstyle inspired by Halloween, perfect for fun and seasonal character styles."
+        },
+        {
+          "asset": "hair_img_17",
+          "name": "Goth Lace Headband Hair",
+          "shortDesc": "Elegant gothic hairstyle",
+          "desc": "Dark gothic hair styled with a lace headband, blending elegance with dramatic flair."
+        },
+        {
+          "asset": "hair_img_18",
+          "name": "Dark Halloween Hair",
+          "shortDesc": "Alternate spooky hairstyle",
+          "desc": "A darker variation of Halloween-themed hair, adding extra mystery and eerie style."
+        },
+        {
+          "asset": "hair_img_19",
+          "name": "Strawberry Beanie Hair",
+          "shortDesc": "Kawaii beanie hairstyle",
+          "desc": "Cute kawaii-style hair topped with a strawberry beanie, creating a sweet and playful vibe."
+        },
+        {
+          "asset": "hair_img_2",
+          "name": "Pink Mori Kei Hair",
+          "shortDesc": "Soft dreamy pink hairstyle",
+          "desc": "A gentle pink hairstyle inspired by Mori Kei aesthetics, creating a cozy, natural, and dreamy look."
+        },
+        {
+          "asset": "hair_img_20",
+          "name": "Dreamy Flow Hair",
+          "shortDesc": "Soft flowing hairstyle",
+          "desc": "Light and flowy hair with a soft texture, giving an elegant and dreamy appearance."
+        },
+        {
+          "asset": "hair_img_21",
+          "name": "Royal Long Waves",
+          "shortDesc": "",
+          "desc": "Flowing long waves delivering elegance and class."
+        },
+        {
+          "asset": "hair_img_22",
+          "name": "Cool Undercut",
+          "shortDesc": "",
+          "desc": "Modern undercut style blending sharpness and trend."
+        },
+        {
+          "asset": "hair_img_23",
+          "name": "Soft Bob Cut",
+          "shortDesc": "",
+          "desc": "A stylish bob haircut with clean and confident vibes."
+        },
+        {
+          "asset": "hair_img_24",
+          "name": "Galaxy Color Hair",
+          "shortDesc": "",
+          "desc": "A multi-tone galaxy hairstyle glowing with cosmic energy."
+        },
+        {
+          "asset": "hair_img_25",
+          "name": "Elite Slick Back",
+          "shortDesc": "",
+          "desc": "A sleek slick-back hairstyle designed for leaders."
+        },
+        {
+          "asset": "hair_img_26",
+          "name": "Curly Afro Style",
+          "shortDesc": "",
+          "desc": "Bold afro curls delivering strong and vibrant identity."
+        },
+        {
+          "asset": "hair_img_27",
+          "name": "Pastel Dream Hair",
+          "shortDesc": "",
+          "desc": "Soft pastel-colored hair perfect for cute aesthetics."
+        },
+        {
+          "asset": "hair_img_28",
+          "name": "Dark Gothic Hair",
+          "shortDesc": "",
+          "desc": "A deep gothic hairstyle with mysterious aura."
+        },
+        {
+          "asset": "hair_img_29",
+          "name": "Sporty Headband Hair",
+          "shortDesc": "",
+          "desc": "Active sporty hairstyle styled with a headband touch."
+        },
+        {
+          "asset": "hair_img_3",
+          "name": "Kitty Hood Layered Hair",
+          "shortDesc": "Layered hair with cat hood",
+          "desc": "Soft layered hair paired with a cute kitty hood, combining playful charm with cozy street style."
+        },
+        {
+          "asset": "hair_img_30",
+          "name": "Ultimate Legend Hair",
+          "shortDesc": "",
+          "desc": "A premium legendary hairstyle built for top-tier avatars."
+        },
+        {
+          "asset": "hair_img_4",
+          "name": "Heart Swirl Pigtails",
+          "shortDesc": "Cute swirly pigtails",
+          "desc": "Short pigtails styled into heart-like swirls, giving a whimsical and adorable appearance."
+        },
+        {
+          "asset": "hair_img_5",
+          "name": "Sky Blue Cat Hair",
+          "shortDesc": "Anime-style blue hair",
+          "desc": "Bright sky blue hair inspired by anime aesthetics, featuring playful cat-like styling."
+        },
+        {
+          "asset": "hair_img_6",
+          "name": "Heart Twist Pigtails",
+          "shortDesc": "Variant swirly pigtails",
+          "desc": "A variation of heart-styled pigtails with a unique twist, enhancing the cute and playful vibe."
+        },
+        {
+          "asset": "hair_img_7",
+          "name": "Nerdy Black Hair",
+          "shortDesc": "Cute hair with glasses",
+          "desc": "Classic black hairstyle paired with glasses, creating a smart and charming nerdy-cute appearance."
+        },
+        {
+          "asset": "hair_img_8",
+          "name": "Bubble Braid Pigtails",
+          "shortDesc": "Trendy long braided pigtails",
+          "desc": "Long pigtails styled into bubble braids, offering a youthful, trendy, and fun look."
+        },
+        {
+          "asset": "hair_img_9",
+          "name": "Grunge Cat Beanie Hair",
+          "shortDesc": "Soft grunge hairstyle",
+          "desc": "Relaxed grunge-inspired hair paired with a cute cat beanie, balancing edgy and cozy aesthetics."
+        }
+      ]
+    },
+    {
+      "title": "Face",
+      "items": [
+        {
+          "asset": "face_classic_img_1",
+          "name": "Classic Friendly Smile",
+          "shortDesc": "",
+          "desc": "A timeless friendly smile delivering simple and iconic avatar vibes."
+        },
+        {
+          "asset": "face_classic_img_10",
+          "name": "Confident Smirk",
+          "shortDesc": "",
+          "desc": "A subtle smirk expression delivering confident attitude."
+        },
+        {
+          "asset": "face_classic_img_11",
+          "name": "Cute Star Eyes",
+          "shortDesc": "",
+          "desc": "A sparkling-eyed classic face full of excitement."
+        },
+        {
+          "asset": "face_classic_img_12",
+          "name": "Sleepy Classic Look",
+          "shortDesc": "",
+          "desc": "A relaxed sleepy expression for chill avatars."
+        },
+        {
+          "asset": "face_classic_img_13",
+          "name": "Classic Shocked Face",
+          "shortDesc": "",
+          "desc": "A surprised expression with dramatic classic energy."
+        },
+        {
+          "asset": "face_classic_img_14",
+          "name": "Heart Eyes Classic",
+          "shortDesc": "",
+          "desc": "A lovable heart-eye look showing pure excitement."
+        },
+        {
+          "asset": "face_classic_img_15",
+          "name": "Vintage Smile Pro",
+          "shortDesc": "",
+          "desc": "A classic vintage smile with timeless avatar charm."
+        },
+        {
+          "asset": "face_classic_img_16",
+          "name": "Mischief Classic Face",
+          "shortDesc": "",
+          "desc": "A playful mischievous grin full of attitude."
+        },
+        {
+          "asset": "face_classic_img_17",
+          "name": "Royal Calm Expression",
+          "shortDesc": "",
+          "desc": "A composed and elegant classic face for classy styling."
+        },
+        {
+          "asset": "face_classic_img_18",
+          "name": "Classic Angry Mode",
+          "shortDesc": "",
+          "desc": "A bold angry look built for strong personalities."
+        },
+        {
+          "asset": "face_classic_img_19",
+          "name": "Laughing Classic Joy",
+          "shortDesc": "",
+          "desc": "A joyful laughing expression spreading happiness."
+        },
+        {
+          "asset": "face_classic_img_2",
+          "name": "Bright Happy Face",
+          "shortDesc": "",
+          "desc": "A cheerful classic expression full of positive energy."
+        },
+        {
+          "asset": "face_classic_img_20",
+          "name": "Focused Stare",
+          "shortDesc": "",
+          "desc": "An intense stare perfect for determined avatars."
+        },
+        {
+          "asset": "face_classic_img_21",
+          "name": "Retro Cool Smile",
+          "shortDesc": "",
+          "desc": "A cool retro smile inspired by old-school avatars."
+        },
+        {
+          "asset": "face_classic_img_22",
+          "name": "Cute Innocent Look",
+          "shortDesc": "",
+          "desc": "A soft innocent expression with gentle vibes."
+        },
+        {
+          "asset": "face_classic_img_23",
+          "name": "Bold Classic Grin",
+          "shortDesc": "",
+          "desc": "A strong confident grin with powerful energy."
+        },
+        {
+          "asset": "face_classic_img_24",
+          "name": "Calm Minimal Face",
+          "shortDesc": "",
+          "desc": "A clean minimal expression perfect for simple styling."
+        },
+        {
+          "asset": "face_classic_img_25",
+          "name": "Funny Tongue Out",
+          "shortDesc": "",
+          "desc": "A humorous tongue-out expression full of fun."
+        },
+        {
+          "asset": "face_classic_img_26",
+          "name": "Classic Hero Look",
+          "shortDesc": "",
+          "desc": "A brave hero-style expression with fearless vibes."
+        },
+        {
+          "asset": "face_classic_img_27",
+          "name": "Soft Smile Glow",
+          "shortDesc": "",
+          "desc": "A gentle glowing smile delivering warm energy."
+        },
+        {
+          "asset": "face_classic_img_28",
+          "name": "Savage Classic Face",
+          "shortDesc": "",
+          "desc": "A dominant expression built for strong leaders."
+        },
+        {
+          "asset": "face_classic_img_29",
+          "name": "Elite Vintage Smile",
+          "shortDesc": "",
+          "desc": "A premium old-school smile with iconic style."
+        },
+        {
+          "asset": "face_classic_img_3",
+          "name": "Cool Classic Look",
+          "shortDesc": "",
+          "desc": "A relaxed and stylish classic face with confident charm."
+        },
+        {
+          "asset": "face_classic_img_30",
+          "name": "Legendary Classic Aura",
+          "shortDesc": "",
+          "desc": "An ultimate legendary classic face built for elite avatars."
+        },
+        {
+          "asset": "face_classic_img_4",
+          "name": "Simple Calm Face",
+          "shortDesc": "",
+          "desc": "A peaceful and composed expression for clean avatar styling."
+        },
+        {
+          "asset": "face_classic_img_5",
+          "name": "Playful Classic Wink",
+          "shortDesc": "",
+          "desc": "A fun wink expression adding playful personality."
+        },
+        {
+          "asset": "face_classic_img_6",
+          "name": "Classic Big Grin",
+          "shortDesc": "",
+          "desc": "A wide grin that gives energetic and bold vibes."
+        },
+        {
+          "asset": "face_classic_img_7",
+          "name": "Soft Blush Smile",
+          "shortDesc": "",
+          "desc": "A cute blushing smile with sweet and friendly energy."
+        },
+        {
+          "asset": "face_classic_img_8",
+          "name": "Serious Classic Mode",
+          "shortDesc": "",
+          "desc": "A focused and calm look built for competitive avatars."
+        },
+        {
+          "asset": "face_classic_img_9",
+          "name": "Retro Happy Face",
+          "shortDesc": "",
+          "desc": "A nostalgic classic smile inspired by early avatar style."
+        },
+        {
+          "asset": "face_img_1",
+          "name": "Pink Bow Anime Face",
+          "shortDesc": "Cute face with bow and glasses",
+          "desc": "A cheerful anime-style face featuring a pink bow and matching glasses for a playful kawaii look."
+        },
+        {
+          "asset": "face_img_10",
+          "name": "Blush Cute Face",
+          "shortDesc": "Shy face with soft blush",
+          "desc": "A gentle anime face with rosy cheeks and a sweet, innocent expression."
+        },
+        {
+          "asset": "face_img_11",
+          "name": "Y2K Doll Face",
+          "shortDesc": "Bold face with statement lips",
+          "desc": "A dramatic Y2K-inspired face with exaggerated lips and strong baddie energy."
+        },
+        {
+          "asset": "face_img_12",
+          "name": "Classic Sunglasses",
+          "shortDesc": "Simple black frame glasses",
+          "desc": "A clean and versatile sunglasses accessory for casual and stylish looks."
+        },
+        {
+          "asset": "face_img_13",
+          "name": "Shattered Glasses Face",
+          "shortDesc": "Broken glasses with edgy style",
+          "desc": "A bold face accessory with cracked glasses, adding attitude and cyberpunk vibes."
+        },
+        {
+          "asset": "face_img_14",
+          "name": "Stitched Kawaii Face",
+          "shortDesc": "Cute face with stitched detail",
+          "desc": "A soft anime face featuring white stitch elements, blending cute and slightly eerie charm."
+        },
+        {
+          "asset": "face_img_15",
+          "name": "Ocean Eyes Makeup",
+          "shortDesc": "Face with deep blue eyes",
+          "desc": "A dreamy face with ocean-inspired eye makeup, creating a calm and ethereal look."
+        },
+        {
+          "asset": "face_img_16",
+          "name": "Minimal Glasses Face",
+          "shortDesc": "Clean face with simple frames",
+          "desc": "A basic anime face paired with black glasses for a subtle and modern aesthetic."
+        },
+        {
+          "asset": "face_img_17",
+          "name": "Goofy Expression Face",
+          "shortDesc": "Funny face with playful vibe",
+          "desc": "A silly anime face with exaggerated eyes and tongue-out expression for humor."
+        },
+        {
+          "asset": "face_img_18",
+          "name": "Thorn Veil Face",
+          "shortDesc": "Mystical face with fantasy detail",
+          "desc": "A silver thorn veil with red crystal accents, creating a magical and gothic appearance."
+        },
+        {
+          "asset": "face_img_19",
+          "name": "Dreamy Chibi Face",
+          "shortDesc": "Soft chibi face with gentle look",
+          "desc": "A cute chibi-style face with a dreamy expression and soft brown eyes."
+        },
+        {
+          "asset": "face_img_2",
+          "name": "Kitty Bow Anime Face",
+          "shortDesc": "Soft face with cute details",
+          "desc": "A sweet anime face with kitty bow and glasses, designed for soft and innocent aesthetics."
+        },
+        {
+          "asset": "face_img_20",
+          "name": "Bandage Punk Face",
+          "shortDesc": "Edgy face with piercings",
+          "desc": "A bold face design with bandages and piercings, inspired by emo and punk styles."
+        },
+        {
+          "asset": "face_img_21",
+          "name": "Cyber Star Glasses",
+          "shortDesc": "Y2K glasses with futuristic feel",
+          "desc": "Black star-shaped glasses designed for cyber and Y2K-inspired outfits."
+        },
+        {
+          "asset": "face_img_22",
+          "name": "Cherry Glow Makeup",
+          "shortDesc": "Face with soft pink highlights",
+          "desc": "A radiant anime face with cherry-toned highlights for a sweet and glowing effect."
+        },
+        {
+          "asset": "face_img_23",
+          "name": "Sleeping Angel Face",
+          "shortDesc": "Peaceful face with calm vibe",
+          "desc": "A serene face with closed eyes and a soft angelic expression."
+        },
+        {
+          "asset": "face_img_24",
+          "name": "Bear Mask Face",
+          "shortDesc": "Cute animal-style mask",
+          "desc": "A cozy bear-themed face mask adding playful and adorable charm."
+        },
+        {
+          "asset": "face_img_25",
+          "name": "Sparkle Doll Face",
+          "shortDesc": "Chibi face with glowing detail",
+          "desc": "A sparkling doll-like face with a magical and cute aesthetic."
+        },
+        {
+          "asset": "face_img_26",
+          "name": "Valentine Blush Face",
+          "shortDesc": "Romantic face with soft blush",
+          "desc": "A sweet face with rosy cheeks and a love-inspired expression."
+        },
+        {
+          "asset": "face_img_27",
+          "name": "Blonde Bangs Face",
+          "shortDesc": "Stylish face with modern hair",
+          "desc": "A trendy face with side-swept blonde bangs for a fresh and fashionable look."
+        },
+        {
+          "asset": "face_img_28",
+          "name": "Goofy Big Eyes Face",
+          "shortDesc": "Cute face with exaggerated eyes",
+          "desc": "A playful face with oversized eyes, adding charm and humor."
+        },
+        {
+          "asset": "face_img_29",
+          "name": "Emo Dark Eyes Face",
+          "shortDesc": "Moody face with deep gaze",
+          "desc": "An emo-inspired face with dark eyes, giving a mysterious and expressive vibe."
+        },
+        {
+          "asset": "face_img_3",
+          "name": "Excited Anime Face",
+          "shortDesc": "Bright and happy expression",
+          "desc": "A joyful anime face with wide eyes and a big smile, perfect for energetic and fun styles."
+        },
+        {
+          "asset": "face_img_30",
+          "name": "Bubble Gum Face",
+          "shortDesc": "Fun face with playful style",
+          "desc": "A cheerful face with bubble gum detail, perfect for cute and lively outfits."
+        },
+        {
+          "asset": "face_img_4",
+          "name": "Elegant Anime Face",
+          "shortDesc": "Pretty face with calm expression",
+          "desc": "A soft anime face with refined features and a gentle, elegant vibe."
+        },
+        {
+          "asset": "face_img_5",
+          "name": "Smiley Glasses Face",
+          "shortDesc": "Happy face with smart look",
+          "desc": "A cheerful smiling face paired with black glasses, blending cute and intellectual style."
+        },
+        {
+          "asset": "face_img_6",
+          "name": "Freckled Soft Face",
+          "shortDesc": "Relaxed face with freckles",
+          "desc": "A slightly bored expression with freckles and soft features, giving a natural charm."
+        },
+        {
+          "asset": "face_img_7",
+          "name": "Cursed Horn Face",
+          "shortDesc": "Dark face with edgy detail",
+          "desc": "A dramatic face accessory with chained horn elements, perfect for gothic aesthetics."
+        },
+        {
+          "asset": "face_img_8",
+          "name": "Pixel Meme Shades",
+          "shortDesc": "Iconic meme sunglasses",
+          "desc": "A fun face accessory featuring pixel-style sunglasses for a playful internet vibe."
+        },
+        {
+          "asset": "face_img_9",
+          "name": "Pink Eyes Anime Face",
+          "shortDesc": "Soft face with pastel eyes",
+          "desc": "A dreamy anime face with pink eyes, ideal for cute and magical styling."
+        }
+      ]
+    },
+    {
+      "title": "Classic Shirts",
+      "items": [
+        {
+          "asset": "classic_shirt_13",
+          "name": "Teddy Kawaii PJ Shirt",
+          "shortDesc": "Soft pastel shirt with cute teddy vibe",
+          "desc": "A cozy pastel pajama-style shirt featuring adorable teddy bear details. Perfect for soft Y2K and kawaii-inspired outfits."
+        },
+        {
+          "asset": "classic_shirt_14",
+          "name": "Camo Off-Shoulder Jersey",
+          "shortDesc": "Thrift-style jersey with edgy cut",
+          "desc": "A camo-inspired jersey shirt with an off-shoulder design. Brings a relaxed yet edgy thrifted aesthetic."
+        },
+        {
+          "asset": "classic_shirt_15",
+          "name": "Pink Striped Tie Shirt",
+          "shortDesc": "Preppy shirt with playful detail",
+          "desc": "A stylish pink striped shirt paired with a neck tie, blending preppy fashion with a cute twist."
+        },
+        {
+          "asset": "classic_shirt_16",
+          "name": "Autumn Cozy Shirt",
+          "shortDesc": "Warm-toned shirt for seasonal style",
+          "desc": "A soft shirt inspired by autumn colors, designed for cozy and relaxed seasonal outfits."
+        },
+        {
+          "asset": "classic_shirt_17",
+          "name": "Y2K Red Stripe Polo",
+          "shortDesc": "Retro polo with bold stripes",
+          "desc": "A red striped polo shirt inspired by Y2K and gyaru fashion, offering a bold and nostalgic look."
+        },
+        {
+          "asset": "classic_shirt_18",
+          "name": "Dark Siren Goth Shirt",
+          "shortDesc": "Edgy shirt with dark aesthetic",
+          "desc": "A powerful shirt blending goth, emo, and office siren influences. Perfect for bold and expressive styling."
+        },
+        {
+          "asset": "classic_shirt_19",
+          "name": "Pink Gold Luxe Shirt",
+          "shortDesc": "Elegant shirt with soft luxury feel",
+          "desc": "A stylish shirt in pink and gold tones, designed to deliver a refined and modern luxury aesthetic."
+        },
+        {
+          "asset": "classic_shirt_20",
+          "name": "Vintage Classic Shirt",
+          "shortDesc": "Timeless shirt with retro charm",
+          "desc": "A vintage-inspired shirt featuring classic tones and a timeless silhouette for everyday wear."
+        },
+        {
+          "asset": "classic_shirt_21",
+          "name": "Capybara Graphic Shirt",
+          "shortDesc": "Cute shirt with playful design",
+          "desc": "A fun shirt featuring a capybara graphic, perfect for cozy and cheerful outfits."
+        },
+        {
+          "asset": "classic_shirt_22",
+          "name": "Y2K Goth Black Shirt",
+          "shortDesc": "Dark shirt with edgy vibe",
+          "desc": "A black shirt inspired by Y2K, goth, and emo aesthetics. Ideal for alternative streetwear looks."
+        },
+        {
+          "asset": "classic_shirt_23",
+          "name": "Soft Igari Shirt",
+          "shortDesc": "Natural-toned shirt with soft style",
+          "desc": "A gentle shirt inspired by igari fashion, offering a natural and effortless aesthetic."
+        },
+        {
+          "asset": "classic_shirt_24",
+          "name": "Moe Cute Shirt",
+          "shortDesc": "Simple shirt with soft charm",
+          "desc": "A sweet shirt inspired by moe aesthetics, focusing on softness, innocence, and subtle style."
+        },
+        {
+          "asset": "classic_shirt_25",
+          "name": "Christmas Festive Shirt",
+          "shortDesc": "Holiday-themed cozy shirt",
+          "desc": "A cheerful shirt designed with festive elements, perfect for celebrating the holiday season."
+        },
+        {
+          "asset": "classic_shirt_26",
+          "name": "Black Kitty Graphic Shirt",
+          "shortDesc": "Cute shirt with dark kawaii vibe",
+          "desc": "A black shirt featuring a cute kitty design, blending kawaii charm with a darker aesthetic."
+        },
+        {
+          "asset": "classic_shirt_27",
+          "name": "Retro Stranger Shirt",
+          "shortDesc": "Vintage-inspired pop culture style",
+          "desc": "A shirt inspired by retro pop culture themes, combining nostalgic vibes with modern fashion."
+        },
+        {
+          "asset": "classic_shirt_28",
+          "name": "Miffy Cute Shirt",
+          "shortDesc": "Adorable character-inspired design",
+          "desc": "A soft shirt featuring a cute bunny character design, perfect for cozy and kawaii outfits."
+        },
+        {
+          "asset": "classic_shirt_29",
+          "name": "Angel Stitch Crop Top",
+          "shortDesc": "Playful crop top with cute theme",
+          "desc": "A fun crop top inspired by cute animated characters, designed for playful and energetic styling."
+        },
+        {
+          "asset": "classic_shirt_30",
+          "name": "Igari Heart Shirt",
+          "shortDesc": "Soft shirt with romantic touch",
+          "desc": "A cozy igari-inspired shirt with subtle heart elements, perfect for gentle and feminine outfits."
+        }
+      ]
+    },
+    {
+      "title": "Classic T-Shirts",
+      "items": [
+        {
+          "asset": "classic_tshirt_10",
+          "name": "Toro Energy Tee",
+          "shortDesc": "Bold text tee with strong presence",
+          "desc": "A high-energy t-shirt featuring a 'Toro!!' graphic. Great for expressive and confident styling."
+        },
+        {
+          "asset": "classic_tshirt_11",
+          "name": "67 Retro Tee",
+          "shortDesc": "Minimal number tee with vintage feel",
+          "desc": "A clean t-shirt with a '67' print, inspired by retro and minimal fashion aesthetics."
+        },
+        {
+          "asset": "classic_tshirt_12",
+          "name": "Birthday Girl Tee",
+          "shortDesc": "Cute tee for special occasions",
+          "desc": "A fun and playful t-shirt designed for birthday celebrations. Perfect for casual party looks."
+        },
+        {
+          "asset": "classic_tshirt_13",
+          "name": "Evade Street Tee",
+          "shortDesc": "Modern tee with clean graphic",
+          "desc": "A sleek t-shirt featuring the word 'Evade'. Designed for minimal yet edgy streetwear styling."
+        },
+        {
+          "asset": "classic_tshirt_14",
+          "name": "Dreamy Music Tee",
+          "shortDesc": "Soft aesthetic tee with artistic vibe",
+          "desc": "A music-inspired graphic t-shirt with a dreamy, artistic feel. Ideal for expressive fashion lovers."
+        },
+        {
+          "asset": "classic_tshirt_15",
+          "name": "Baddie Cartoon Tee",
+          "shortDesc": "Playful meme tee with bold look",
+          "desc": "A fun t-shirt featuring a cartoon-inspired baddie design. Perfect for playful and standout outfits."
+        },
+        {
+          "asset": "classic_tshirt_16",
+          "name": "Sporty Energy Tee",
+          "shortDesc": "Athletic-inspired casual tee",
+          "desc": "A sporty t-shirt inspired by performance aesthetics. Combines comfort with an active streetwear look."
+        },
+        {
+          "asset": "classic_tshirt_17",
+          "name": "Igari Cute Tee",
+          "shortDesc": "Soft tee with trendy aesthetic",
+          "desc": "A trendy t-shirt inspired by Igari fashion, offering a cute and modern casual style."
+        },
+        {
+          "asset": "classic_tshirt_5",
+          "name": "Un Poco Minimal Tee",
+          "shortDesc": "Clean text tee with subtle style",
+          "desc": "A simple and stylish t-shirt featuring the phrase 'Un Poco'. Perfect for minimal, everyday outfits."
+        },
+        {
+          "asset": "classic_tshirt_6",
+          "name": "Piercing Graphic Tee",
+          "shortDesc": "Edgy design with bold attitude",
+          "desc": "A statement t-shirt showcasing a realistic piercing graphic. Designed for modern streetwear with an edgy vibe."
+        },
+        {
+          "asset": "classic_tshirt_7",
+          "name": "Sapphire Gaze Tee",
+          "shortDesc": "Art-inspired tee with mysterious feel",
+          "desc": "A graphic t-shirt featuring a captivating sapphire-themed design. Adds an artistic and unique touch."
+        },
+        {
+          "asset": "classic_tshirt_8",
+          "name": "Shrek Slay Tee",
+          "shortDesc": "Fun meme tee with playful vibe",
+          "desc": "A humorous t-shirt inspired by internet culture, blending Shrek visuals with bold 'slay' energy."
+        },
+        {
+          "asset": "classic_tshirt_9",
+          "name": "Acid Chain Graphic Tee",
+          "shortDesc": "Edgy tee with chain design",
+          "desc": "A bold graphic t-shirt featuring chain elements and acid-style visuals. Perfect for alternative fashion."
+        }
+      ]
+    },
+    {
+      "title": "Classic Pants",
+      "items": [
+        {
+          "asset": "classic_pant_1",
+          "name": "Y2K Gyaru Pants",
+          "shortDesc": "Bold low-rise pants with glam attitude",
+          "desc": "Flashy low-rise pants inspired by gyaru fashion, featuring vibrant colors and confident Y2K energy."
+        },
+        {
+          "asset": "classic_pant_10",
+          "name": "Classic Grey Sweatpants",
+          "shortDesc": "Comfortable pants for everyday wear",
+          "desc": "Relaxed-fit grey sweatpants designed for comfort, lounging, and casual streetwear."
+        },
+        {
+          "asset": "classic_pant_11",
+          "name": "Coquette Bow Pants",
+          "shortDesc": "Feminine pants with elegant detail",
+          "desc": "Black pants with delicate bow accents, inspired by coquette fashion with a soft yet stylish edge."
+        },
+        {
+          "asset": "classic_pant_12",
+          "name": "Birthday Party Pants",
+          "shortDesc": "Fun pants for celebrations",
+          "desc": "Playful pants designed for birthdays, featuring bold graphics and festive styling."
+        },
+        {
+          "asset": "classic_pant_13",
+          "name": "Cozy Winter Jeans",
+          "shortDesc": "Warm jeans with seasonal style",
+          "desc": "Comfortable jeans styled for fall and winter, perfect for cozy and casual outfits."
+        },
+        {
+          "asset": "classic_pant_14",
+          "name": "Puppy Kawaii Pants",
+          "shortDesc": "Cute pants with soft aesthetic",
+          "desc": "Adorable pants inspired by kawaii character themes, offering a soft and cozy vibe."
+        },
+        {
+          "asset": "classic_pant_15",
+          "name": "Classic Fit Tights",
+          "shortDesc": "Stretchy pants with sleek look",
+          "desc": "Form-fitting tights designed for layering or standalone styling with a clean silhouette."
+        },
+        {
+          "asset": "classic_pant_16",
+          "name": "Pink Hero Pants",
+          "shortDesc": "Bold pants with playful twist",
+          "desc": "Vibrant pink pants inspired by superhero aesthetics, blending action style with cute fashion."
+        },
+        {
+          "asset": "classic_pant_17",
+          "name": "Igari Soft Pants",
+          "shortDesc": "Gentle pants with pastel tones",
+          "desc": "Another igari-inspired design focusing on soft colors and relaxed, feminine styling."
+        },
+        {
+          "asset": "classic_pant_18",
+          "name": "Fantasy Pony Pants",
+          "shortDesc": "Colorful pants with magical vibe",
+          "desc": "Bright pastel pants inspired by fantasy themes, adding a playful and nostalgic touch."
+        },
+        {
+          "asset": "classic_pant_19",
+          "name": "Cutecore Heart Pants",
+          "shortDesc": "Ultra-cute pants with soft colors",
+          "desc": "Pastel pants featuring hearts, bows, and soft tones, perfect for a sweet cutecore aesthetic."
+        },
+        {
+          "asset": "classic_pant_2",
+          "name": "Soft Igari Pants",
+          "shortDesc": "Cute pastel pants with soft vibe",
+          "desc": "Gentle-toned pants inspired by igari aesthetics, offering a soft, relaxed, and feminine look."
+        },
+        {
+          "asset": "classic_pant_20",
+          "name": "Cyber Y2K Star Jeans",
+          "shortDesc": "Edgy jeans with bold elements",
+          "desc": "Statement jeans combining cyber Y2K, emo details, stars, and streetwear attitude."
+        },
+        {
+          "asset": "classic_pant_3",
+          "name": "Luxe Classic Pants",
+          "shortDesc": "Elegant pants with refined design",
+          "desc": "Clean and sophisticated pants inspired by luxury fashion, featuring timeless silhouettes and neutral tones."
+        },
+        {
+          "asset": "classic_pant_4",
+          "name": "Kitty Cute Pants",
+          "shortDesc": "Playful pants with kawaii charm",
+          "desc": "Adorable pants featuring cute character-inspired designs with bows, hearts, and soft pink tones."
+        },
+        {
+          "asset": "classic_pant_5",
+          "name": "Pink Cheetah Y2K Pants",
+          "shortDesc": "Low-rise animal print statement pants",
+          "desc": "Bold pink cheetah-print pants with a low-rise fit, delivering iconic early-2000s pop-star energy."
+        },
+        {
+          "asset": "classic_pant_6",
+          "name": "Butterfly Dream Pants",
+          "shortDesc": "Soft pants with magical detail",
+          "desc": "Lightweight pants featuring butterfly designs, creating a dreamy and whimsical Y2K aesthetic."
+        },
+        {
+          "asset": "classic_pant_7",
+          "name": "Mori Red Cozy Pants",
+          "shortDesc": "Nature-inspired pants with warm tone",
+          "desc": "Earthy red pants inspired by Mori kei fashion, offering a cozy and forest-inspired look."
+        },
+        {
+          "asset": "classic_pant_8",
+          "name": "Anime Power Pants",
+          "shortDesc": "Bold pants with anime energy",
+          "desc": "Statement pants inspired by anime aesthetics, combining vibrant graphics with streetwear style."
+        },
+        {
+          "asset": "classic_pant_9",
+          "name": "Cartoon Fun Pants",
+          "shortDesc": "Bright pants with playful design",
+          "desc": "Colorful pants featuring fun cartoon-inspired visuals, perfect for cheerful and casual outfits."
+        }
+      ]
+    },
+    {
+      "title": "Classic Heads",
+      "items": [
+        {
+          "asset": "classic_head_1",
+          "name": "Narrow Head",
+          "shortDesc": "Slim and refined shape",
+          "desc": "A streamlined head type with reduced width across the temples and jaw, creating a sharp, elongated, and refined appearance."
+        },
+        {
+          "asset": "classic_head_2",
+          "name": "Cheek Focus Head",
+          "shortDesc": "Defined cheekbone structure",
+          "desc": "A head type where the cheekbones stand out prominently, giving strong mid-face definition and expressive character."
+        },
+        {
+          "asset": "classic_head_3",
+          "name": "Strong Jaw Head",
+          "shortDesc": "Bold and powerful jawline",
+          "desc": "A head type featuring a wide and pronounced jawline, conveying strength, confidence, and a grounded presence."
+        },
+        {
+          "asset": "classic_head_4",
+          "name": "Paragon Head",
+          "shortDesc": "Balanced and ideal proportions",
+          "desc": "A perfectly balanced head shape where all features are harmonized, representing symmetry, elegance, and classic appeal."
+        },
+        {
+          "asset": "classic_head_5",
+          "name": "Chiseled Head",
+          "shortDesc": "Sharp and sculpted features",
+          "desc": "A head type with crisp facial planes and strong structure, creating a carved, defined, and disciplined look."
+        },
+        {
+          "asset": "classic_head_6",
+          "name": "Rounded Head",
+          "shortDesc": "Soft and friendly shape",
+          "desc": "A head type with smooth curves and fuller volume, giving a youthful, approachable, and warm appearance."
+        },
+        {
+          "asset": "classic_head_7",
+          "name": "Trim Head",
+          "shortDesc": "Clean and minimal structure",
+          "desc": "A lean head shape with subtle definition and clean lines, expressing neatness, control, and quiet confidence."
+        },
+        {
+          "asset": "classic_head_8",
+          "name": "Block Head",
+          "shortDesc": "Wide and square structure",
+          "desc": "A bold head type with a broad, boxy shape, delivering a solid, sturdy, and powerful visual presence."
+        },
+        {
+          "asset": "head_classic_img_",
+          "name": "Classic Serious Mode",
+          "shortDesc": "",
+          "desc": "A focused and composed classic face built for confident avatars."
+        },
+        {
+          "asset": "head_classic_img_1",
+          "name": "Classic Smile Head",
+          "shortDesc": "",
+          "desc": "The original friendly smile head with timeless avatar charm and simplicity."
+        },
+        {
+          "asset": "head_classic_img_2",
+          "name": "Classic Chill Face",
+          "shortDesc": "",
+          "desc": "A relaxed and calm classic head expression perfect for casual styling."
+        },
+        {
+          "asset": "head_classic_img_3",
+          "name": "Classic Happy Look",
+          "shortDesc": "",
+          "desc": "A cheerful and bright expression delivering positive energy."
+        },
+        {
+          "asset": "head_classic_img_5",
+          "name": "Classic Cool Smile",
+          "shortDesc": "",
+          "desc": "A subtle cool smile expression with timeless old-school vibes."
+        }
+      ]
+    },
+    {
+      "title": "Classic Faces",
+      "items": [
+        {
+          "asset": "classic_face_1",
+          "name": "Smug Face",
+          "shortDesc": "Confident sly expression",
+          "desc": "A subtle, knowing smile that conveys confidence, playful arrogance, and self-assured charm."
+        },
+        {
+          "asset": "classic_face_10",
+          "name": "Wink Blink",
+          "shortDesc": "Dynamic playful eyes",
+          "desc": "A fun mix of winking and blinking, creating an animated and friendly expression."
+        },
+        {
+          "asset": "classic_face_11",
+          "name": "Bluff Face",
+          "shortDesc": "Confident but unsure look",
+          "desc": "An expression that suggests hidden uncertainty behind a confident exterior."
+        },
+        {
+          "asset": "classic_face_12",
+          "name": "Bold Devil Face",
+          "shortDesc": "Dramatic confident expression",
+          "desc": "A striking face with strong personality, combining confidence with a bold and edgy vibe."
+        },
+        {
+          "asset": "classic_face_13",
+          "name": "Bearded Bold Face",
+          "shortDesc": "Strong facial hair style",
+          "desc": "A face featuring a prominent beard, expressing maturity, strength, and adventurous spirit."
+        },
+        {
+          "asset": "classic_face_14",
+          "name": "Kind Smile",
+          "shortDesc": "Warm sincere expression",
+          "desc": "A gentle and honest smile that conveys kindness, trust, and emotional warmth."
+        },
+        {
+          "asset": "classic_face_15",
+          "name": "Mischief Look",
+          "shortDesc": "Playful suspicious expression",
+          "desc": "A subtle expression hinting at playful schemes or hidden intentions."
+        },
+        {
+          "asset": "classic_face_16",
+          "name": "Pattern Eyes",
+          "shortDesc": "Stylized graphic gaze",
+          "desc": "A unique face featuring patterned eyes, blending artistic style with bold visual identity."
+        },
+        {
+          "asset": "classic_face_17",
+          "name": "Friendly Hello",
+          "shortDesc": "Welcoming happy face",
+          "desc": "A warm and approachable expression designed for friendly interactions and positive vibes."
+        },
+        {
+          "asset": "classic_face_18",
+          "name": "Shadow Face",
+          "shortDesc": "Dark mysterious expression",
+          "desc": "A face partially hidden in shadow, creating an aura of mystery and intrigue."
+        },
+        {
+          "asset": "classic_face_19",
+          "name": "Speed Face",
+          "shortDesc": "Energetic forward look",
+          "desc": "An expression that conveys motion, excitement, and a fast-paced personality."
+        },
+        {
+          "asset": "classic_face_2",
+          "name": "Wink Smile",
+          "shortDesc": "Cheerful winking expression",
+          "desc": "A friendly face combining a warm smile with a playful wink, perfect for charm and humor."
+        },
+        {
+          "asset": "classic_face_20",
+          "name": "Goofy Face",
+          "shortDesc": "Classic silly expression",
+          "desc": "A playful and exaggerated face designed for humor and lighthearted fun."
+        },
+        {
+          "asset": "classic_face_21",
+          "name": "Danger Smile",
+          "shortDesc": "Friendly yet intense look",
+          "desc": "A contrasting expression that mixes warmth with a subtle sense of danger or unpredictability."
+        },
+        {
+          "asset": "classic_face_22",
+          "name": "XD Laugh Face",
+          "shortDesc": "Extreme laughter expression",
+          "desc": "An exaggerated laughing face that delivers high-energy humor and cartoon-style joy."
+        },
+        {
+          "asset": "classic_face_23",
+          "name": "Money Eyes",
+          "shortDesc": "Greedy excited look",
+          "desc": "A face with dollar-sign styled eyes, symbolizing excitement, greed, or love for wealth."
+        },
+        {
+          "asset": "classic_face_24",
+          "name": "Trouble Maker",
+          "shortDesc": "Mischievous chaotic expression",
+          "desc": "A bold face that signals playful chaos, rule-breaking, and unpredictable energy."
+        },
+        {
+          "asset": "classic_face_25",
+          "name": "Awkward Smile",
+          "shortDesc": "Uncomfortable grin",
+          "desc": "A tense and uneven smile that expresses social awkwardness or uncertainty."
+        },
+        {
+          "asset": "classic_face_3",
+          "name": "Devilish Smile",
+          "shortDesc": "Mischievous confident grin",
+          "desc": "A sly smile with a rebellious edge, blending charm with a hint of troublemaking energy."
+        },
+        {
+          "asset": "classic_face_4",
+          "name": "Sunrise Eyes",
+          "shortDesc": "Bright optimistic gaze",
+          "desc": "A face defined by glowing, uplifting eyes that radiate positivity and warmth."
+        },
+        {
+          "asset": "classic_face_5",
+          "name": "Shiny Smile",
+          "shortDesc": "Bright toothy grin",
+          "desc": "A bold smile with shining teeth, expressing confidence, enthusiasm, and showmanship."
+        },
+        {
+          "asset": "classic_face_6",
+          "name": "Stylish Cool Face",
+          "shortDesc": "Modern confident look",
+          "desc": "A sleek and trendy expression that reflects confidence, youthfulness, and effortless cool."
+        },
+        {
+          "asset": "classic_face_7",
+          "name": "Sunny Smile",
+          "shortDesc": "Carefree happy expression",
+          "desc": "A bright and joyful face that radiates positivity and relaxed happiness."
+        },
+        {
+          "asset": "classic_face_8",
+          "name": "Blinking Eyes",
+          "shortDesc": "Playful blinking expression",
+          "desc": "A lively face with animated blinking eyes, adding charm and playful personality."
+        },
+        {
+          "asset": "classic_face_9",
+          "name": "Chill Face",
+          "shortDesc": "Relaxed cool expression",
+          "desc": "A calm and laid-back face that expresses effortless confidence and a relaxed attitude."
+        }
+      ]
+    },
+    {
+      "title": "Emotes",
+      "items": [
+        {
+          "asset": "emote_img_1",
+          "name": "Victory Dance",
+          "shortDesc": "",
+          "desc": "Celebrate every win with an energetic and confident victory dance."
+        },
+        {
+          "asset": "emote_img_10",
+          "name": "Tilt Pose",
+          "shortDesc": "Playful leaning stance",
+          "desc": "An emote featuring a tilted body pose, adding personality and playful expression."
+        },
+        {
+          "asset": "emote_img_11",
+          "name": "Side Sway",
+          "shortDesc": "Relaxed swaying motion",
+          "desc": "A casual side-to-side swaying emote, perfect for relaxed and fun moments."
+        },
+        {
+          "asset": "emote_img_12",
+          "name": "Disagree Gesture",
+          "shortDesc": "Playful refusal motion",
+          "desc": "An emote expressing disagreement through gestures, ideal for fun or expressive reactions."
+        },
+        {
+          "asset": "emote_img_13",
+          "name": "Tree Balance",
+          "shortDesc": "Yoga balance pose",
+          "desc": "A calm tree pose emote symbolizing balance, peace, and focus."
+        },
+        {
+          "asset": "emote_img_14",
+          "name": "Imagination Gesture",
+          "shortDesc": "Creative thinking pose",
+          "desc": "A whimsical emote representing imagination and creativity in a playful way."
+        },
+        {
+          "asset": "emote_img_15",
+          "name": "Pop Dance",
+          "shortDesc": "Energetic dance move",
+          "desc": "A stylish dance emote inspired by modern pop choreography, full of energy and rhythm."
+        },
+        {
+          "asset": "emote_img_16",
+          "name": "Dismiss Gesture",
+          "shortDesc": "Dramatic send-away motion",
+          "desc": "An expressive emote showing a dramatic dismissal or exit gesture, perfect for humorous situations."
+        },
+        {
+          "asset": "emote_img_17",
+          "name": "Zabb Dance",
+          "shortDesc": "Unique energetic dance",
+          "desc": "A fun and lively dance emote with unique movements, great for energetic gameplay moments."
+        },
+        {
+          "asset": "emote_img_18",
+          "name": "Rock Star Move",
+          "shortDesc": "",
+          "desc": "Perform like a stage legend with bold confidence."
+        },
+        {
+          "asset": "emote_img_19",
+          "name": "Sleepy Yawn",
+          "shortDesc": "",
+          "desc": "Show boredom with a relaxed yawning gesture."
+        },
+        {
+          "asset": "emote_img_2",
+          "name": "Smooth Wave",
+          "shortDesc": "",
+          "desc": "A calm and stylish wave to greet teammates and rivals."
+        },
+        {
+          "asset": "emote_img_20",
+          "name": "Peace Sign",
+          "shortDesc": "",
+          "desc": "Flash a cool peace sign before battle begins."
+        },
+        {
+          "asset": "emote_img_21",
+          "name": "Victory Jump",
+          "shortDesc": "",
+          "desc": "Jump high with unstoppable winning energy."
+        },
+        {
+          "asset": "emote_img_22",
+          "name": "Hero Landing",
+          "shortDesc": "",
+          "desc": "Land like a true hero with dramatic impact."
+        },
+        {
+          "asset": "emote_img_23",
+          "name": "Spin Kick Show",
+          "shortDesc": "",
+          "desc": "Perform a flashy spin kick for maximum style."
+        },
+        {
+          "asset": "emote_img_24",
+          "name": "Selfie Pose",
+          "shortDesc": "",
+          "desc": "Strike a confident pose as if taking a selfie."
+        },
+        {
+          "asset": "emote_img_25",
+          "name": "Dance Groove",
+          "shortDesc": "",
+          "desc": "Move to the rhythm with smooth dance vibes."
+        },
+        {
+          "asset": "emote_img_26",
+          "name": "Thumbs Up",
+          "shortDesc": "",
+          "desc": "Show approval with a confident thumbs-up."
+        },
+        {
+          "asset": "emote_img_27",
+          "name": "Angry Stomp",
+          "shortDesc": "",
+          "desc": "Stomp the ground to show fierce intensity."
+        },
+        {
+          "asset": "emote_img_28",
+          "name": "Magic Trick",
+          "shortDesc": "",
+          "desc": "Perform a mysterious magical gesture."
+        },
+        {
+          "asset": "emote_img_29",
+          "name": "Battle Ready Stance",
+          "shortDesc": "",
+          "desc": "Enter combat mode with a strong ready stance."
+        },
+        {
+          "asset": "emote_img_3",
+          "name": "Bodybuilder Flex",
+          "shortDesc": "Strong flexing pose",
+          "desc": "An emote showcasing a muscle-flexing pose, ideal for expressing strength, confidence, and playful pride."
+        },
+        {
+          "asset": "emote_img_30",
+          "name": "Champion Celebration",
+          "shortDesc": "",
+          "desc": "Celebrate like a true champion after victory."
+        },
+        {
+          "asset": "emote_img_4",
+          "name": "Laugh Out Loud",
+          "shortDesc": "",
+          "desc": "Show playful dominance with a bold laughing emote."
+        },
+        {
+          "asset": "emote_img_5",
+          "name": "Salute Respect",
+          "shortDesc": "",
+          "desc": "Give a sharp salute to honor worthy opponents."
+        },
+        {
+          "asset": "emote_img_6",
+          "name": "Clap Celebration",
+          "shortDesc": "",
+          "desc": "Applaud in style after an impressive performance."
+        },
+        {
+          "asset": "emote_img_7",
+          "name": "Breakdance Spin",
+          "shortDesc": "",
+          "desc": "Show off epic street skills with a fast spin move."
+        },
+        {
+          "asset": "emote_img_8",
+          "name": "Salute Gesture",
+          "shortDesc": "Respectful salute",
+          "desc": "A classic salute emote used to show respect, acknowledgment, or playful formality."
+        },
+        {
+          "asset": "emote_img_9",
+          "name": "Samba Dance",
+          "shortDesc": "Festive dance movement",
+          "desc": "A lively samba dance emote, ideal for celebrations and energetic expressions."
+        }
+      ]
+    },
+    {
+      "title": "Bundles",
+      "items": [
+        {
+          "asset": "bundle_img_1",
+          "name": "Community Animation Pack",
+          "shortDesc": "Team-focused expressive motions",
+          "desc": "A bundle centered on inclusive, everyday movements that emphasize teamwork, confidence, and shared energy."
+        },
+        {
+          "asset": "bundle_img_10",
+          "name": "Bubbly Animation Pack",
+          "shortDesc": "Energetic cheerful motion",
+          "desc": "A bright and lively bundle filled with upbeat animations that radiate positivity and friendliness."
+        },
+        {
+          "asset": "bundle_img_11",
+          "name": "Zombie Animation Pack",
+          "shortDesc": "Undead eerie movements",
+          "desc": "A bundle featuring slow, jerky, and eerie animations inspired by classic zombie behavior."
+        },
+        {
+          "asset": "bundle_img_12",
+          "name": "Urban Rebel Bundle",
+          "shortDesc": "",
+          "desc": "A rebellious street-style bundle made for rule-breakers."
+        },
+        {
+          "asset": "bundle_img_13",
+          "name": "Mage Animation Pack",
+          "shortDesc": "Magical casting motions",
+          "desc": "A fantasy bundle with mystical gestures and spellcasting animations full of arcane energy."
+        },
+        {
+          "asset": "bundle_img_14",
+          "name": "Bold Style Animation Pack",
+          "shortDesc": "Confident expressive poses",
+          "desc": "A stylish bundle focused on bold movements and expressive personality."
+        },
+        {
+          "asset": "bundle_img_15",
+          "name": "Robot Animation Pack",
+          "shortDesc": "Mechanical precise movement",
+          "desc": "A bundle featuring stiff, segmented motions that mimic robotic and artificial behavior."
+        },
+        {
+          "asset": "bundle_img_16",
+          "name": "Elder Animation Pack",
+          "shortDesc": "Slow wise movements",
+          "desc": "A subtle animation set portraying slower, deliberate motions that convey wisdom and experience."
+        },
+        {
+          "asset": "bundle_img_17",
+          "name": "Hero Animation Pack",
+          "shortDesc": "Powerful heroic actions",
+          "desc": "A dynamic bundle featuring strong poses, takeoffs, and victory animations inspired by heroic characters."
+        },
+        {
+          "asset": "bundle_img_18",
+          "name": "Ninja Animation Pack",
+          "shortDesc": "Stealth agile motion",
+          "desc": "A fast and controlled animation bundle emphasizing agility, stealth, and precision."
+        },
+        {
+          "asset": "bundle_img_19",
+          "name": "Toy Animation Pack",
+          "shortDesc": "Playful doll-like motion",
+          "desc": "A whimsical bundle with stiff yet charming movements that mimic toys coming to life."
+        },
+        {
+          "asset": "bundle_img_2",
+          "name": "Aura Animation Pack",
+          "shortDesc": "Stylish confident movement",
+          "desc": "A bundle highlighting smooth and confident animations that project personal aura and identity."
+        },
+        {
+          "asset": "bundle_img_20",
+          "name": "Knight Animation Pack",
+          "shortDesc": "Heavy armored movement",
+          "desc": "A fantasy bundle featuring strong, deliberate motions inspired by armored warriors."
+        },
+        {
+          "asset": "bundle_img_21",
+          "name": "Glam Walk Animation Pack",
+          "shortDesc": "Runway-style confidence",
+          "desc": "A fashion-focused bundle with stylish walks, poses, and high-confidence animations."
+        },
+        {
+          "asset": "bundle_img_22",
+          "name": "Freedom Animation Pack",
+          "shortDesc": "Casual expressive movement",
+          "desc": "A relaxed bundle focused on comfort and individuality, encouraging free-spirited expression."
+        },
+        {
+          "asset": "bundle_img_23",
+          "name": "Vampire Animation Pack",
+          "shortDesc": "Dark elegant motion",
+          "desc": "A supernatural bundle featuring smooth, predatory, and gothic-inspired animations."
+        },
+        {
+          "asset": "bundle_img_24",
+          "name": "Football Animation Pack",
+          "shortDesc": "Sport celebration moves",
+          "desc": "A sports bundle featuring energetic actions and celebratory gestures inspired by football gameplay."
+        },
+        {
+          "asset": "bundle_img_25",
+          "name": "Levitation Animation Pack",
+          "shortDesc": "Floating motion effects",
+          "desc": "A surreal bundle featuring hovering, floating, and gravity-defying animations."
+        },
+        {
+          "asset": "bundle_img_26",
+          "name": "Werewolf Animation Pack",
+          "shortDesc": "Feral aggressive motion",
+          "desc": "A creature-focused bundle with powerful and animalistic animations full of intensity."
+        },
+        {
+          "asset": "bundle_img_27",
+          "name": "Astronaut Animation Pack",
+          "shortDesc": "Space floating movement",
+          "desc": "A sci-fi bundle portraying slow, weightless motions inspired by space exploration."
+        },
+        {
+          "asset": "bundle_img_28",
+          "name": "Pirate Animation Pack",
+          "shortDesc": "Adventure sea actions",
+          "desc": "A rugged bundle featuring bold gestures, taunts, and classic pirate-style animations."
+        },
+        {
+          "asset": "bundle_img_29",
+          "name": "Realistic Motion Pack",
+          "shortDesc": "Human-like animations",
+          "desc": "A modern bundle focusing on realistic proportions and natural full-body movement."
+        },
+        {
+          "asset": "bundle_img_3",
+          "name": "Cartoon Animation Pack",
+          "shortDesc": "Playful exaggerated motion",
+          "desc": "A bundle of expressive cartoon-style animations with bouncy timing and exaggerated poses for humor and charm."
+        },
+        {
+          "asset": "bundle_img_4",
+          "name": "Stylish Animation Pack",
+          "shortDesc": "Fashion-forward movement",
+          "desc": "A polished bundle featuring confident poses and smooth transitions with a modern, trendy feel."
+        },
+        {
+          "asset": "bundle_img_5",
+          "name": "Retro Animation Pack",
+          "shortDesc": "Classic old-school motion",
+          "desc": "A nostalgic bundle inspired by classic animation styles with simple and timeless movements."
+        },
+        {
+          "asset": "bundle_img_6",
+          "name": "Sports Animation Pack",
+          "shortDesc": "High-energy athletic actions",
+          "desc": "A performance-driven bundle featuring sports-inspired motions like warmups, celebrations, and competitive stances."
+        },
+        {
+          "asset": "bundle_img_7",
+          "name": "Stage Dance Animation Pack",
+          "shortDesc": "Theatrical dance movements",
+          "desc": "A dramatic bundle filled with expressive dance animations full of personality and stage presence."
+        },
+        {
+          "asset": "bundle_img_8",
+          "name": "Popular Star Animation Pack",
+          "shortDesc": "Bold confident expressions",
+          "desc": "A glamorous bundle featuring charismatic animations designed to stand out and capture attention."
+        },
+        {
+          "asset": "bundle_img_9",
+          "name": "Lifestyle Animation Pack",
+          "shortDesc": "Casual modern motions",
+          "desc": "A relaxed bundle inspired by everyday life, featuring smooth and relatable character movements."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+name: rbx_skins_tool
+description: "Roblox Skins Tool - a faithful Flutter rebuild of the Roblox clothes & skins app."
+publish_to: 'none'
+
+version: 1.2.0+3
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.1
+  shared_preferences: ^2.5.3
+  google_mobile_ads: ^9.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/data/
+
+  fonts:
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/sora_regular.ttf
+          weight: 400
+        - asset: assets/fonts/sora_semibold.ttf
+          weight: 600
+        - asset: assets/fonts/sora_bold.ttf
+          weight: 700
+        - asset: assets/fonts/sora_extrabold.ttf
+          weight: 800
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/arial.ttf
+          weight: 400
+        - asset: assets/fonts/arial_m.ttf
+          weight: 500
+        - asset: assets/fonts/medium.ttf
+          weight: 500
+    - family: AB
+      fonts:
+        - asset: assets/fonts/ab.ttf
+          weight: 400
+
