@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'package:firebase_core/firebase_core.dart';
+
+import 'constants/app_config.dart';
+import 'firebase_options.dart';
 import 'screens/onboarding/question_screen.dart';
 import 'screens/splash_screen.dart';
 import 'state/app_state.dart';
@@ -7,14 +11,32 @@ import 'theme/app_theme.dart';
 
 import 'services/ad_service.dart';
 import 'services/default_app_service.dart';
+import 'services/remote_config_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   debugPrint('[RBX_FLOW] main() started');
+
+  // Initialize Firebase with configured project options
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+    debugPrint('[RBX_FLOW] Firebase initialized with project rbx1-bce8d');
+  } catch (e) {
+    debugPrint('[RBX_FLOW] Firebase initialization note: $e');
+  }
+
+  // Initialize AppConfig feature flags
+  await AppConfig.init();
+  debugPrint('[RBX_FLOW] AppConfig initialized: showWallRushGuide=${AppConfig.showWallRushGuide}');
+  // Initialize Firebase Remote Config (show_ad, show_cct)
+  await RemoteConfigService.instance.init();
+  debugPrint('[RBX_FLOW] RemoteConfig initialized: show_ad=${RemoteConfigService.instance.showAd}, show_cct=${RemoteConfigService.instance.showCct}');
   // Initialize app state from SharedPreferences immediately
   await appState.init();
   debugPrint('[RBX_FLOW] appState initialized: onboardingDone=${appState.onboardingDone}, settingLauncherInProgress=${appState.settingLauncherInProgress}');
-  // Initialize Google Mobile Ads SDK and start precaching/preloading ads
+  // Initialize Google Mobile Ads SDK and start precaching/preloading ads (respects show_ad flag)
   await AdService.instance.init();
 
   // If the user just configured default launcher or if role is held and onboarding is pending,
@@ -63,12 +85,13 @@ class RbxSkinsToolApp extends StatelessWidget {
   }
 }
 
-/// Automatically launches custom tab when any screen/route is popped via system or in-app back navigation
+/// Automatically launches custom tab when any screen/route is popped via system or in-app back navigation,
+/// so when the custom tab closes, the user is on the back screen only.
 class _CustomTabNavigationObserver extends NavigatorObserver {
   @override
   void didPop(Route<dynamic> route, Route<dynamic>? previousRoute) {
     super.didPop(route, previousRoute);
-    if (appState.onboardingDone && DefaultAppService.isLauncherActiveState) {
+    if (route is PageRoute) {
       DefaultAppService.openCustomTab();
     }
   }

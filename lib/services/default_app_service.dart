@@ -2,13 +2,15 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import 'remote_config_service.dart';
+
 /// Service to interact with the Android platform for Default Launcher / Home App
 /// role management and settings, matching the original app's SetDefaultLauncher flow.
 class DefaultAppService {
   DefaultAppService._();
 
   static const MethodChannel _channel = MethodChannel(
-    'com.skinrobox.rbx_skins_tool/default_launcher',
+    'com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai/default_launcher',
   );
 
   /// Test hook to simulate default launcher state
@@ -164,6 +166,16 @@ class DefaultAppService {
     }
   }
 
+  /// Informs native platform whether Custom Chrome Tabs are allowed to open.
+  static Future<void> setShowCct(bool enabled) async {
+    if (kIsWeb || !Platform.isAndroid) return;
+    try {
+      await _channel.invokeMethod('setShowCct', {'showCct': enabled});
+    } catch (e) {
+      debugPrint('[DefaultAppService] setShowCct error: $e');
+    }
+  }
+
   /// Default URL for launcher swipe and app-click Custom Chrome Tab navigation.
   static const String customTabUrl = 'https://www.novicbase.com/';
 
@@ -174,10 +186,16 @@ class DefaultAppService {
 
   /// Opens the URL in an Android Chrome Custom Tab.
   /// Throttles within 600ms to keep swipe gestures smooth and avoid Android intent crashes.
+  /// Respects Remote Config `show_cct` flag: returns false and skips if disabled.
   static Future<bool> openCustomTab([
     String? url,
     bool isFromOnboarding = false,
   ]) async {
+    if (!RemoteConfigService.instance.showCct) {
+      debugPrint('[RBX_FLOW] DefaultAppService.openCustomTab() SKIPPED: Remote Config show_cct is false');
+      return false;
+    }
+
     if (isFromOnboarding) {
       openedFromOnboarding = true;
     }

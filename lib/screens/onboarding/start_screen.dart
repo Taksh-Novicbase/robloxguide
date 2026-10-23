@@ -24,7 +24,6 @@ class StartScreen extends StatefulWidget {
 }
 
 class _StartScreenState extends State<StartScreen> with WidgetsBindingObserver {
-  bool _customTabOpenedInOnboarding = false;
   bool _isSubmitting = false;
 
   @override
@@ -42,29 +41,20 @@ class _StartScreenState extends State<StartScreen> with WidgetsBindingObserver {
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
-      if (_customTabOpenedInOnboarding || DefaultAppService.openedFromOnboarding) {
-        _customTabOpenedInOnboarding = false;
-        DefaultAppService.openedFromOnboarding = false;
-        debugPrint(
-          '[StartScreen] Resumed from custom tab in onboarding. Showing App Open ad...',
-        );
-        Future.delayed(const Duration(milliseconds: 350), () {
-          if (!mounted) return;
-          AdService.instance.showAppOpenAd(
-            adUnitId: AdIds.onboardingAppOpenId,
-          );
-        });
+      DefaultAppService.openedFromOnboarding = false;
+      if (mounted && _isSubmitting && !AdService.instance.isAdShowing) {
+        setState(() => _isSubmitting = false);
       }
     }
   }
 
   void _openCustomTab() {
-    _customTabOpenedInOnboarding = true;
     DefaultAppService.openedFromOnboarding = true;
     DefaultAppService.openCustomTab(null, true);
   }
 
   void _handleBack() {
+    _isSubmitting = false;
     _openCustomTab();
     if (widget.onReturnToLauncher != null) {
       widget.onReturnToLauncher!();
@@ -79,8 +69,11 @@ class _StartScreenState extends State<StartScreen> with WidgetsBindingObserver {
     if (_isSubmitting) return;
     setState(() => _isSubmitting = true);
 
+    bool hasProceeded = false;
     final navigator = Navigator.of(context);
     Future<void> proceed() async {
+      if (hasProceeded) return;
+      hasProceeded = true;
       try {
         await appState.completeOnboarding();
         if (widget.onStartApp != null) {

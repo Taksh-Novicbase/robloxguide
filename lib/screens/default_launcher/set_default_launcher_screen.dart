@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import '../../constants/ad_ids.dart';
 import '../../main.dart';
 import '../../services/default_app_service.dart';
 import '../../theme/app_theme.dart';
 import '../../utils/app_assets.dart';
-import '../../widgets/banner_ad_widget.dart';
 import '../onboarding/question_screen.dart';
 
 /// Faithfully mirrors `SetDefaultLauncherActivity` (`activity_set_default_launcher.xml`):
@@ -299,8 +297,6 @@ class _SetDefaultLauncherScreenState extends State<SetDefaultLauncherScreen>
                 ),
               ),
 
-              // Bottom Banner Ad Container (mirrors FrameLayout id=@0x7f0900a8 banner_container)
-              BannerAdWidget(adUnitId: AdIds.defaultLauncherBannerId),
             ],
           ),
         ),

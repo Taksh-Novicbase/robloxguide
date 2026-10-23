@@ -25,7 +25,6 @@ class AdService {
   // Precached Interstitial Ads (keyed by ad unit ID)
   final Map<String, InterstitialAd> _cachedInterstitials = {};
   final Set<String> _loadingInterstitials = {};
-  DateTime? _lastInterstitialShownAt;
 
   // Precached App Open Ads (keyed by ad unit ID)
   final Map<String, AppOpenAd> _cachedAppOpenAds = {};
@@ -78,8 +77,10 @@ class AdService {
   /// (defaulting to [AdIds.interstitialAdId]) so it is ready for instant display.
   void preloadInterstitial({String? adUnitId}) {
     if (!AdIds.adsEnabled || !AdIds.interstitialEnabled) return;
+    if (adUnitId != null && adUnitId.isEmpty) return;
 
     final targetUnitId = adUnitId ?? AdIds.interstitialAdId;
+    if (targetUnitId.isEmpty) return;
     if (_cachedInterstitials.containsKey(targetUnitId) ||
         _loadingInterstitials.contains(targetUnitId)) {
       return;
@@ -157,21 +158,18 @@ class AdService {
       return;
     }
 
-    // Check cooldown
-    if (!ignoreCooldown && _lastInterstitialShownAt != null) {
-      final elapsed = DateTime.now()
-          .difference(_lastInterstitialShownAt!)
-          .inSeconds;
-      if (elapsed < AdIds.interstitialCooldownSeconds) {
-        debugPrint(
-          '[AdService] Interstitial skipped due to cooldown ($elapsed/${AdIds.interstitialCooldownSeconds}s)',
-        );
-        onComplete?.call();
-        return;
-      }
+    if (adUnitId != null && adUnitId.isEmpty) {
+      debugPrint('[AdService] Interstitial skipped because adUnitId is empty');
+      onComplete?.call();
+      return;
     }
 
     final targetUnitId = adUnitId ?? AdIds.interstitialAdId;
+    if (targetUnitId.isEmpty) {
+      debugPrint('[AdService] Interstitial skipped because targetUnitId is empty');
+      onComplete?.call();
+      return;
+    }
 
     // Prefer exact requested unit ID if ready; otherwise fallback to any preloaded unit
     String activeUnitId = targetUnitId;
@@ -189,7 +187,6 @@ class AdService {
       debugPrint(
         '[AdService] Showing precached Interstitial Ad ($activeUnitId)',
       );
-      _lastInterstitialShownAt = DateTime.now();
 
       bool completed = false;
       bool adShowing = false;
@@ -210,10 +207,10 @@ class AdService {
         }
       });
 
-      // Safety limit (25s) in case ad activity hangs
+      // Safety limit (25s) in case ad activity hangs completely
       Future.delayed(const Duration(seconds: 25), () {
         if (!completed) {
-          debugPrint('[AdService] Max ad display timeout reached, proceeding');
+          debugPrint('[AdService] Safety timeout reached for Interstitial, proceeding navigation');
           safeComplete();
         }
       });
@@ -356,6 +353,7 @@ class AdService {
     if (ad != null && !isExpired) {
       debugPrint('[AdService] Showing precached App Open Ad ($activeUnitId)');
       bool completed = false;
+      bool adShowing = false;
       void safeComplete() {
         if (!completed) {
           completed = true;
@@ -363,7 +361,17 @@ class AdService {
         }
       }
 
-      // Safety timeout in case ad hangs
+      // If ad fails to open within 2.5 seconds, do not block the app
+      Future.delayed(const Duration(milliseconds: 2500), () {
+        if (!completed && !adShowing) {
+          debugPrint(
+            '[AdService] App open ad not showing in 2.5s, proceeding',
+          );
+          safeComplete();
+        }
+      });
+
+      // Safety timeout in case ad hangs completely
       Future.delayed(const Duration(seconds: 25), () {
         if (!completed) {
           debugPrint(
@@ -376,6 +384,7 @@ class AdService {
       ad.fullScreenContentCallback = FullScreenContentCallback(
         onAdShowedFullScreenContent: (ad) {
           _isAdShowing = true;
+          adShowing = true;
           debugPrint('[AdService] App Open Ad displayed full screen');
         },
         onAdDismissedFullScreenContent: (ad) {
@@ -549,8 +558,8 @@ class AdService {
         }
       });
 
-      // Max timeout
-      Future.delayed(const Duration(seconds: 35), () {
+      // Max display safety timeout (rewarded ads can run 15-35s)
+      Future.delayed(const Duration(seconds: 40), () {
         if (!completed) {
           debugPrint(
             '[AdService] Max rewarded ad display timeout reached, proceeding',

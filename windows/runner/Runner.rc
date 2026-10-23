@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.skinrobox" "\0"
+            VALUE "CompanyName", "com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai" "\0"
             VALUE "FileDescription", "rbx_skins_tool" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "rbx_skins_tool" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 com.skinrobox. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai. All rights reserved." "\0"
             VALUE "OriginalFilename", "rbx_skins_tool.exe" "\0"
             VALUE "ProductName", "rbx_skins_tool" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

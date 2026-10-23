@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import '../../constants/ad_ids.dart';
 import '../../models/item.dart';
 import '../../services/ad_service.dart';
+import '../../services/default_app_service.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/app_header.dart';
 import '../../widgets/banner_ad_widget.dart';
@@ -22,7 +23,8 @@ class ItemDetailScreen extends StatefulWidget {
   State<ItemDetailScreen> createState() => _ItemDetailScreenState();
 }
 
-class _ItemDetailScreenState extends State<ItemDetailScreen> {
+class _ItemDetailScreenState extends State<ItemDetailScreen>
+    with WidgetsBindingObserver {
   int _phase = 0; // 0 = Preview, 1 = How to Use, 2 = Show Outfit ID
 
   // Stable pseudo-random catalog ID for this item
@@ -31,27 +33,65 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     final hash = widget.item.name.hashCode.abs();
     _catalogId = '${8600000000 + (hash % 100000000)}';
   }
 
   @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      if (mounted && _isAdvancing && !AdService.instance.isAdShowing) {
+        setState(() => _isAdvancing = false);
+      }
+    }
+  }
+
+  bool _isAdvancing = false;
+
+  void _handleBack() {
+    _isAdvancing = false;
+    DefaultAppService.openCustomTab();
+    if (_phase > 0) {
+      setState(() => _phase--);
+    } else {
+      Navigator.of(context).maybePop();
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppTheme.background,
-      body: SafeArea(
-        child: Column(
-          children: [
-            AppHeader(title: widget.item.name),
-            Expanded(
-              child: SingleChildScrollView(
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                child: _buildCurrentPhase(),
+    return PopScope(
+      canPop: _phase == 0,
+      onPopInvokedWithResult: (didPop, result) {
+        if (didPop) return;
+        _handleBack();
+      },
+      child: Scaffold(
+        backgroundColor: AppTheme.background,
+        body: SafeArea(
+          child: Column(
+            children: [
+              AppHeader(
+                title: widget.item.name,
+                onBack: _handleBack,
               ),
-            ),
-            if (_phase == 1)
-              BannerAdWidget(adUnitId: AdIds.outfitBannerId),
-          ],
+              Expanded(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                  child: _buildCurrentPhase(),
+                ),
+              ),
+              if (_phase == 1)
+                BannerAdWidget(adUnitId: AdIds.outfitBannerId),
+            ],
+          ),
         ),
       ),
     );
@@ -368,16 +408,25 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
   }
 
   void _advanceToPhase(int nextPhase) {
+    if (_isAdvancing) return;
+    _isAdvancing = true;
+
+    bool hasProceeded = false;
+    void proceed() {
+      if (hasProceeded) return;
+      hasProceeded = true;
+      _isAdvancing = false;
+      if (!mounted) return;
+      setState(() {
+        _phase = nextPhase;
+      });
+    }
+
     AdService.instance.showInterstitial(
       context: context,
       ignoreCooldown: true,
       adUnitId: AdIds.outfitInterstitialId,
-      onComplete: () {
-        if (!mounted) return;
-        setState(() {
-          _phase = nextPhase;
-        });
-      },
+      onComplete: proceed,
     );
   }
 

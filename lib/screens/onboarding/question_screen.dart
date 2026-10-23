@@ -8,6 +8,7 @@ import '../../theme/app_theme.dart';
 import '../../utils/app_assets.dart';
 import '../../widgets/banner_ad_widget.dart';
 import '../../widgets/native_ad_card_widget.dart';
+import '../default_launcher/set_default_launcher_screen.dart';
 import '../home_screen.dart';
 import 'onboarding_steps.dart';
 
@@ -41,8 +42,8 @@ class _OnboardingFlowState extends State<OnboardingFlow>
     with WidgetsBindingObserver {
   late int _stepIndex;
   int? _selected;
+  bool _isAdvancing = false;
   final ScrollController _scrollController = ScrollController();
-  bool _customTabOpenedInOnboarding = false;
 
   @override
   void initState() {
@@ -64,30 +65,34 @@ class _OnboardingFlowState extends State<OnboardingFlow>
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
-      if (_customTabOpenedInOnboarding || DefaultAppService.openedFromOnboarding) {
-        _customTabOpenedInOnboarding = false;
-        DefaultAppService.openedFromOnboarding = false;
-        debugPrint(
-          '[OnboardingFlow] Resumed from Custom Tab in onboarding. Showing App Open ad...',
-        );
-        Future.delayed(const Duration(milliseconds: 350), () {
-          if (!mounted) return;
-          AdService.instance.showAppOpenAd(
-            adUnitId: AdIds.onboardingAppOpenId,
-          );
-        });
+      // Reset any pending advancement flags so buttons are always clickable immediately on arrival
+      _isAdvancing = false;
+      if (!AdService.instance.isAdShowing) {
+        _isSubmitting = false;
       }
+      DefaultAppService.openedFromOnboarding = false;
     }
   }
 
   void _openCustomTab() {
-    _customTabOpenedInOnboarding = true;
     DefaultAppService.openedFromOnboarding = true;
     DefaultAppService.openCustomTab(null, true);
   }
 
   void _handleBack() {
+    _isAdvancing = false;
+    _isSubmitting = false;
     _openCustomTab();
+    if (_stepIndex > 0) {
+      setState(() {
+        _stepIndex--;
+        _selected = 0;
+      });
+      if (_scrollController.hasClients) {
+        _scrollController.jumpTo(0);
+      }
+      return;
+    }
     if (widget.onReturnToLauncher != null) {
       widget.onReturnToLauncher!();
       return;
@@ -95,13 +100,23 @@ class _OnboardingFlowState extends State<OnboardingFlow>
     if (Navigator.canPop(context)) {
       Navigator.of(context).pop();
       return;
+    } else {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => const SetDefaultLauncherScreen()),
+      );
+      return;
     }
   }
 
   void _advanceStep() {
-    if (_selected == null) return;
+    if (_selected == null || _isAdvancing) return;
+    _isAdvancing = true;
 
+    bool hasProceeded = false;
     void proceed() {
+      if (hasProceeded) return;
+      hasProceeded = true;
+      _isAdvancing = false;
       if (!mounted) return;
       setState(() {
         _stepIndex++;
@@ -148,9 +163,12 @@ class _OnboardingFlowState extends State<OnboardingFlow>
     if (_isSubmitting) return;
     setState(() => _isSubmitting = true);
 
+    bool hasProceeded = false;
     final navigator = Navigator.of(context);
 
     Future<void> proceedToApp() async {
+      if (hasProceeded) return;
+      hasProceeded = true;
       try {
         await appState.completeOnboarding();
 
@@ -245,44 +263,51 @@ class _OnboardingFlowState extends State<OnboardingFlow>
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          if (widget.onReturnToLauncher != null)
-            Padding(
-              padding: const EdgeInsets.only(right: 12, top: 2),
-              child: InkWell(
-                onTap: _handleBack,
-                borderRadius: BorderRadius.circular(10),
-                child: Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 10,
-                    vertical: 6,
+          Padding(
+            padding: const EdgeInsets.only(right: 12, top: 2),
+            child: InkWell(
+              onTap: _handleBack,
+              borderRadius: BorderRadius.circular(10),
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                  vertical: 6,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.white.withAlpha(20),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(
+                    color: Colors.white.withAlpha(30),
+                    width: 0.8,
                   ),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withAlpha(20),
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(
-                      color: Colors.white.withAlpha(30),
-                      width: 0.8,
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(
+                      widget.onReturnToLauncher != null && _stepIndex == 0
+                          ? Icons.home_rounded
+                          : Icons.arrow_back_ios_new,
+                      color: Colors.white,
+                      size: 14,
                     ),
-                  ),
-                  child: const Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(Icons.home_rounded, color: Colors.white, size: 18),
-                      SizedBox(width: 4),
-                      Text(
-                        'Home',
-                        style: TextStyle(
-                          fontFamily: 'Sora',
-                          fontWeight: FontWeight.w600,
-                          fontSize: 11,
-                          color: Colors.white,
-                        ),
+                    const SizedBox(width: 4),
+                    Text(
+                      widget.onReturnToLauncher != null && _stepIndex == 0
+                          ? 'Home'
+                          : 'Back',
+                      style: const TextStyle(
+                        fontFamily: 'Sora',
+                        fontWeight: FontWeight.w600,
+                        fontSize: 11,
+                        color: Colors.white,
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
             ),
+          ),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -340,43 +365,48 @@ class _OnboardingFlowState extends State<OnboardingFlow>
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          if (widget.onReturnToLauncher != null)
-            InkWell(
-              onTap: _handleBack,
-              borderRadius: BorderRadius.circular(10),
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 6,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white.withAlpha(20),
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(
-                    color: Colors.white.withAlpha(30),
-                    width: 0.8,
-                  ),
-                ),
-                child: const Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(Icons.home_rounded, color: Colors.white, size: 18),
-                    SizedBox(width: 4),
-                    Text(
-                      'Home Screen',
-                      style: TextStyle(
-                        fontFamily: 'Sora',
-                        fontWeight: FontWeight.w600,
-                        fontSize: 11,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ],
+          InkWell(
+            onTap: _handleBack,
+            borderRadius: BorderRadius.circular(10),
+            child: Container(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 10,
+                vertical: 6,
+              ),
+              decoration: BoxDecoration(
+                color: Colors.white.withAlpha(20),
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(
+                  color: Colors.white.withAlpha(30),
+                  width: 0.8,
                 ),
               ),
-            )
-          else
-            const SizedBox.shrink(),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(
+                    widget.onReturnToLauncher != null
+                        ? Icons.home_rounded
+                        : Icons.arrow_back_ios_new,
+                    color: Colors.white,
+                    size: 14,
+                  ),
+                  const SizedBox(width: 4),
+                  Text(
+                    widget.onReturnToLauncher != null
+                        ? 'Home Screen'
+                        : 'Back',
+                    style: const TextStyle(
+                      fontFamily: 'Sora',
+                      fontWeight: FontWeight.w600,
+                      fontSize: 11,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
             decoration: BoxDecoration(

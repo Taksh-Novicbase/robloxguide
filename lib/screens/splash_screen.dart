@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
+import '../constants/app_config.dart';
+import '../features/wall_rush/screens/wall_rush_hub_screen.dart';
 import '../main.dart';
 import '../theme/app_theme.dart';
 import '../utils/app_assets.dart';
-import '../constants/ad_ids.dart';
-import '../services/ad_service.dart';
 import '../services/default_app_service.dart';
 import 'default_launcher/set_default_launcher_screen.dart';
 import 'home_screen.dart';
@@ -72,6 +72,19 @@ class _SplashScreenState extends State<SplashScreen> {
       await _waitForAppState();
       if (!mounted) return;
 
+      // Wall Rush Game Guide Flow check:
+      // If AppConfig.showWallRushGuide is true, display splash loader briefly,
+      // show splash interstitial ad, and navigate directly to WallRushHubScreen!
+      if (AppConfig.showWallRushGuide) {
+        debugPrint('[RBX_FLOW] SplashScreen: AppConfig.showWallRushGuide is TRUE! Navigating to WallRushHubScreen');
+        await Future.delayed(const Duration(milliseconds: 1500));
+        if (!mounted) return;
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (_) => const WallRushHubScreen()),
+        );
+        return;
+      }
+
       // Quick check: if the app is already default launcher and onboarding is pending,
       // route immediately to OnboardingFlow! (Prevents restart/delay if Android recreated task on role change)
       bool isDefault = false;
@@ -123,19 +136,12 @@ class _SplashScreenState extends State<SplashScreen> {
         }
       }
 
-      // Show precached splash ad / interstitial before navigating
-      AdService.instance.showInterstitial(
-        context: context,
-        ignoreCooldown: true,
-        adUnitId: AdIds.splashInterstitialId,
-        onComplete: () {
-          if (!mounted) return;
-          debugPrint('[RBX_FLOW] SplashScreen navigating to ${target.runtimeType}');
-          Navigator.of(
-            context,
-          ).pushReplacement(MaterialPageRoute(builder: (_) => target));
-        },
-      );
+      // Navigate directly to target without showing any interstitial ad after splash
+      if (!mounted) return;
+      debugPrint('[RBX_FLOW] SplashScreen navigating to ${target.runtimeType}');
+      Navigator.of(
+        context,
+      ).pushReplacement(MaterialPageRoute(builder: (_) => target));
     } catch (e) {
       debugPrint('[RBX_FLOW] SplashScreen._go() error: $e');
       debugPrint('[SplashScreen] Unexpected error in _go(): $e');
@@ -148,6 +154,13 @@ class _SplashScreenState extends State<SplashScreen> {
   /// Emergency fallback navigation when the normal splash flow fails.
   /// Ensures the user never gets stuck on a blank white screen.
   void _navigateToFallback() async {
+    if (AppConfig.showWallRushGuide) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => const WallRushHubScreen()),
+      );
+      return;
+    }
+
     bool isDefault = false;
     try {
       isDefault = await DefaultAppService.isDefaultLauncher()

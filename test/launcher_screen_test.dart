@@ -17,7 +17,7 @@ void main() {
     DefaultAppService.debugMockIsDefault = true;
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
         .setMockMethodCallHandler(
-      const MethodChannel('com.skinrobox.rbx_skins_tool/default_launcher'),
+      const MethodChannel('com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai/default_launcher'),
       (MethodCall call) async {
         if (call.method == 'isDefaultLauncher') return true;
         if (call.method == 'getInstalledApps') return [];

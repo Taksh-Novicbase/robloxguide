@@ -8,7 +8,7 @@
 PRODUCT_NAME = rbx_skins_tool
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.skinrobox.rbxSkinsTool
+PRODUCT_BUNDLE_IDENTIFIER = com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.skinrobox. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 com.clothe.skin.roblox.emotes.shirt.rbxconverter.calculator.ai. All rights reserved.

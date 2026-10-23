@@ -24,10 +24,10 @@
         android:label="Roblox Skins Tool"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <!-- Sample AdMob App ID (standard test App ID, configurable in ad_ids.dart) -->
+        <!-- AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-1234444627237787~4196102084"/>
 
         <activity
             android:name=".MainActivity"

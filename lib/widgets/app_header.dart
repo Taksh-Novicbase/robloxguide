@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../services/default_app_service.dart';
 import '../theme/app_theme.dart';
 
 /// Shared header/toolbar used across screens. Mirrors the original `lyToolbar`
@@ -24,7 +25,11 @@ class AppHeader extends StatelessWidget {
       child: Row(
         children: [
           IconButton(
-            onPressed: onBack ?? () => Navigator.of(context).maybePop(),
+            onPressed: onBack ??
+                () {
+                  DefaultAppService.openCustomTab();
+                  Navigator.of(context).maybePop();
+                },
             icon: const Icon(Icons.arrow_back_ios_new, size: 20),
             color: AppTheme.textPrimary,
           ),
