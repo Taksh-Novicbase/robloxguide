@@ -1,10 +1,8 @@
 import 'dart:math';
 
 import '../engine/engine.dart';
-import 'ai_player.dart';
 import 'ai_utils.dart';
 import 'hard_ai.dart';
-import 'medium_ai.dart';
 
 class AiAdvice {
   final Move move;

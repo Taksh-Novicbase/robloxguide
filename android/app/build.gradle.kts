@@ -4,6 +4,7 @@ plugins {
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -45,6 +46,5 @@ flutter {
 }
 
 dependencies {
-    implementation("com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:1.3.1")
     implementation("androidx.browser:browser:1.8.0")
 }

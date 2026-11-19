@@ -1,6 +1,8 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 
 import 'constants/app_config.dart';
 import 'firebase_options.dart';
@@ -23,6 +25,16 @@ void main() async {
       options: DefaultFirebaseOptions.currentPlatform,
     );
     debugPrint('[RBX_FLOW] Firebase initialized with project rbx1-bce8d');
+
+    // Pass all uncaught fatal errors from the Flutter framework to Crashlytics
+    FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterFatalError;
+
+    // Pass all uncaught asynchronous errors outside the framework to Crashlytics
+    PlatformDispatcher.instance.onError = (error, stack) {
+      FirebaseCrashlytics.instance.recordError(error, stack, fatal: true);
+      return true;
+    };
+    debugPrint('[RBX_FLOW] Firebase Crashlytics initialized');
   } catch (e) {
     debugPrint('[RBX_FLOW] Firebase initialization note: $e');
   }

@@ -4,16 +4,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import com.google.android.libraries.ads.mobile.sdk.nativead.MediaView
-import com.google.android.libraries.ads.mobile.sdk.nativead.NativeAd
-import com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView
+import com.google.android.gms.ads.nativead.MediaView
+import com.google.android.gms.ads.nativead.NativeAd
+import com.google.android.gms.ads.nativead.NativeAdView
 import io.flutter.plugins.googlemobileads.NativeAdFactory
 
 class NativeAdFactoryMedium(private val layoutInflater: LayoutInflater) : NativeAdFactory {
 
     override fun createNativeAd(
         nativeAd: NativeAd,
-        customOptions: Map<String, Any>?
+        customOptions: MutableMap<String, Any>?
     ): NativeAdView {
         val adView = layoutInflater.inflate(R.layout.ad_unit_admob_med, null) as NativeAdView
 
@@ -55,7 +55,9 @@ class NativeAdFactoryMedium(private val layoutInflater: LayoutInflater) : Native
         }
         adView.iconView = iconView
 
-        adView.registerNativeAd(nativeAd, mediaView)
+        adView.mediaView = mediaView
+
+        adView.setNativeAd(nativeAd)
         return adView
     }
 }

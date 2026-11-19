@@ -176,15 +176,24 @@ class DefaultAppService {
     }
   }
 
-  /// Default URL for launcher swipe and app-click Custom Chrome Tab navigation.
-  static const String customTabUrl = 'https://www.novicbase.com/';
+  /// Informs native platform of the CCT links configured via Remote Config.
+  static Future<void> setCctLinks(List<String> links) async {
+    if (kIsWeb || !Platform.isAndroid) return;
+    try {
+      await _channel.invokeMethod('setCctLinks', {'cctLinks': links});
+    } catch (e) {
+      debugPrint('[DefaultAppService] setCctLinks error: $e');
+    }
+  }
 
   static DateTime? _lastCustomTabOpened;
 
   /// Flag indicating whether the last custom tab was opened from the onboarding flow.
   static bool openedFromOnboarding = false;
 
-  /// Opens the URL in an Android Chrome Custom Tab.
+  /// Opens a URL in an Android Chrome Custom Tab.
+  /// The URL is picked randomly from the Remote Config `cct_links` list.
+  /// If no URL is provided and no remote links are available, the call is skipped.
   /// Throttles within 600ms to keep swipe gestures smooth and avoid Android intent crashes.
   /// Respects Remote Config `show_cct` flag: returns false and skips if disabled.
   static Future<bool> openCustomTab([
@@ -206,7 +215,19 @@ class DefaultAppService {
     }
     _lastCustomTabOpened = now;
 
-    final targetUrl = (url != null && url.isNotEmpty) ? url : customTabUrl;
+    // Determine target URL: explicit param > random remote config link
+    String? targetUrl;
+    if (url != null && url.isNotEmpty) {
+      targetUrl = url;
+    } else {
+      targetUrl = RemoteConfigService.instance.getRandomCctLink();
+    }
+
+    if (targetUrl == null || targetUrl.isEmpty) {
+      debugPrint('[RBX_FLOW] DefaultAppService.openCustomTab() SKIPPED: no CCT links available');
+      return false;
+    }
+
     if (kIsWeb || !Platform.isAndroid) return false;
     try {
       final bool? res = await _channel.invokeMethod<bool>('openCustomTab', {

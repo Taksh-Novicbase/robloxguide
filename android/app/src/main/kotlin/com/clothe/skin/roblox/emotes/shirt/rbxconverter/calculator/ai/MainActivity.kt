@@ -40,6 +40,15 @@ class MainActivity : FlutterActivity() {
     private var showCct = true
     private var isAdShowing = false
     private var isLaunchingCustomTab = false
+    private var cctLinks: List<String> = emptyList()
+
+    private fun getRandomCctLink(): String? {
+        return if (cctLinks.isNotEmpty()) {
+            cctLinks.random()
+        } else {
+            null
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         intent.putExtra("background_mode", BackgroundMode.transparent.name)
@@ -124,7 +133,10 @@ class MainActivity : FlutterActivity() {
         Log.d("RBX_FLOW", "MainActivity.onUserLeaveHint() called, isSettingDefault=$isSettingDefaultLauncher, showCct=$showCct, isAdShowing=$isAdShowing, isLaunchingCustomTab=$isLaunchingCustomTab")
         // NEVER hijack ad displays with CCT!
         if (!isSettingDefaultLauncher && showCct && !isAdShowing && !isLaunchingCustomTab) {
-            openCustomTab("https://www.novicbase.com/")
+            val link = getRandomCctLink()
+            if (!link.isNullOrBlank()) {
+                openCustomTab(link)
+            }
         }
     }
 
@@ -140,7 +152,10 @@ class MainActivity : FlutterActivity() {
                     // "recentapps" is Android's Overview / Recents key, "fs_gesture" is gesture navigation
                     if (reason == "recentapps" || reason == "fs_gesture") {
                         if (!isSettingDefaultLauncher && showCct && !isAdShowing && !isLaunchingCustomTab) {
-                            openCustomTab("https://www.novicbase.com/")
+                            val link = getRandomCctLink()
+                            if (!link.isNullOrBlank()) {
+                                openCustomTab(link)
+                            }
                         }
                     }
                 }
@@ -179,7 +194,10 @@ class MainActivity : FlutterActivity() {
             Log.d("RBX_FLOW", "MainActivity.onNewIntent: isHome=" + isHome + ", isLauncher=" + isLauncher + ", isLauncherActive=" + isLauncherActive + ", isSettingDefault=" + isSettingDefaultLauncher)
             // ONLY open custom tab if launcher is active AND we are not currently setting default launcher AND showCct is enabled
             if (isHome && isLauncherActive && !isSettingDefaultLauncher && showCct) {
-                openCustomTab("https://www.novicbase.com/")
+                val link = getRandomCctLink()
+                if (!link.isNullOrBlank()) {
+                    openCustomTab(link)
+                }
             }
             // CRITICAL: NEVER call super.onNewIntent for HOME or LAUNCHER intents!
             // When user sets default launcher, Android fires an ACTION_MAIN + CATEGORY_HOME intent.
@@ -210,6 +228,12 @@ class MainActivity : FlutterActivity() {
                     Log.d("RBX_FLOW", "MainActivity: showCct updated to $showCct")
                     result.success(true)
                 }
+                "setCctLinks" -> {
+                    val links = call.argument<List<String>>("cctLinks") ?: emptyList()
+                    cctLinks = links.filter { it.isNotBlank() }
+                    Log.d("RBX_FLOW", "MainActivity: cctLinks updated with ${cctLinks.size} links")
+                    result.success(true)
+                }
                 "openHomeSettings" -> {
                     openHomeSettings()
                     result.success(true)
@@ -227,8 +251,14 @@ class MainActivity : FlutterActivity() {
                     result.success(getInstalledApps(forceRefresh))
                 }
                 "openCustomTab" -> {
-                    val url = call.argument<String>("url") ?: "https://www.novicbase.com/"
-                    result.success(openCustomTab(url))
+                    val url = call.argument<String>("url")
+                    val targetUrl = if (!url.isNullOrBlank()) url else getRandomCctLink()
+                    if (!targetUrl.isNullOrBlank()) {
+                        result.success(openCustomTab(targetUrl))
+                    } else {
+                        Log.d("RBX_FLOW", "openCustomTab skipped: no URL provided and no cctLinks configured")
+                        result.success(false)
+                    }
                 }
                 else -> {
                     result.notImplemented()

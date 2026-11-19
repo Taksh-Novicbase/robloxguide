@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../constants/ad_ids.dart';
 import '../../main.dart';
 import '../../services/ad_service.dart';
+import '../../services/analytics_service.dart';
 import '../../services/default_app_service.dart';
 import '../../theme/app_theme.dart';
 import '../../utils/app_assets.dart';
@@ -53,6 +54,13 @@ class _OnboardingFlowState extends State<OnboardingFlow>
     WidgetsBinding.instance.addObserver(this);
     _stepIndex = widget.initialStep;
     _selected = 0; // Default select first item for seamless UX
+
+    AnalyticsService.instance.logOnboardingScreenView(
+      stepIndex: _stepIndex,
+      stepTitle: _stepIndex < onboardingSteps.length
+          ? onboardingSteps[_stepIndex].title
+          : "You're All Set!",
+    );
   }
 
   @override
@@ -112,6 +120,19 @@ class _OnboardingFlowState extends State<OnboardingFlow>
     if (_selected == null || _isAdvancing) return;
     _isAdvancing = true;
 
+    if (_selected != null && _stepIndex < onboardingSteps.length) {
+      final currentStep = onboardingSteps[_stepIndex];
+      final selectedOption = _selected! < currentStep.options.length
+          ? currentStep.options[_selected!].label
+          : '';
+      AnalyticsService.instance.logOnboardingStepNext(
+        stepIndex: _stepIndex,
+        stepTitle: currentStep.title,
+        selectedIndex: _selected!,
+        selectedOption: selectedOption,
+      );
+    }
+
     bool hasProceeded = false;
     void proceed() {
       if (hasProceeded) return;
@@ -125,6 +146,13 @@ class _OnboardingFlowState extends State<OnboardingFlow>
       if (_scrollController.hasClients) {
         _scrollController.jumpTo(0);
       }
+      final newTitle = _stepIndex < onboardingSteps.length
+          ? onboardingSteps[_stepIndex].title
+          : "You're All Set!";
+      AnalyticsService.instance.logOnboardingScreenView(
+        stepIndex: _stepIndex,
+        stepTitle: newTitle,
+      );
     }
 
     // Step 2 ("Choose Your Outfit"): 1st App Open Ad
@@ -170,6 +198,7 @@ class _OnboardingFlowState extends State<OnboardingFlow>
       if (hasProceeded) return;
       hasProceeded = true;
       try {
+        AnalyticsService.instance.logOnboardingCompleted();
         await appState.completeOnboarding();
 
         if (widget.onCompleted != null) {

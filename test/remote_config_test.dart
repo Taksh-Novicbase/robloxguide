@@ -178,5 +178,49 @@ void main() {
 
       RemoteConfigService.instance.debugOverrideRemoteAdIds = null;
     });
+
+    test('parseCctLinksJson parses {"links": [...]} correctly', () {
+      const jsonStr = '''
+      {
+        "links": [
+          "https://www.dominos.co.in/",
+          "https://www.pizzahut.co.in/",
+          "https://online.kfc.co.in/"
+        ]
+      }
+      ''';
+      RemoteConfigService.instance.parseCctLinksJsonForTesting(jsonStr);
+      final links = RemoteConfigService.instance.cctLinks;
+      expect(links.length, equals(3));
+      expect(links[0], equals('https://www.dominos.co.in/'));
+      expect(links[1], equals('https://www.pizzahut.co.in/'));
+      expect(links[2], equals('https://online.kfc.co.in/'));
+
+      final random = RemoteConfigService.instance.getRandomCctLink();
+      expect(random, isNotNull);
+      expect(links, contains(random));
+    });
+
+    test('DefaultAppService.openCustomTab opens a random link when url is null', () async {
+      RemoteConfigService.instance.debugOverrideShowCct = true;
+      RemoteConfigService.instance.debugOverrideCctLinks = [
+        'https://www.dominos.co.in/',
+        'https://www.pizzahut.co.in/',
+      ];
+
+      channelCalls.clear();
+      final result = await DefaultAppService.openCustomTab();
+      expect(result, isTrue);
+
+      final cctCalls = channelCalls.where((c) => c.method == 'openCustomTab').toList();
+      expect(cctCalls.length, equals(1));
+      final openedUrl = cctCalls.first.arguments['url'] as String;
+      expect(
+        ['https://www.dominos.co.in/', 'https://www.pizzahut.co.in/'],
+        contains(openedUrl),
+      );
+
+      RemoteConfigService.instance.debugOverrideCctLinks = null;
+    });
   });
 }
